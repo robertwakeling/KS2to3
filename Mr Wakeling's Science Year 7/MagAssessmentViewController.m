@@ -137,7 +137,7 @@
     theSelectedRow = row;
    // NSLog(@"%i", row);
     
-    NSString *theImage = [[NSString alloc] initWithFormat:[[cellInfo objectForKey:[theKeysFromThePlist objectAtIndex:row]] objectForKey:@"Image"]];
+    NSString *theImage = [[NSString alloc] initWithFormat:@"%@", [[cellInfo objectForKey:[theKeysFromThePlist objectAtIndex:row]] objectForKey:@"Image"]];
     
     UIImage *thePictureImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", theImage]];
     

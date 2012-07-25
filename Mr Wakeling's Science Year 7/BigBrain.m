@@ -34,7 +34,8 @@
     if (aTextField.text != nil) {
         NSString *x = [[NSString alloc] initWithFormat:@"%@", aTextField];
         NSLog(@"this is x: %@", x);
-        theFieldText = [[NSString alloc] initWithFormat:aTextField.text];
+        
+        theFieldText = [[NSString alloc] initWithFormat:@"%@", aTextField.text];
         aTextField.text = theFieldText;
         NSString *y = [x stringByAppendingString:@"Default"];
         NSLog(@"This is y: %@", y);

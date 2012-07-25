@@ -161,7 +161,7 @@
 {
     SubUnitViewController *detailViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SubUnitDetail"];
 
-    detailViewController.unitToSubUnit = [NSString stringWithFormat:[unitModel.unitArray objectAtIndex:indexPath.row]];
+    detailViewController.unitToSubUnit = [NSString stringWithFormat:@"%@",[unitModel.unitArray objectAtIndex:indexPath.row]];
   //  detailViewController.scienceUnits = scienceUnitsDict;
     [self.navigationController pushViewController:detailViewController animated:YES];
 

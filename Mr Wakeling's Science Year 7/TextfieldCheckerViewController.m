@@ -130,7 +130,7 @@
         
         
         if (theTextField.text != nil) {
-            NSString *theTemporary = [[NSString alloc] initWithFormat:theTextField.text];
+            NSString *theTemporary = [[NSString alloc] initWithFormat:@"%@", theTextField.text];
             textFieldDefault = [NSUserDefaults standardUserDefaults];
             NSString *theSecondTemp = [theUserDefaultKeys objectAtIndex:theTextField.tag];
             [textFieldDefault setObject:theTemporary forKey:theSecondTemp];

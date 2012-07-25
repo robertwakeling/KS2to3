@@ -133,7 +133,7 @@
 
 -(void)textFieldDidEndEditing:(UITextField *)textField
 {
-    NSString *length = [[NSString alloc] initWithFormat:textField.text];
+    NSString *length = [[NSString alloc] initWithFormat:@"%@", textField.text];
     
     float yay = [length floatValue];
     

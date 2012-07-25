@@ -154,10 +154,10 @@
     LevelsViewController *detailViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Levels"];
      // ...
      // Pass the selected object to the new view controller.
-    detailViewController.subUnitToLevel = [NSString stringWithFormat:[sUnitModel.subUnitArray objectAtIndex:indexPath.row]];
+    detailViewController.subUnitToLevel = [NSString stringWithFormat:@"%@", [sUnitModel.subUnitArray objectAtIndex:indexPath.row]];
     detailViewController.unitToSubUnit = unitToSubUnit;
     
-    detailViewController.secondSubUnitToLevel = [NSString stringWithFormat:[[sUnitModel.subUnitArray objectAtIndex:indexPath.row] substringFromIndex:2]];
+    detailViewController.secondSubUnitToLevel = [NSString stringWithFormat:@"%@", [[sUnitModel.subUnitArray objectAtIndex:indexPath.row] substringFromIndex:2]];
 
   //  detailViewController.levelDict = [subDict objectForKey:@"SubUnits"];
     

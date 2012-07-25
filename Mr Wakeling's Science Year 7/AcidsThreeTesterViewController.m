@@ -61,7 +61,7 @@
 {
     theSelectedRow = row;
     
-    NSString *theImage = [[NSString alloc] initWithFormat:[[theAnswers objectForKey:[acidsAlkalis objectAtIndex:row]] objectForKey:@"Image"]];
+    NSString *theImage = [[NSString alloc] initWithFormat:@"%@", [[theAnswers objectForKey:[acidsAlkalis objectAtIndex:row]] objectForKey:@"Image"]];
     UIImage *thePictureImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@.png", theImage]];
     
     [imageViewer setImage:thePictureImage];
