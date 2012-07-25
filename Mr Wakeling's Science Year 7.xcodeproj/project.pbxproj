@@ -66,6 +66,7 @@
 		D4469EF315B3611B003B4D40 /* MatterThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4469EF215B3611B003B4D40 /* MatterThreeViewController.m */; };
 		D4469EF715B3674A003B4D40 /* Matter3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4469EF615B3674A003B4D40 /* Matter3.plist */; };
 		D449DFED153380AC00254514 /* Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = D449DFEC153380AC00254514 /* Test.plist */; };
+		D44C29A415C0AAAF004FEBE0 /* BurningFuelsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44C29A315C0AAAF004FEBE0 /* BurningFuelsThreeViewController.m */; };
 		D44FF3AD15892AE900AFEB7B /* AnimalCell.png in Resources */ = {isa = PBXBuildFile; fileRef = D44FF3AC15892AE900AFEB7B /* AnimalCell.png */; };
 		D44FF3C01589485000AFEB7B /* MagAssessmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44FF3BF1589485000AFEB7B /* MagAssessmentViewController.m */; };
 		D44FF3C71589495100AFEB7B /* Magnification.plist in Resources */ = {isa = PBXBuildFile; fileRef = D44FF3C61589495100AFEB7B /* Magnification.plist */; };
@@ -250,6 +251,8 @@
 		D4469EF215B3611B003B4D40 /* MatterThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatterThreeViewController.m; sourceTree = "<group>"; };
 		D4469EF615B3674A003B4D40 /* Matter3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Matter3.plist; sourceTree = "<group>"; };
 		D449DFEC153380AC00254514 /* Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
+		D44C29A215C0AAAF004FEBE0 /* BurningFuelsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurningFuelsThreeViewController.h; sourceTree = "<group>"; };
+		D44C29A315C0AAAF004FEBE0 /* BurningFuelsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurningFuelsThreeViewController.m; sourceTree = "<group>"; };
 		D44FF3AC15892AE900AFEB7B /* AnimalCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimalCell.png; sourceTree = "<group>"; };
 		D44FF3BE1589485000AFEB7B /* MagAssessmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagAssessmentViewController.h; sourceTree = "<group>"; };
 		D44FF3BF1589485000AFEB7B /* MagAssessmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagAssessmentViewController.m; sourceTree = "<group>"; };
@@ -631,6 +634,16 @@
 			name = "Matter 3";
 			sourceTree = "<group>";
 		};
+		D44C29A015C0AA94004FEBE0 /* Burning Fuels 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D435699F15C045CC00882905 /* BurningFuels3-cut.png */,
+				D44C29A215C0AAAF004FEBE0 /* BurningFuelsThreeViewController.h */,
+				D44C29A315C0AAAF004FEBE0 /* BurningFuelsThreeViewController.m */,
+			);
+			name = "Burning Fuels 3";
+			sourceTree = "<group>";
+		};
 		D44FF3BD1589483300AFEB7B /* Theory */ = {
 			isa = PBXGroup;
 			children = (
@@ -916,8 +929,8 @@
 		D498181D15BF570C00CA4A69 /* 7I Energy Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D435699F15C045CC00882905 /* BurningFuels3-cut.png */,
 				D498181E15BF573100CA4A69 /* Non Renewable 3 */,
+				D44C29A015C0AA94004FEBE0 /* Burning Fuels 3 */,
 			);
 			name = "7I Energy Resources";
 			sourceTree = "<group>";
@@ -1472,6 +1485,7 @@
 				D498181115BF156400CA4A69 /* SeparatingOneThreeViewController.m in Sources */,
 				D498181715BF478900CA4A69 /* SeparatingTwoThreeViewController.m in Sources */,
 				D498181C15BF570700CA4A69 /* NonRenewableThreeViewController.m in Sources */,
+				D44C29A415C0AAAF004FEBE0 /* BurningFuelsThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
