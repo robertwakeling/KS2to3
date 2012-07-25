@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Text</key>
+		<string>Air</string>
+		<key>Answer</key>
+		<string>Gas</string>
+		<key>Image</key>
+		<string>Air.png</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Text</key>
+		<string>Milk</string>
+		<key>Answer</key>
+		<string>Liquid</string>
+		<key>Image</key>
+		<string>Milk.png</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Text</key>
+		<string>Table</string>
+		<key>Answer</key>
+		<string>Solid</string>
+		<key>Image</key>
+		<string>Table.png</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Text</key>
+		<string>Water</string>
+		<key>Answer</key>
+		<string>Liquid</string>
+		<key>Image</key>
+		<string>Water.png</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Text</key>
+		<string>Oxygen</string>
+		<key>Answer</key>
+		<string>Gas</string>
+		<key>Image</key>
+		<string>Oxygen.png</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Text</key>
+		<string>Iron nail</string>
+		<key>Answer</key>
+		<string>Solid</string>
+		<key>Image</key>
+		<string>Nail.png</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>Text</key>
+		<string>Carbon dioxide</string>
+		<key>Answer</key>
+		<string>Gas</string>
+		<key>Image</key>
+		<string>CarbonDioxide.png</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>Text</key>
+		<string>Hydrochloric acid</string>
+		<key>Answer</key>
+		<string>Liquid</string>
+		<key>Image</key>
+		<string>Acid.png</string>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>Text</key>
+		<string>Gold</string>
+		<key>Answer</key>
+		<string>Solid</string>
+		<key>Image</key>
+		<string>Gold.png</string>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>Text</key>
+		<string>Bleach</string>
+		<key>Answer</key>
+		<string>Liquid</string>
+		<key>Image</key>
+		<string>Bleach.png</string>
+	</dict>
+</dict>
+</plist>

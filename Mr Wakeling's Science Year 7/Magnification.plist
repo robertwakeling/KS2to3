@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Human Egg Cell</key>
+	<dict>
+		<key>Image</key>
+		<string>HumanEgg</string>
+		<key>Magnification</key>
+		<integer>500</integer>
+		<key>LowerBound</key>
+		<integer>120</integer>
+		<key>UpperBound</key>
+		<integer>140</integer>
+		<key>Label</key>
+		<string>Maximum vertical length (mm). Check question!</string>
+	</dict>
+	<key>Plant Cell</key>
+	<dict>
+		<key>Image</key>
+		<string>PlantCell</string>
+		<key>Magnification</key>
+		<integer>1000</integer>
+		<key>LowerBound</key>
+		<integer>45</integer>
+		<key>UpperBound</key>
+		<integer>65</integer>
+		<key>Label</key>
+		<string>Maximum horizontal length (mm)</string>
+	</dict>
+	<key>Virus</key>
+	<dict>
+		<key>Image</key>
+		<string>HIV</string>
+		<key>Magnification</key>
+		<integer>290000</integer>
+		<key>LowerBound</key>
+		<real>0.00017</real>
+		<key>UpperBound</key>
+		<real>0.00019</real>
+		<key>Label</key>
+		<string>Maximum horizontal length (mm). Remember viruses are very small!</string>
+	</dict>
+</dict>
+</plist>

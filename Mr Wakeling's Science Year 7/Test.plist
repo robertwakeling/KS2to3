@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>7A</key>
+	<dict>
+		<key>Title</key>
+		<string>Cells</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 How to use a Microscope</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Label the parts on a microscope</string>
+					<key>View Controller</key>
+					<string>Microscopes3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how to safely view slides under a microscope</string>
+					<key>View Controller</key>
+					<string>Microscopes4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Prepare a slide to view under a microscope, describing what can be seen</string>
+					<key>View Controller</key>
+					<string>Microscopes5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Calculate the magnification on a microscope</string>
+					<key>View Controller</key>
+					<string>Microscopes6</string>
+				</dict>
+			</dict>
+			<key>2 What is inside a cell</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Name the parts of a cell</string>
+					<key>View Controller</key>
+					<string>Cells3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Identify some of the differences between plant and animal cells</string>
+					<key>View Controller</key>
+					<string>Cells4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe the functions of the parts of the cell</string>
+					<key>View Controller</key>
+					<string>Cells5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the function of these parts of the cell</string>
+					<key>View Controller</key>
+					<string>Cells6</string>
+				</dict>
+			</dict>
+			<key>3 How and why are cells specialised</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State some differences between cells</string>
+					<key>View Controller</key>
+					<string>Specialised3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Suggest whether a cell is a plant or animal cell</string>
+					<key>View Controller</key>
+					<string>Specialised4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Identify the specialised features in cells and link these to their function</string>
+					<key>View Controller</key>
+					<string>Specialised5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Suggest the purpose of a cell based on its physical characteristics</string>
+					<key>View Controller</key>
+					<string>Specialised6</string>
+				</dict>
+			</dict>
+			<key>4 Cell growth and reproduction</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that cells multiply in number by growing and dividing</string>
+					<key>View Controller</key>
+					<string>Growth3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how cells divide in order to multiply</string>
+					<key>View Controller</key>
+					<string>Growth4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how cells can divide differently to do different sorts of reproduction</string>
+					<key>View Controller</key>
+					<string>Growth5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how specialised cells combine allowing fertilisation in a plant</string>
+					<key>View Controller</key>
+					<string>Growth6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7B</key>
+	<dict>
+		<key>Title</key>
+		<string>Reproduction</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 Types of reproduction</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Say what fertilisation is</string>
+					<key>View Controller</key>
+					<string>Types3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe the different sorts of fertilisation</string>
+					<key>View Controller</key>
+					<string>Types4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the advantages of different sorts of fertilisation</string>
+					<key>View Controller</key>
+					<string>Types5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Consider the evidence relating types of reproduction to survival rate</string>
+					<key>View Controller</key>
+					<string>Types6</string>
+				</dict>
+			</dict>
+			<key>2 How humans reproduce</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State why mammals reproduce</string>
+					<key>View Controller</key>
+					<string>Reproduction3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Name the parts of the reproductive organs and know what fertilisation is</string>
+					<key>View Controller</key>
+					<string>Reproduction4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the function of the reproductive organs and explain fertilisation</string>
+					<key>View Controller</key>
+					<string>Reproduction5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain reproduction at a cellular level</string>
+					<key>View Controller</key>
+					<string>Reproduction6</string>
+				</dict>
+			</dict>
+			<key>3 The menstrual cycle</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what a period is</string>
+					<key>View Controller</key>
+					<string>Cycle3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how the menstrual cycle relates to puberty</string>
+					<key>View Controller</key>
+					<string>Cycle4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the purpose of the menstrual cycle</string>
+					<key>View Controller</key>
+					<string>Cycle5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the stages of the menstrual cycle</string>
+					<key>View Controller</key>
+					<string>Cycle6</string>
+				</dict>
+			</dict>
+			<key>4 Baby growth before and after birth</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State the basic stages of the human life cycle</string>
+					<key>View Controller</key>
+					<string>Baby3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how the foetus gets its food</string>
+					<key>View Controller</key>
+					<string>Baby4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the job of the placenta and explain differences in gestation periods</string>
+					<key>View Controller</key>
+					<string>Baby5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Link the role of hormones to puberty/ intake of toxins on foetal development</string>
+					<key>View Controller</key>
+					<string>Baby6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7C</key>
+	<dict>
+		<key>Title</key>
+		<string>Environment and Feeding Relationships</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 Adapting to a habitat</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Name a habitat and some living things in them</string>
+					<key>View Controller</key>
+					<string>Habitat3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Identify differences in habitats</string>
+					<key>View Controller</key>
+					<string>Habitat4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain reasons why different organisms survive in different habitats</string>
+					<key>View Controller</key>
+					<string>Habitat5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the term “Biodiversity” using examples</string>
+					<key>View Controller</key>
+					<string>Habitat6</string>
+				</dict>
+			</dict>
+			<key>2 Adapting to changes</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>List differences in day and night and the different seasons</string>
+					<key>View Controller</key>
+					<string>Adaptation3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Sort responses of organisms in to groups based on changes to habitat</string>
+					<key>View Controller</key>
+					<string>Adaptation4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the relationship between habitat change and organism response</string>
+					<key>View Controller</key>
+					<string>Adaptation5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use secondary sources to highlight similar responses of organisms from different habitats</string>
+					<key>View Controller</key>
+					<string>Adaptation6</string>
+				</dict>
+			</dict>
+			<key>3 Food Chains</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that living things need food to survive</string>
+					<key>View Controller</key>
+					<string>Chains3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe simple feeding relationships in a food chain</string>
+					<key>View Controller</key>
+					<string>Chains4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain food chains using the terms producer and consumer</string>
+					<key>View Controller</key>
+					<string>Chains5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain changes in population numbers using the predator/prey relationship</string>
+					<key>View Controller</key>
+					<string>Chains6</string>
+				</dict>
+			</dict>
+			<key>4 Food Webs</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what a food web is</string>
+					<key>View Controller</key>
+					<string>Webs3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how animals prefer to eat certain foods but can eat others</string>
+					<key>View Controller</key>
+					<string>Webs4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Construct a food web from several food chains</string>
+					<key>View Controller</key>
+					<string>Webs5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Predict the effect of altering population numbers on a food web</string>
+					<key>View Controller</key>
+					<string>Webs6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7D</key>
+	<dict>
+		<key>Title</key>
+		<string>Variation and Classification</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 Types of Variation</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Suggest differences between a species</string>
+					<key>View Controller</key>
+					<string>VariationTypes3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe differences within a species</string>
+					<key>View Controller</key>
+					<string>VariationTypes4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Collect data and spot trends in variation within a species</string>
+					<key>View Controller</key>
+					<string>VariationTypes5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use secondary sources to identify trends in variation and suggest explanations</string>
+					<key>View Controller</key>
+					<string>VariationTypes6</string>
+				</dict>
+			</dict>
+			<key>2 Causes of Variation</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what the term variation means</string>
+					<key>View Controller</key>
+					<string>VariationCauses3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how variation may be either genetic or environmental</string>
+					<key>View Controller</key>
+					<string>VariationCauses4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how examples of factors which cause variation are grouped</string>
+					<key>View Controller</key>
+					<string>VariationCauses5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use data to support links between causes of variation and the effect</string>
+					<key>View Controller</key>
+					<string>VariationCauses6</string>
+				</dict>
+			</dict>
+			<key>3 Grouping animals</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what ‘vertebrate’ and ‘invertebrate’ means</string>
+					<key>View Controller</key>
+					<string>Grouping3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Recall the features of vertebrates and invertebrates</string>
+					<key>View Controller</key>
+					<string>Grouping4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain why it is important to classify animals</string>
+					<key>View Controller</key>
+					<string>Grouping5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Name and explain why it is difficult to classify some organisms as a plant/animal</string>
+					<key>View Controller</key>
+					<string>Grouping6</string>
+				</dict>
+			</dict>
+			<key>4 Classification</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Recognise a classification key</string>
+					<key>View Controller</key>
+					<string>Classification3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use keys to organise living things into groups</string>
+					<key>View Controller</key>
+					<string>Classification4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Apply a classification key to identify a species</string>
+					<key>View Controller</key>
+					<string>Classification5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain why it is difficult to classify some organisms</string>
+					<key>View Controller</key>
+					<string>Classification6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7E</key>
+	<dict>
+		<key>Title</key>
+		<string>Acids and Alkalis</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 What Acids and Alkalis Do</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Name some common acids and alkalis</string>
+					<key>View Controller</key>
+					<string>Acids3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe some common uses of acids</string>
+					<key>View Controller</key>
+					<string>Acids4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Identify the pH numbers of different acids and alkalis</string>
+					<key>View Controller</key>
+					<string>Acids5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Link the pH of an acid or alkali to how hazardous or corrosive it is</string>
+					<key>View Controller</key>
+					<string>Acids6</string>
+				</dict>
+			</dict>
+			<key>2 Staying safe!</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Recognise some safety symbols and know their meaning</string>
+					<key>View Controller</key>
+					<string>AcidSafety3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe the safety procedures for cleaning up spills in the lab</string>
+					<key>View Controller</key>
+					<string>AcidSafety4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the importance of different safety steps related to using acids/alkalis</string>
+					<key>View Controller</key>
+					<string>AcidSafety5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Link the information on hazcards in the lab and on transports, to general safety</string>
+					<key>View Controller</key>
+					<string>AcidSafety6</string>
+				</dict>
+			</dict>
+			<key>3 Using indicators</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what an indicator is</string>
+					<key>View Controller</key>
+					<string>Indicators3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use an indicator to identify some acids and alkalis</string>
+					<key>View Controller</key>
+					<string>Indicators4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain that the strength of an acid is identified by the pH scale</string>
+					<key>View Controller</key>
+					<string>Indicators5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Link the pH of an acid or alkali to how hazardous or corrosive it is</string>
+					<key>View Controller</key>
+					<string>Indicators6</string>
+				</dict>
+			</dict>
+			<key>4 Neutralisation reactions</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that acids and alkalis react together</string>
+					<key>View Controller</key>
+					<string>Neutralisation3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe the reaction between an acid and alkali</string>
+					<key>View Controller</key>
+					<string>Neutralisation4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how the pH of a solution changes during neutralisation and know that a salt is formed during the chemical reaction</string>
+					<key>View Controller</key>
+					<string>Neutralisation5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Write a neutralisation reaction using word equations</string>
+					<key>View Controller</key>
+					<string>Neutralisation6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7F</key>
+	<dict>
+		<key>Title</key>
+		<string>Simple Chemical Reactions</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 Acids and Metal Reactions</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that a chemical reaction takes place between acids and metals</string>
+					<key>View Controller</key>
+					<string>AcidReactions3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe what you see when an acid reacts with a metal</string>
+					<key>View Controller</key>
+					<string>AcidReactions4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain what happens during the reaction, using a word equation to state products</string>
+					<key>View Controller</key>
+					<string>AcidReactions5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Suggest factors that may make the reaction happen faster</string>
+					<key>View Controller</key>
+					<string>AcidReactions6</string>
+				</dict>
+			</dict>
+			<key>2 Acid and Metal Carbonate Reactions</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that a chemical reaction takes place between acids and metal carbonates</string>
+					<key>View Controller</key>
+					<string>AcidsCarbonates3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe what you see when an acid reacts with a metal carbonate</string>
+					<key>View Controller</key>
+					<string>AcidsCarbonates4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain what happens during the reaction, using a word equation to state products</string>
+					<key>View Controller</key>
+					<string>AcidsCarbonates5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Suggest factors that may make the reaction happen faster</string>
+					<key>View Controller</key>
+					<string>AcidsCarbonates6</string>
+				</dict>
+			</dict>
+			<key>3 Combustion</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that if something is going to burn it needs air</string>
+					<key>View Controller</key>
+					<string>Combustion3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how it is oxygen in air that is need for combustion (burning triangle)</string>
+					<key>View Controller</key>
+					<string>Combustion4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain combustion as a reaction with O2 and know the tests for CO2 and H2 gas</string>
+					<key>View Controller</key>
+					<string>Combustion5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Predict what will be formed when hydrocarbons are burned</string>
+					<key>View Controller</key>
+					<string>Combustion6</string>
+				</dict>
+			</dict>
+			<key>4 Fuels</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what a fuel is</string>
+					<key>View Controller</key>
+					<string>Fuels3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe some types of fuels</string>
+					<key>View Controller</key>
+					<string>Fuels4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain most fossil fuels are hydrocarbons, which are oxidised during combustion</string>
+					<key>View Controller</key>
+					<string>Fuels5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use secondary data to highlight potential problems with burning fossil fuels</string>
+					<key>View Controller</key>
+					<string>Fuels6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7G</key>
+	<dict>
+		<key>Title</key>
+		<string>The Particle Model</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 States of Matter</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Recognise solids, liquids and gases and know what physical changes are</string>
+					<key>View Controller</key>
+					<string>Matter3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Group materials into solids, liquids and gases</string>
+					<key>View Controller</key>
+					<string>Matter4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the properties of solids, liquids and gases</string>
+					<key>View Controller</key>
+					<string>Matter5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Produce keys which allow matter to be classified</string>
+					<key>View Controller</key>
+					<string>Matter6</string>
+				</dict>
+			</dict>
+			<key>2 Particle Theory</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Recognise that matter can be represented by particles</string>
+					<key>View Controller</key>
+					<string>Particles3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe the arrangement of particles in a solid, liquid and gas</string>
+					<key>View Controller</key>
+					<string>Particles4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how energy affects the particles</string>
+					<key>View Controller</key>
+					<string>Particles5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how changes in energy affect the state of matter</string>
+					<key>View Controller</key>
+					<string>Particles6</string>
+				</dict>
+			</dict>
+			<key>3 Pressure in Gases</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what pressure is</string>
+					<key>View Controller</key>
+					<string>GasPressure3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe some effects of pressure</string>
+					<key>View Controller</key>
+					<string>GasPressure4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the principles of gas pressure</string>
+					<key>View Controller</key>
+					<string>GasPressure5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Predict the effect of certain factors on gas pressure</string>
+					<key>View Controller</key>
+					<string>GasPressure6</string>
+				</dict>
+			</dict>
+			<key>4 Diffusion</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Recognise examples of diffusion</string>
+					<key>View Controller</key>
+					<string>Diffusion3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use a definition to describe diffusion</string>
+					<key>View Controller</key>
+					<string>Diffusion4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use the idea of particles to explain diffusion</string>
+					<key>View Controller</key>
+					<string>Diffusion5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Predict how and why certain factors may affect the rate of diffusion</string>
+					<key>View Controller</key>
+					<string>Diffusion6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7H</key>
+	<dict>
+		<key>Title</key>
+		<string>Solutions</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 Mixtures</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what a mixture is</string>
+					<key>View Controller</key>
+					<string>Mixtures3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe some simple methods for separating mixtures</string>
+					<key>View Controller</key>
+					<string>Mixtures4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain mixtures using particle theory</string>
+					<key>View Controller</key>
+					<string>Mixtures5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Using particle theory, explain the anomalies observed when substances are mixed</string>
+					<key>View Controller</key>
+					<string>Mixtures6</string>
+				</dict>
+			</dict>
+			<key>2 Solutions</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use the terms soluble, insoluble, solute/solvent and solution correctly</string>
+					<key>View Controller</key>
+					<string>Solutions3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Give examples of some soluble and insoluble materials</string>
+					<key>View Controller</key>
+					<string>Solutions4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the meaning of saturation</string>
+					<key>View Controller</key>
+					<string>Solutions5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain solutions using conservation of mass</string>
+					<key>View Controller</key>
+					<string>Solutions6</string>
+				</dict>
+			</dict>
+			<key>3 Separating Solutions I</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State how to get dissolved solids back out of solution</string>
+					<key>View Controller</key>
+					<string>SeparatingOne3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how pure water can be made from sea water</string>
+					<key>View Controller</key>
+					<string>SeparatingOne4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain distillation in terms of evaporation and condensation</string>
+					<key>View Controller</key>
+					<string>SeparatingOne5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>I can justify my choice of separating based on the particle model</string>
+					<key>View Controller</key>
+					<string>SeparatingOne6</string>
+				</dict>
+			</dict>
+			<key>4 Separating Solutions II</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that chromatography allows you to separate 2 or more solids in a solution</string>
+					<key>View Controller</key>
+					<string>SeparatingTwo3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe some everyday examples of chromatography</string>
+					<key>View Controller</key>
+					<string>SeparatingTwo4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how chromatography works using the particle model</string>
+					<key>View Controller</key>
+					<string>SeparatingTwo5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>I can justify my choice of separating based on the particle model</string>
+					<key>View Controller</key>
+					<string>SeparatingTwo6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7I</key>
+	<dict>
+		<key>Title</key>
+		<string>Energy Resources</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 Non Renewable Energy</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Know the three main sources of non renewable energy</string>
+					<key>View Controller</key>
+					<string>NonRenewable3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Name a range of fuels and give examples of where they are used</string>
+					<key>View Controller</key>
+					<string>NonRenewable4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how energy became trapped in fuels</string>
+					<key>View Controller</key>
+					<string>NonRenewable5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the advantages/disadvantages of different fuels</string>
+					<key>View Controller</key>
+					<string>NonRenewable6</string>
+				</dict>
+			</dict>
+			<key>2 Burning Fuels</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe some problems of burning fuels</string>
+					<key>View Controller</key>
+					<string>BurningFuels3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how it is oxygen in air that is need for combustion (burning triangle)</string>
+					<key>View Controller</key>
+					<string>BurningFuels4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain some energy transfers which occur when fuel is burnt</string>
+					<key>View Controller</key>
+					<string>BurningFuels5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain energy transfer in terms of efficiency (with examples)</string>
+					<key>View Controller</key>
+					<string>BurningFuels6</string>
+				</dict>
+			</dict>
+			<key>3 Renewable Energy</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>List some examples of renewable energy</string>
+					<key>View Controller</key>
+					<string>Renewable3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how we harness forms of renewable energy</string>
+					<key>View Controller</key>
+					<string>Renewable4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the energy transfers involved in capturing renewable energy</string>
+					<key>View Controller</key>
+					<string>Renewable5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the advantages/disadvantages of renewable energy</string>
+					<key>View Controller</key>
+					<string>Renewable6</string>
+				</dict>
+			</dict>
+			<key>4 Chemical Energy</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that we eat food to give us energy</string>
+					<key>View Controller</key>
+					<string>ChemicalEnergy3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe what we do to food to get the energy</string>
+					<key>View Controller</key>
+					<string>ChemicalEnergy4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain similarities/differences between food and other chemical energies</string>
+					<key>View Controller</key>
+					<string>ChemicalEnergy5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how energy is transferred in food chains/webs</string>
+					<key>View Controller</key>
+					<string>ChemicalEnergy6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7J</key>
+	<dict>
+		<key>Title</key>
+		<string>Electrical Circuits</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 Making and Drawing Circuits</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what electricity is and how to draw/make circuits</string>
+					<key>View Controller</key>
+					<string>Circuits3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Draw and make circuits using appropriate symbols</string>
+					<key>View Controller</key>
+					<string>Circuits4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain reasons why some circuits may not work</string>
+					<key>View Controller</key>
+					<string>Circuits5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>N/A</string>
+					<key>View Controller</key>
+					<string>Circuits6</string>
+				</dict>
+			</dict>
+			<key>2 Series and Parallel Circuits</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Recognise a series and parallel circuit</string>
+					<key>View Controller</key>
+					<string>SeriesParallel3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe the differences between series and parallel circuits</string>
+					<key>View Controller</key>
+					<string>SeriesParallel4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain what happens to current in a parallel circuit</string>
+					<key>View Controller</key>
+					<string>SeriesParallel5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how switches control parallel circuits eg in house lighting</string>
+					<key>View Controller</key>
+					<string>SeriesParallel6</string>
+				</dict>
+			</dict>
+			<key>3 Electric Current</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that current is a measure of the energy flowing in a circuit</string>
+					<key>View Controller</key>
+					<string>Current3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how to measure current in a circuit and use units</string>
+					<key>View Controller</key>
+					<string>Current4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain resistance using a flow model</string>
+					<key>View Controller</key>
+					<string>Current5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use a flow model to explain the difference between current and energy transfer</string>
+					<key>View Controller</key>
+					<string>Current6</string>
+				</dict>
+			</dict>
+			<key>4 Using Electricity Safely</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State why it is dangerous to touch circuits with wet hands</string>
+					<key>View Controller</key>
+					<string>ElectricalSafety3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how a fuse works</string>
+					<key>View Controller</key>
+					<string>ElectricalSafety4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain why fuses are used</string>
+					<key>View Controller</key>
+					<string>ElectricalSafety5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain what a large current can do to our bodies</string>
+					<key>View Controller</key>
+					<string>ElectricalSafety6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7K</key>
+	<dict>
+		<key>Title</key>
+		<string>Forces</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 What are Forces</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State some examples of forces</string>
+					<key>View Controller</key>
+					<string>Forces3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe the effect of forces and the difference between mass/weight</string>
+					<key>View Controller</key>
+					<string>Forces4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain different situations in terms of balanced and unbalanced forces</string>
+					<key>View Controller</key>
+					<string>Forces5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain situations using resultant forces</string>
+					<key>View Controller</key>
+					<string>Forces6</string>
+				</dict>
+			</dict>
+			<key>2 What is Upthrust</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what upthrust is</string>
+					<key>View Controller</key>
+					<string>Upthrust3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe where upthrust may or may not be useful</string>
+					<key>View Controller</key>
+					<string>Upthrust4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain why objects may/may not float</string>
+					<key>View Controller</key>
+					<string>Upthrust5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain floating using density and particle model</string>
+					<key>View Controller</key>
+					<string>Upthrust6</string>
+				</dict>
+			</dict>
+			<key>3 Measuring Motion</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State how we can measure speed</string>
+					<key>View Controller</key>
+					<string>Motion3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Recognise differences in speed</string>
+					<key>View Controller</key>
+					<string>Motion4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how to calculate speed using an equation</string>
+					<key>View Controller</key>
+					<string>Motion5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Interpret distance/time and speed/time graphs</string>
+					<key>View Controller</key>
+					<string>Motion6</string>
+				</dict>
+			</dict>
+			<key>4 Friction</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State what friction is</string>
+					<key>View Controller</key>
+					<string>Friction3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe where friction may or may not be useful</string>
+					<key>View Controller</key>
+					<string>Friction4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain methods of reducing friction</string>
+					<key>View Controller</key>
+					<string>Friction5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain the effects of energy transferred as a result of friction</string>
+					<key>View Controller</key>
+					<string>Friction6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>7L</key>
+	<dict>
+		<key>Title</key>
+		<string>The Solar System</string>
+		<key>SubUnits</key>
+		<dict>
+			<key>1 The Earth and the Sun</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that the earth orbits the sun</string>
+					<key>View Controller</key>
+					<string>EarthSun3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how the sun appears to move during a day</string>
+					<key>View Controller</key>
+					<string>EarthSun4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how the seasons occur</string>
+					<key>View Controller</key>
+					<string>EarthSun5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use secondary data to prove the sun is a star</string>
+					<key>View Controller</key>
+					<string>EarthSun6</string>
+				</dict>
+			</dict>
+			<key>2 The Moon</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that the moon orbits the earth</string>
+					<key>View Controller</key>
+					<string>Moon3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how the moon appears to change over 28 days</string>
+					<key>View Controller</key>
+					<string>Moon4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how these changes occur</string>
+					<key>View Controller</key>
+					<string>Moon5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain differences between lunar/solar eclipses</string>
+					<key>View Controller</key>
+					<string>Moon6</string>
+				</dict>
+			</dict>
+			<key>3 The Solar System</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State that the Solar System is a number of planets around the sun</string>
+					<key>View Controller</key>
+					<string>SolarSystem3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>List the order of the planets in the Solar System</string>
+					<key>View Controller</key>
+					<string>SolarSystem4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Predict what/how we might need to change a planet to live on it (if possible)</string>
+					<key>View Controller</key>
+					<string>SolarSystem5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Use models, patterns or data to explain differences in planets</string>
+					<key>View Controller</key>
+					<string>SolarSystem6</string>
+				</dict>
+			</dict>
+			<key>4 Beyond the Solar System</key>
+			<dict>
+				<key>3</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>State some space objects outside our Solar System</string>
+					<key>View Controller</key>
+					<string>Beyond3</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Describe how the stars appear to move in the night sky</string>
+					<key>View Controller</key>
+					<string>Beyond4</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Explain how a universe is made up</string>
+					<key>View Controller</key>
+					<string>Beyond5</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>Descriptor</key>
+					<string>Generate a scientific argument for or against life on other planets</string>
+					<key>View Controller</key>
+					<string>Beyond6</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

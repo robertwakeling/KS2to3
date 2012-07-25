@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Answer</key>
+		<string>Nucleus</string>
+		<key>Image</key>
+		<string>AnimalNucleusTick</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Answer</key>
+		<string>Cytoplasm</string>
+		<key>Image</key>
+		<string>AnimalCytoplasmTick</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Answer</key>
+		<string>Cell membrane</string>
+		<key>Image</key>
+		<string>AnimalCellMembraneTick</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Answer</key>
+		<string>Cell membrane</string>
+		<key>Image</key>
+		<string>PlantCellMembraneTick</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Answer</key>
+		<string>Nucleus</string>
+		<key>Image</key>
+		<string>PlantNucleusTick</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Answer</key>
+		<string>Chloroplast</string>
+		<key>Image</key>
+		<string>ChloroplastTick</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>Answer</key>
+		<string>Vacuole</string>
+		<key>Image</key>
+		<string>VacuoleTick</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>Answer</key>
+		<string>Cell wall</string>
+		<key>Image</key>
+		<string>CellWallTick</string>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>Answer</key>
+		<string>Cytoplasm</string>
+		<key>Image</key>
+		<string>PlantCytoplasmTick</string>
+	</dict>
+</dict>
+</plist>

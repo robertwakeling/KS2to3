@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Answer</key>
+		<string>Harmful</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Answer</key>
+		<string>Irritant</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Answer</key>
+		<string>Flammable</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Answer</key>
+		<string>Toxic</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Answer</key>
+		<string>Oxidising</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Answer</key>
+		<string>Corrosive</string>
+	</dict>
+</dict>
+</plist>

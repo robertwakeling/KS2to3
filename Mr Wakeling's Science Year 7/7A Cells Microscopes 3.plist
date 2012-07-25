@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Answer</key>
+		<string>Eyepiece</string>
+		<key>ImageName</key>
+		<string>eyepieceTick</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Answer</key>
+		<string>Objective lenses</string>
+		<key>ImageName</key>
+		<string>objectiveTick</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Answer</key>
+		<string>Focussing knobs</string>
+		<key>ImageName</key>
+		<string>focussingTick</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Answer</key>
+		<string>Stage</string>
+		<key>ImageName</key>
+		<string>stageTick</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Answer</key>
+		<string>Mirror</string>
+		<key>ImageName</key>
+		<string>mirrorTick</string>
+	</dict>
+</dict>
+</plist>

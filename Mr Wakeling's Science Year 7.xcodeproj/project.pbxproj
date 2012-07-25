@@ -1,0 +1,1587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35CCFE9F154D7634008D8046 /* GenericProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCFE9E154D7634008D8046 /* GenericProtocol.m */; };
+		35CCFEA3154D7AEF008D8046 /* PlanetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CCFEA2154D7AEF008D8046 /* PlanetModel.m */; };
+		35CCFEA5154D7B91008D8046 /* Planet plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35CCFEA4154D7B91008D8046 /* Planet plist.plist */; };
+		D4014F811583C7D5001BBACF /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4014F801583C7D5001BBACF /* Keys.plist */; };
+		D4014F851583D434001BBACF /* Tester.m in Sources */ = {isa = PBXBuildFile; fileRef = D4014F841583D434001BBACF /* Tester.m */; };
+		D406D42415A3959A00F27C79 /* AcidsThreeTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D406D42315A3959A00F27C79 /* AcidsThreeTesterViewController.m */; };
+		D406D42915A39D8500F27C79 /* AcidsThreeTester.plist in Resources */ = {isa = PBXBuildFile; fileRef = D406D42815A39D8500F27C79 /* AcidsThreeTester.plist */; };
+		D406FDFC1598AEED00410D39 /* Cycle3.png in Resources */ = {isa = PBXBuildFile; fileRef = D406FDFB1598AEED00410D39 /* Cycle3.png */; };
+		D406FE001598AF1200410D39 /* CycleThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D406FDFF1598AF1200410D39 /* CycleThreeViewController.m */; };
+		D406FE031598CCA300410D39 /* SaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D406FE021598CCA300410D39 /* SaveButton.m */; };
+		D406FE051598E1BF00410D39 /* Chains3-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D406FE041598E1BF00410D39 /* Chains3-02.png */; };
+		D406FE091598E1F300410D39 /* ChainsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D406FE081598E1F300410D39 /* ChainsThreeViewController.m */; };
+		D406FE0C1598E26100410D39 /* DefaultLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D406FE0B1598E26100410D39 /* DefaultLabel.m */; };
+		D406FE0E1598E8D700410D39 /* Webs3.png in Resources */ = {isa = PBXBuildFile; fileRef = D406FE0D1598E8D700410D39 /* Webs3.png */; };
+		D406FE121598E90300410D39 /* WebsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D406FE111598E90300410D39 /* WebsThreeViewController.m */; };
+		D406FE191598F17300410D39 /* VariationTypesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D406FE181598F17300410D39 /* VariationTypesThreeViewController.m */; };
+		D406FE1D1598F75700410D39 /* VariationThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D406FE1C1598F75700410D39 /* VariationThree.m */; };
+		D406FE201598F86F00410D39 /* VariationThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D406FE1F1598F86F00410D39 /* VariationThree.plist */; };
+		D406FE231598F89000410D39 /* VariationThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D406FE221598F89000410D39 /* VariationThreeModel.m */; };
+		D409609115B5EED300B0E251 /* Nail.png in Resources */ = {isa = PBXBuildFile; fileRef = D409609015B5EED300B0E251 /* Nail.png */; };
+		D409609315B5F5EA00B0E251 /* Acid.png in Resources */ = {isa = PBXBuildFile; fileRef = D409609215B5F5EA00B0E251 /* Acid.png */; };
+		D409609515B5FD1100B0E251 /* Gold.png in Resources */ = {isa = PBXBuildFile; fileRef = D409609415B5FD1100B0E251 /* Gold.png */; };
+		D409609915B6074700B0E251 /* Bleach.png in Resources */ = {isa = PBXBuildFile; fileRef = D409609815B6074700B0E251 /* Bleach.png */; };
+		D409609B15B608A700B0E251 /* CarbonDioxide.png in Resources */ = {isa = PBXBuildFile; fileRef = D409609A15B608A600B0E251 /* CarbonDioxide.png */; };
+		D409609D15B610C800B0E251 /* Particles3.png in Resources */ = {isa = PBXBuildFile; fileRef = D409609C15B610C800B0E251 /* Particles3.png */; };
+		D40960A215B6141700B0E251 /* ParticlesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40960A115B6141700B0E251 /* ParticlesThreeViewController.m */; };
+		D40960A715B61FA400B0E251 /* GasPressure3.png in Resources */ = {isa = PBXBuildFile; fileRef = D40960A615B61FA400B0E251 /* GasPressure3.png */; };
+		D40960AA15B620BA00B0E251 /* GasPressureThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40960A915B620BA00B0E251 /* GasPressureThreeViewController.m */; };
+		D40A9A751561A438004A0BE6 /* TesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40A9A741561A438004A0BE6 /* TesterViewController.m */; };
+		D40A9A781561A533004A0BE6 /* DraggingTester.plist in Resources */ = {isa = PBXBuildFile; fileRef = D40A9A771561A533004A0BE6 /* DraggingTester.plist */; };
+		D40D2C8B15A0F4BF001BBC07 /* Acids3Lemon2-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C8A15A0F4BF001BBC07 /* Acids3Lemon2-01.png */; };
+		D40D2C8D15A0F56E001BBC07 /* Acids3Shampoo2-04.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C8C15A0F56E001BBC07 /* Acids3Shampoo2-04.png */; };
+		D40D2C8F15A0F5F6001BBC07 /* Acids3Cleaner2-05.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C8E15A0F5F6001BBC07 /* Acids3Cleaner2-05.png */; };
+		D40D2C9115A0F66D001BBC07 /* Acids3Cola2-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9015A0F66D001BBC07 /* Acids3Cola2-02.png */; };
+		D40D2C9315A0F718001BBC07 /* Acids3Vinegar2-03.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9215A0F718001BBC07 /* Acids3Vinegar2-03.png */; };
+		D40D2C9515A0F7B1001BBC07 /* Acids3Hydroxide2-06.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9415A0F7B1001BBC07 /* Acids3Hydroxide2-06.png */; };
+		D40D2C9715A0F83C001BBC07 /* Acids3Bleach2-07.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9615A0F83C001BBC07 /* Acids3Bleach2-07.png */; };
+		D40D2C9915A0F92B001BBC07 /* Acids3Background-08.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9815A0F92B001BBC07 /* Acids3Background-08.png */; };
+		D416FB531587E24E0068F376 /* MagnificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D416FB521587E24E0068F376 /* MagnificationViewController.m */; };
+		D416FB5A1587EB160068F376 /* Ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = D416FB591587EB160068F376 /* Ruler.png */; };
+		D431A8E9152795E500D0D161 /* Microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = D431A8E8152795E500D0D161 /* Microscope.png */; };
+		D431A8EC15279C3A00D0D161 /* Periodic Table Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D431A8EB15279C3A00D0D161 /* Periodic Table Background.png */; };
+		D431A8EE1527AC0600D0D161 /* Tick.png in Resources */ = {isa = PBXBuildFile; fileRef = D431A8ED1527AC0600D0D161 /* Tick.png */; };
+		D43EE8811545B2AE004D608D /* CellsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EE8801545B2AD004D608D /* CellsModel.m */; };
+		D44270A915B4BA3E006E87E6 /* Air.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270A815B4BA3E006E87E6 /* Air.png */; };
+		D44270AC15B4BE7C006E87E6 /* Milk.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270AB15B4BE7C006E87E6 /* Milk.png */; };
+		D44270AE15B4C184006E87E6 /* Matter3.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270AD15B4C184006E87E6 /* Matter3.png */; };
+		D44270B015B4C292006E87E6 /* Table.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270AF15B4C292006E87E6 /* Table.png */; };
+		D44270B215B4C358006E87E6 /* Water.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270B115B4C358006E87E6 /* Water.png */; };
+		D44270B415B4C8EF006E87E6 /* Oxygen.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270B315B4C8EE006E87E6 /* Oxygen.png */; };
+		D4443CFB15601ED500FFAD56 /* DraggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4443CFA15601ED500FFAD56 /* DraggingViewController.m */; };
+		D4443CFF1560201D00FFAD56 /* DraggingProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D4443CFE1560201D00FFAD56 /* DraggingProtocol.m */; };
+		D4469EEA15B2B5B0003B4D40 /* FuelsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4469EE915B2B5B0003B4D40 /* FuelsThreeViewController.m */; };
+		D4469EF315B3611B003B4D40 /* MatterThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4469EF215B3611B003B4D40 /* MatterThreeViewController.m */; };
+		D4469EF715B3674A003B4D40 /* Matter3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4469EF615B3674A003B4D40 /* Matter3.plist */; };
+		D449DFED153380AC00254514 /* Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = D449DFEC153380AC00254514 /* Test.plist */; };
+		D44FF3AD15892AE900AFEB7B /* AnimalCell.png in Resources */ = {isa = PBXBuildFile; fileRef = D44FF3AC15892AE900AFEB7B /* AnimalCell.png */; };
+		D44FF3C01589485000AFEB7B /* MagAssessmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44FF3BF1589485000AFEB7B /* MagAssessmentViewController.m */; };
+		D44FF3C71589495100AFEB7B /* Magnification.plist in Resources */ = {isa = PBXBuildFile; fileRef = D44FF3C61589495100AFEB7B /* Magnification.plist */; };
+		D45B3B3F1543832B0077F110 /* SubUnitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D45B3B3E1543832B0077F110 /* SubUnitModel.m */; };
+		D45B3B4215438AFC0077F110 /* LevelsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D45B3B4115438AFC0077F110 /* LevelsModel.m */; };
+		D464761F15A5F1C9009AC972 /* ButtonBackRed.png in Resources */ = {isa = PBXBuildFile; fileRef = D464761E15A5F1C9009AC972 /* ButtonBackRed.png */; };
+		D464762115A5F248009AC972 /* ButtonBackBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = D464762015A5F248009AC972 /* ButtonBackBlue.png */; };
+		D46DFB14154DB26F00E04A24 /* CellsLevelThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFB13154DB26F00E04A24 /* CellsLevelThreeViewController.m */; };
+		D46DFB19154DCCB900E04A24 /* HazardSymbols.png in Resources */ = {isa = PBXBuildFile; fileRef = D46DFB18154DCCB900E04A24 /* HazardSymbols.png */; };
+		D46DFB1D154DCD5900E04A24 /* HazardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFB1C154DCD5900E04A24 /* HazardsViewController.m */; };
+		D46DFB20154DCD7400E04A24 /* HazardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFB1F154DCD7400E04A24 /* HazardModel.m */; };
+		D46DFB22154DCD7E00E04A24 /* Hazards.plist in Resources */ = {isa = PBXBuildFile; fileRef = D46DFB21154DCD7E00E04A24 /* Hazards.plist */; };
+		D46E6A28154CB03200469046 /* TextfieldCheckerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46E6A27154CB03200469046 /* TextfieldCheckerViewController.m */; };
+		D46E6A2B154CBB8100469046 /* PlanetaryOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46E6A2A154CBB8100469046 /* PlanetaryOrderViewController.m */; };
+		D4726B72157D495F000D2F10 /* AnimalCellCytoplasm.png in Resources */ = {isa = PBXBuildFile; fileRef = D4726B6B157D495F000D2F10 /* AnimalCellCytoplasm.png */; };
+		D4726B73157D495F000D2F10 /* AnimalCellMembrane.png in Resources */ = {isa = PBXBuildFile; fileRef = D4726B6C157D495F000D2F10 /* AnimalCellMembrane.png */; };
+		D4726B74157D495F000D2F10 /* AnimalCellNucleus.png in Resources */ = {isa = PBXBuildFile; fileRef = D4726B6D157D495F000D2F10 /* AnimalCellNucleus.png */; };
+		D4726B75157D495F000D2F10 /* FinalCellsDifferences.png in Resources */ = {isa = PBXBuildFile; fileRef = D4726B6E157D495F000D2F10 /* FinalCellsDifferences.png */; };
+		D4726B76157D495F000D2F10 /* PlantCellCellWall.png in Resources */ = {isa = PBXBuildFile; fileRef = D4726B6F157D495F000D2F10 /* PlantCellCellWall.png */; };
+		D4726B77157D495F000D2F10 /* PlantCellChloroplast.png in Resources */ = {isa = PBXBuildFile; fileRef = D4726B70157D495F000D2F10 /* PlantCellChloroplast.png */; };
+		D4726B78157D495F000D2F10 /* PlantCellVacuole.png in Resources */ = {isa = PBXBuildFile; fileRef = D4726B71157D495F000D2F10 /* PlantCellVacuole.png */; };
+		D4726B7C157D4E41000D2F10 /* CellsFour.m in Sources */ = {isa = PBXBuildFile; fileRef = D4726B7B157D4E41000D2F10 /* CellsFour.m */; };
+		D4726B7E157D506E000D2F10 /* CellsFour.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4726B7D157D506E000D2F10 /* CellsFour.plist */; };
+		D473624C15A34D6E002E89E2 /* AcidsThreeV2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D473624B15A34D6E002E89E2 /* AcidsThreeV2ViewController.m */; };
+		D47C4807158530010080E13E /* CellsFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47C4806158530010080E13E /* CellsFourViewController.m */; };
+		D47C480A158531990080E13E /* CellsFourModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D47C4809158531990080E13E /* CellsFourModel.m */; };
+		D47C480C1585347C0080E13E /* CellsFourText.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47C480B1585347C0080E13E /* CellsFourText.plist */; };
+		D47C4810158543DC0080E13E /* CellDescriptionFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47C480F158543DC0080E13E /* CellDescriptionFiveViewController.m */; };
+		D47C481515854A070080E13E /* CellFiveAssessmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47C481415854A070080E13E /* CellFiveAssessmentViewController.m */; };
+		D481D51B15A7378F006A919B /* IndicatorsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D481D51A15A7378F006A919B /* IndicatorsThreeViewController.m */; };
+		D481D51F15A73894006A919B /* Indicators3.png in Resources */ = {isa = PBXBuildFile; fileRef = D481D51E15A73894006A919B /* Indicators3.png */; };
+		D481D52215A743A7006A919B /* IndicatorThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D481D52115A743A7006A919B /* IndicatorThreeModel.m */; };
+		D481D52415A743EF006A919B /* Indicator3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D481D52315A743EF006A919B /* Indicator3.plist */; };
+		D4888485153A38ED002AE758 /* AnimalPlantCell.png in Resources */ = {isa = PBXBuildFile; fileRef = D4888484153A38ED002AE758 /* AnimalPlantCell.png */; };
+		D48AD8741534B10F003D2633 /* 7A Cells Microscopes 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D48AD8731534B10F003D2633 /* 7A Cells Microscopes 3.plist */; };
+		D48C0CCE159B9B6100DA141E /* VariationCauses3.png in Resources */ = {isa = PBXBuildFile; fileRef = D48C0CCD159B9B6100DA141E /* VariationCauses3.png */; };
+		D48C0CD3159B9CF200DA141E /* VariationCausesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48C0CD2159B9CF200DA141E /* VariationCausesThreeViewController.m */; };
+		D48C0CDD159BBD7E00DA141E /* Grouping3.png in Resources */ = {isa = PBXBuildFile; fileRef = D48C0CDC159BBD7E00DA141E /* Grouping3.png */; };
+		D48C0CE1159BBDDD00DA141E /* GroupingThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48C0CE0159BBDDD00DA141E /* GroupingThreeViewController.m */; };
+		D48C0CE3159BBEB300DA141E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48C0CE2159BBEB300DA141E /* QuartzCore.framework */; };
+		D48C0CE6159BC16800DA141E /* ClassificationThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48C0CE5159BC16800DA141E /* ClassificationThreeViewController.m */; };
+		D48CD25215AEA5C7002A8B24 /* Fuels3.1.png in Resources */ = {isa = PBXBuildFile; fileRef = D48CD25115AEA5C7002A8B24 /* Fuels3.1.png */; };
+		D49286FF15BB489900D52C17 /* Diffusion3-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D49286FE15BB489900D52C17 /* Diffusion3-02.png */; };
+		D492870415BB4CDA00D52C17 /* DiffusionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D492870315BB4CDA00D52C17 /* DiffusionThreeViewController.m */; };
+		D492870615BB56E500D52C17 /* Mixtures3.png in Resources */ = {isa = PBXBuildFile; fileRef = D492870515BB56E500D52C17 /* Mixtures3.png */; };
+		D492870B15BB58E300D52C17 /* MixturesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D492870A15BB58E300D52C17 /* MixturesThreeViewController.m */; };
+		D492870D15BB64CD00D52C17 /* Solutions3.png in Resources */ = {isa = PBXBuildFile; fileRef = D492870C15BB64CD00D52C17 /* Solutions3.png */; };
+		D492873D15BB6AEC00D52C17 /* SolutionsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D492873C15BB6AEC00D52C17 /* SolutionsThreeViewController.m */; };
+		D4973652158D10F400B334AF /* HIV.png in Resources */ = {isa = PBXBuildFile; fileRef = D4973651158D10F400B334AF /* HIV.png */; };
+		D497365D158D2E6700B334AF /* HumanEgg.png in Resources */ = {isa = PBXBuildFile; fileRef = D497365C158D2E6700B334AF /* HumanEgg.png */; };
+		D498180B15BEE8FD00CA4A69 /* Testerrrr.m in Sources */ = {isa = PBXBuildFile; fileRef = D498180A15BEE8FD00CA4A69 /* Testerrrr.m */; };
+		D498180D15BF153100CA4A69 /* SeparatingOne3.png in Resources */ = {isa = PBXBuildFile; fileRef = D498180C15BF153100CA4A69 /* SeparatingOne3.png */; };
+		D498181115BF156400CA4A69 /* SeparatingOneThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D498181015BF156400CA4A69 /* SeparatingOneThreeViewController.m */; };
+		D498181315BF44D000CA4A69 /* SeparatingTwo3.png in Resources */ = {isa = PBXBuildFile; fileRef = D498181215BF44D000CA4A69 /* SeparatingTwo3.png */; };
+		D498181715BF478900CA4A69 /* SeparatingTwoThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D498181615BF478900CA4A69 /* SeparatingTwoThreeViewController.m */; };
+		D498181C15BF570700CA4A69 /* NonRenewableThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D498181B15BF570700CA4A69 /* NonRenewableThreeViewController.m */; };
+		D498182015BF5A1B00CA4A69 /* NonRenewable3.png in Resources */ = {isa = PBXBuildFile; fileRef = D498181F15BF5A1B00CA4A69 /* NonRenewable3.png */; };
+		D498332E154484BE0082F508 /* 7A Cells AP Cells 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D498332D154484BE0082F508 /* 7A Cells AP Cells 3.plist */; };
+		D498333A15448CD70082F508 /* BigBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = D498333915448CD70082F508 /* BigBrain.m */; };
+		D499F0FE15556161008092A9 /* PlanetaryOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = D499F0FD15556161008092A9 /* PlanetaryOrder.png */; };
+		D499F10215556841008092A9 /* OverallLevelsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D499F10115556841008092A9 /* OverallLevelsModel.m */; };
+		D49AA75815922F45002A7D7A /* Life Cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = D49AA75715922F45002A7D7A /* Life Cycle.png */; };
+		D49AA75B15925072002A7D7A /* LifeCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49AA75A15925072002A7D7A /* LifeCycleViewController.m */; };
+		D49AA7611592754B002A7D7A /* HabitatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49AA7601592754B002A7D7A /* HabitatsViewController.m */; };
+		D4A2EB0D15221DE1009BD22E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A2EB0C15221DE1009BD22E /* UIKit.framework */; };
+		D4A2EB0F15221DE1009BD22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A2EB0E15221DE1009BD22E /* Foundation.framework */; };
+		D4A2EB1115221DE1009BD22E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A2EB1015221DE1009BD22E /* CoreGraphics.framework */; };
+		D4A2EB1715221DE1009BD22E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4A2EB1515221DE1009BD22E /* InfoPlist.strings */; };
+		D4A2EB1915221DE1009BD22E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A2EB1815221DE1009BD22E /* main.m */; };
+		D4A2EB1D15221DE1009BD22E /* ScienceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A2EB1C15221DE1009BD22E /* ScienceAppDelegate.m */; };
+		D4A2EB2015221DE1009BD22E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A2EB1E15221DE1009BD22E /* MainStoryboard.storyboard */; };
+		D4A2EB2B15221E22009BD22E /* UnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A2EB2A15221E22009BD22E /* UnitViewController.m */; };
+		D4A2EB311522544D009BD22E /* SubUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A2EB301522544D009BD22E /* SubUnitViewController.m */; };
+		D4A2EB3415225E53009BD22E /* LevelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A2EB3315225E53009BD22E /* LevelsViewController.m */; };
+		D4A42B8D15A4EF6A006EF178 /* Classification3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A42B8C15A4EF6A006EF178 /* Classification3.png */; };
+		D4ACED7B1584036E00997D10 /* OverallDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4ACED7A1584036E00997D10 /* OverallDictionary.plist */; };
+		D4AFA2B9158B90ED00A0BC85 /* PlantCell.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AFA2B8158B90ED00A0BC85 /* PlantCell.png */; };
+		D4B9DDA715ACD16800A70D07 /* AcidReactions3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */; };
+		D4B9DDAB15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */; };
+		D4B9DDAE15ACD95B00A70D07 /* AcidCarbonates3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDAD15ACD95B00A70D07 /* AcidCarbonates3.png */; };
+		D4B9DDB115ACD9C500A70D07 /* AcidCarbonatesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B9DDB015ACD9C500A70D07 /* AcidCarbonatesThreeViewController.m */; };
+		D4B9DDB715ACF02000A70D07 /* CombustionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B9DDB615ACF02000A70D07 /* CombustionThreeViewController.m */; };
+		D4B9DDBA15ACF5DC00A70D07 /* VariationTypes3-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDB915ACF5DC00A70D07 /* VariationTypes3-1.png */; };
+		D4B9DDBC15ACF8EE00A70D07 /* Combustion3-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDBB15ACF8EE00A70D07 /* Combustion3-1.png */; };
+		D4C07F3515445776003A8721 /* MicroscopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C07F3415445776003A8721 /* MicroscopeModel.m */; };
+		D4CB3CCF159876F200FDB9E2 /* Growth3.3-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */; };
+		D4CB3CD2159882A400FDB9E2 /* Types3-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CD1159882A400FDB9E2 /* Types3-02.png */; };
+		D4CB3CDC1598842800FDB9E2 /* TypesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */; };
+		D4CB3CDE1598A16900FDB9E2 /* _Repro3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CDD1598A16900FDB9E2 /* _Repro3.png */; };
+		D4CB3CE11598A18600FDB9E2 /* ReproThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CE01598A18600FDB9E2 /* ReproThreeViewController.m */; };
+		D4CB3CE41598A2B300FDB9E2 /* Default.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CE31598A2B300FDB9E2 /* Default.m */; };
+		D4CC00191555B76A009E6DC0 /* MicroscopeThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC00181555B76A009E6DC0 /* MicroscopeThreeViewController.m */; };
+		D4CCC78D15A2031D00CC58C6 /* AcidsThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4CCC78C15A2031D00CC58C6 /* AcidsThree.plist */; };
+		D4DB985A15910BF400A60F23 /* Specialised3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DB985915910BF400A60F23 /* Specialised3.png */; };
+		D4DB985E15912EDA00A60F23 /* SpecialisedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */; };
+		D4E5711F153F14B800BE6D65 /* units.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E5711E153F14B800BE6D65 /* units.m */; };
+		D4F3EC2C15A7992900116514 /* AcidAlkaliReaction3-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F3EC2B15A7992900116514 /* AcidAlkaliReaction3-2.png */; };
+		D4F3EC2F15A79BA400116514 /* NeutralisationThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F3EC2E15A79BA400116514 /* NeutralisationThreeViewController.m */; };
+		D4FB783A1597632300BBE2EB /* Habitats2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FB78391597632300BBE2EB /* Habitats2.png */; };
+		D4FB78411597C5FE00BBE2EB /* GrowthThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB78401597C5FE00BBE2EB /* GrowthThree.m */; };
+		D4FB78461597C6E000BBE2EB /* GrowthThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB78451597C6E000BBE2EB /* GrowthThreeModel.m */; };
+		D4FB78481597C94100BBE2EB /* GrowthThreeText.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4FB78471597C94100BBE2EB /* GrowthThreeText.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35CCFE9D154D7634008D8046 /* GenericProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericProtocol.h; sourceTree = "<group>"; };
+		35CCFE9E154D7634008D8046 /* GenericProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericProtocol.m; sourceTree = "<group>"; };
+		35CCFEA1154D7AEF008D8046 /* PlanetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetModel.h; sourceTree = "<group>"; };
+		35CCFEA2154D7AEF008D8046 /* PlanetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetModel.m; sourceTree = "<group>"; };
+		35CCFEA4154D7B91008D8046 /* Planet plist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Planet plist.plist"; sourceTree = "<group>"; };
+		D4014F801583C7D5001BBACF /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		D4014F831583D434001BBACF /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
+		D4014F841583D434001BBACF /* Tester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tester.m; sourceTree = "<group>"; };
+		D406D42215A3959A00F27C79 /* AcidsThreeTesterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidsThreeTesterViewController.h; sourceTree = "<group>"; };
+		D406D42315A3959A00F27C79 /* AcidsThreeTesterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidsThreeTesterViewController.m; sourceTree = "<group>"; };
+		D406D42815A39D8500F27C79 /* AcidsThreeTester.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AcidsThreeTester.plist; sourceTree = "<group>"; };
+		D406FDFB1598AEED00410D39 /* Cycle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cycle3.png; sourceTree = "<group>"; };
+		D406FDFE1598AF1200410D39 /* CycleThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleThreeViewController.h; sourceTree = "<group>"; };
+		D406FDFF1598AF1200410D39 /* CycleThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleThreeViewController.m; sourceTree = "<group>"; };
+		D406FE011598CCA300410D39 /* SaveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveButton.h; sourceTree = "<group>"; };
+		D406FE021598CCA300410D39 /* SaveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveButton.m; sourceTree = "<group>"; };
+		D406FE041598E1BF00410D39 /* Chains3-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chains3-02.png"; sourceTree = "<group>"; };
+		D406FE071598E1F300410D39 /* ChainsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainsThreeViewController.h; sourceTree = "<group>"; };
+		D406FE081598E1F300410D39 /* ChainsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainsThreeViewController.m; sourceTree = "<group>"; };
+		D406FE0A1598E26100410D39 /* DefaultLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultLabel.h; sourceTree = "<group>"; };
+		D406FE0B1598E26100410D39 /* DefaultLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultLabel.m; sourceTree = "<group>"; };
+		D406FE0D1598E8D700410D39 /* Webs3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Webs3.png; sourceTree = "<group>"; };
+		D406FE101598E90300410D39 /* WebsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsThreeViewController.h; sourceTree = "<group>"; };
+		D406FE111598E90300410D39 /* WebsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsThreeViewController.m; sourceTree = "<group>"; };
+		D406FE171598F17300410D39 /* VariationTypesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariationTypesThreeViewController.h; sourceTree = "<group>"; };
+		D406FE181598F17300410D39 /* VariationTypesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariationTypesThreeViewController.m; sourceTree = "<group>"; };
+		D406FE1B1598F75700410D39 /* VariationThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariationThree.h; sourceTree = "<group>"; };
+		D406FE1C1598F75700410D39 /* VariationThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariationThree.m; sourceTree = "<group>"; };
+		D406FE1F1598F86F00410D39 /* VariationThree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VariationThree.plist; sourceTree = "<group>"; };
+		D406FE211598F89000410D39 /* VariationThreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariationThreeModel.h; sourceTree = "<group>"; };
+		D406FE221598F89000410D39 /* VariationThreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariationThreeModel.m; sourceTree = "<group>"; };
+		D409609015B5EED300B0E251 /* Nail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nail.png; sourceTree = "<group>"; };
+		D409609215B5F5EA00B0E251 /* Acid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acid.png; sourceTree = "<group>"; };
+		D409609415B5FD1100B0E251 /* Gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gold.png; sourceTree = "<group>"; };
+		D409609815B6074700B0E251 /* Bleach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bleach.png; sourceTree = "<group>"; };
+		D409609A15B608A600B0E251 /* CarbonDioxide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarbonDioxide.png; sourceTree = "<group>"; };
+		D409609C15B610C800B0E251 /* Particles3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particles3.png; sourceTree = "<group>"; };
+		D40960A015B6141700B0E251 /* ParticlesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticlesThreeViewController.h; sourceTree = "<group>"; };
+		D40960A115B6141700B0E251 /* ParticlesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticlesThreeViewController.m; sourceTree = "<group>"; };
+		D40960A615B61FA400B0E251 /* GasPressure3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GasPressure3.png; sourceTree = "<group>"; };
+		D40960A815B620BA00B0E251 /* GasPressureThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasPressureThreeViewController.h; sourceTree = "<group>"; };
+		D40960A915B620BA00B0E251 /* GasPressureThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasPressureThreeViewController.m; sourceTree = "<group>"; };
+		D40A9A731561A438004A0BE6 /* TesterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesterViewController.h; sourceTree = "<group>"; };
+		D40A9A741561A438004A0BE6 /* TesterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TesterViewController.m; sourceTree = "<group>"; };
+		D40A9A771561A533004A0BE6 /* DraggingTester.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DraggingTester.plist; sourceTree = "<group>"; };
+		D40D2C8A15A0F4BF001BBC07 /* Acids3Lemon2-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Lemon2-01.png"; sourceTree = "<group>"; };
+		D40D2C8C15A0F56E001BBC07 /* Acids3Shampoo2-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Shampoo2-04.png"; sourceTree = "<group>"; };
+		D40D2C8E15A0F5F6001BBC07 /* Acids3Cleaner2-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Cleaner2-05.png"; sourceTree = "<group>"; };
+		D40D2C9015A0F66D001BBC07 /* Acids3Cola2-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Cola2-02.png"; sourceTree = "<group>"; };
+		D40D2C9215A0F718001BBC07 /* Acids3Vinegar2-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Vinegar2-03.png"; sourceTree = "<group>"; };
+		D40D2C9415A0F7B1001BBC07 /* Acids3Hydroxide2-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Hydroxide2-06.png"; sourceTree = "<group>"; };
+		D40D2C9615A0F83C001BBC07 /* Acids3Bleach2-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Bleach2-07.png"; sourceTree = "<group>"; };
+		D40D2C9815A0F92B001BBC07 /* Acids3Background-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Background-08.png"; sourceTree = "<group>"; };
+		D416FB511587E24E0068F376 /* MagnificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnificationViewController.h; sourceTree = "<group>"; };
+		D416FB521587E24E0068F376 /* MagnificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnificationViewController.m; sourceTree = "<group>"; };
+		D416FB591587EB160068F376 /* Ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ruler.png; sourceTree = "<group>"; };
+		D431A8E8152795E500D0D161 /* Microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Microscope.png; sourceTree = "<group>"; };
+		D431A8EB15279C3A00D0D161 /* Periodic Table Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Periodic Table Background.png"; sourceTree = "<group>"; };
+		D431A8ED1527AC0600D0D161 /* Tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tick.png; sourceTree = "<group>"; };
+		D43EE87F1545B2AD004D608D /* CellsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsModel.h; sourceTree = "<group>"; };
+		D43EE8801545B2AD004D608D /* CellsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsModel.m; sourceTree = "<group>"; };
+		D44270A815B4BA3E006E87E6 /* Air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Air.png; sourceTree = "<group>"; };
+		D44270AB15B4BE7C006E87E6 /* Milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Milk.png; sourceTree = "<group>"; };
+		D44270AD15B4C184006E87E6 /* Matter3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Matter3.png; sourceTree = "<group>"; };
+		D44270AF15B4C292006E87E6 /* Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Table.png; sourceTree = "<group>"; };
+		D44270B115B4C358006E87E6 /* Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Water.png; sourceTree = "<group>"; };
+		D44270B315B4C8EE006E87E6 /* Oxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oxygen.png; sourceTree = "<group>"; };
+		D4443CF915601ED500FFAD56 /* DraggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggingViewController.h; sourceTree = "<group>"; };
+		D4443CFA15601ED500FFAD56 /* DraggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggingViewController.m; sourceTree = "<group>"; };
+		D4443CFD1560201D00FFAD56 /* DraggingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggingProtocol.h; sourceTree = "<group>"; };
+		D4443CFE1560201D00FFAD56 /* DraggingProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggingProtocol.m; sourceTree = "<group>"; };
+		D4469EE815B2B5B0003B4D40 /* FuelsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelsThreeViewController.h; sourceTree = "<group>"; };
+		D4469EE915B2B5B0003B4D40 /* FuelsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelsThreeViewController.m; sourceTree = "<group>"; };
+		D4469EF115B3611B003B4D40 /* MatterThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatterThreeViewController.h; sourceTree = "<group>"; };
+		D4469EF215B3611B003B4D40 /* MatterThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatterThreeViewController.m; sourceTree = "<group>"; };
+		D4469EF615B3674A003B4D40 /* Matter3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Matter3.plist; sourceTree = "<group>"; };
+		D449DFEC153380AC00254514 /* Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
+		D44FF3AC15892AE900AFEB7B /* AnimalCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimalCell.png; sourceTree = "<group>"; };
+		D44FF3BE1589485000AFEB7B /* MagAssessmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagAssessmentViewController.h; sourceTree = "<group>"; };
+		D44FF3BF1589485000AFEB7B /* MagAssessmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagAssessmentViewController.m; sourceTree = "<group>"; };
+		D44FF3C61589495100AFEB7B /* Magnification.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Magnification.plist; sourceTree = "<group>"; };
+		D45B3B3D1543832B0077F110 /* SubUnitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubUnitModel.h; sourceTree = "<group>"; };
+		D45B3B3E1543832B0077F110 /* SubUnitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubUnitModel.m; sourceTree = "<group>"; };
+		D45B3B4015438AFC0077F110 /* LevelsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelsModel.h; sourceTree = "<group>"; };
+		D45B3B4115438AFC0077F110 /* LevelsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelsModel.m; sourceTree = "<group>"; };
+		D464761E15A5F1C9009AC972 /* ButtonBackRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackRed.png; sourceTree = "<group>"; };
+		D464762015A5F248009AC972 /* ButtonBackBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackBlue.png; sourceTree = "<group>"; };
+		D46DFB12154DB26F00E04A24 /* CellsLevelThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsLevelThreeViewController.h; sourceTree = "<group>"; };
+		D46DFB13154DB26F00E04A24 /* CellsLevelThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsLevelThreeViewController.m; sourceTree = "<group>"; };
+		D46DFB18154DCCB900E04A24 /* HazardSymbols.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HazardSymbols.png; sourceTree = "<group>"; };
+		D46DFB1B154DCD5900E04A24 /* HazardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HazardsViewController.h; sourceTree = "<group>"; };
+		D46DFB1C154DCD5900E04A24 /* HazardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HazardsViewController.m; sourceTree = "<group>"; };
+		D46DFB1E154DCD7400E04A24 /* HazardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HazardModel.h; sourceTree = "<group>"; };
+		D46DFB1F154DCD7400E04A24 /* HazardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HazardModel.m; sourceTree = "<group>"; };
+		D46DFB21154DCD7E00E04A24 /* Hazards.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hazards.plist; sourceTree = "<group>"; };
+		D46E6A26154CB03200469046 /* TextfieldCheckerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextfieldCheckerViewController.h; sourceTree = "<group>"; };
+		D46E6A27154CB03200469046 /* TextfieldCheckerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextfieldCheckerViewController.m; sourceTree = "<group>"; };
+		D46E6A29154CBB8100469046 /* PlanetaryOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetaryOrderViewController.h; sourceTree = "<group>"; };
+		D46E6A2A154CBB8100469046 /* PlanetaryOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetaryOrderViewController.m; sourceTree = "<group>"; };
+		D4726B6B157D495F000D2F10 /* AnimalCellCytoplasm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimalCellCytoplasm.png; sourceTree = "<group>"; };
+		D4726B6C157D495F000D2F10 /* AnimalCellMembrane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimalCellMembrane.png; sourceTree = "<group>"; };
+		D4726B6D157D495F000D2F10 /* AnimalCellNucleus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimalCellNucleus.png; sourceTree = "<group>"; };
+		D4726B6E157D495F000D2F10 /* FinalCellsDifferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FinalCellsDifferences.png; sourceTree = "<group>"; };
+		D4726B6F157D495F000D2F10 /* PlantCellCellWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlantCellCellWall.png; sourceTree = "<group>"; };
+		D4726B70157D495F000D2F10 /* PlantCellChloroplast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlantCellChloroplast.png; sourceTree = "<group>"; };
+		D4726B71157D495F000D2F10 /* PlantCellVacuole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlantCellVacuole.png; sourceTree = "<group>"; };
+		D4726B7A157D4E41000D2F10 /* CellsFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsFour.h; sourceTree = "<group>"; };
+		D4726B7B157D4E41000D2F10 /* CellsFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsFour.m; sourceTree = "<group>"; };
+		D4726B7D157D506E000D2F10 /* CellsFour.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellsFour.plist; sourceTree = "<group>"; };
+		D473624A15A34D6E002E89E2 /* AcidsThreeV2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidsThreeV2ViewController.h; sourceTree = "<group>"; };
+		D473624B15A34D6E002E89E2 /* AcidsThreeV2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidsThreeV2ViewController.m; sourceTree = "<group>"; };
+		D47C4805158530010080E13E /* CellsFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsFourViewController.h; sourceTree = "<group>"; };
+		D47C4806158530010080E13E /* CellsFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsFourViewController.m; sourceTree = "<group>"; };
+		D47C4808158531990080E13E /* CellsFourModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsFourModel.h; sourceTree = "<group>"; };
+		D47C4809158531990080E13E /* CellsFourModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsFourModel.m; sourceTree = "<group>"; };
+		D47C480B1585347C0080E13E /* CellsFourText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellsFourText.plist; sourceTree = "<group>"; };
+		D47C480E158543DC0080E13E /* CellDescriptionFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDescriptionFiveViewController.h; sourceTree = "<group>"; };
+		D47C480F158543DC0080E13E /* CellDescriptionFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDescriptionFiveViewController.m; sourceTree = "<group>"; };
+		D47C481315854A070080E13E /* CellFiveAssessmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellFiveAssessmentViewController.h; sourceTree = "<group>"; };
+		D47C481415854A070080E13E /* CellFiveAssessmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellFiveAssessmentViewController.m; sourceTree = "<group>"; };
+		D481D51915A7378F006A919B /* IndicatorsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorsThreeViewController.h; sourceTree = "<group>"; };
+		D481D51A15A7378F006A919B /* IndicatorsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorsThreeViewController.m; sourceTree = "<group>"; };
+		D481D51E15A73894006A919B /* Indicators3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indicators3.png; sourceTree = "<group>"; };
+		D481D52015A743A7006A919B /* IndicatorThreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorThreeModel.h; sourceTree = "<group>"; };
+		D481D52115A743A7006A919B /* IndicatorThreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorThreeModel.m; sourceTree = "<group>"; };
+		D481D52315A743EF006A919B /* Indicator3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Indicator3.plist; sourceTree = "<group>"; };
+		D4840CA21564360800A1C5D4 /* CheckmarkGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckmarkGestureRecognizer.h; sourceTree = "<group>"; };
+		D4840CA31564360800A1C5D4 /* CheckmarkGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckmarkGestureRecognizer.m; sourceTree = "<group>"; };
+		D4840CA51564362C00A1C5D4 /* CustomGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomGestureViewController.h; sourceTree = "<group>"; };
+		D4840CA61564362C00A1C5D4 /* CustomGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomGestureViewController.m; sourceTree = "<group>"; };
+		D4888484153A38ED002AE758 /* AnimalPlantCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimalPlantCell.png; sourceTree = "<group>"; };
+		D48AD8731534B10F003D2633 /* 7A Cells Microscopes 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "7A Cells Microscopes 3.plist"; sourceTree = "<group>"; };
+		D48C0CCD159B9B6100DA141E /* VariationCauses3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VariationCauses3.png; sourceTree = "<group>"; };
+		D48C0CD1159B9CF200DA141E /* VariationCausesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariationCausesThreeViewController.h; sourceTree = "<group>"; };
+		D48C0CD2159B9CF200DA141E /* VariationCausesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariationCausesThreeViewController.m; sourceTree = "<group>"; };
+		D48C0CDC159BBD7E00DA141E /* Grouping3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grouping3.png; sourceTree = "<group>"; };
+		D48C0CDF159BBDDD00DA141E /* GroupingThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupingThreeViewController.h; sourceTree = "<group>"; };
+		D48C0CE0159BBDDD00DA141E /* GroupingThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupingThreeViewController.m; sourceTree = "<group>"; };
+		D48C0CE2159BBEB300DA141E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D48C0CE4159BC16800DA141E /* ClassificationThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassificationThreeViewController.h; sourceTree = "<group>"; };
+		D48C0CE5159BC16800DA141E /* ClassificationThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassificationThreeViewController.m; sourceTree = "<group>"; };
+		D48CD25115AEA5C7002A8B24 /* Fuels3.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fuels3.1.png; sourceTree = "<group>"; };
+		D49286FE15BB489900D52C17 /* Diffusion3-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diffusion3-02.png"; sourceTree = "<group>"; };
+		D492870215BB4CDA00D52C17 /* DiffusionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffusionThreeViewController.h; sourceTree = "<group>"; };
+		D492870315BB4CDA00D52C17 /* DiffusionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffusionThreeViewController.m; sourceTree = "<group>"; };
+		D492870515BB56E500D52C17 /* Mixtures3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mixtures3.png; sourceTree = "<group>"; };
+		D492870915BB58E300D52C17 /* MixturesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixturesThreeViewController.h; sourceTree = "<group>"; };
+		D492870A15BB58E300D52C17 /* MixturesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixturesThreeViewController.m; sourceTree = "<group>"; };
+		D492870C15BB64CD00D52C17 /* Solutions3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Solutions3.png; sourceTree = "<group>"; };
+		D492873B15BB6AEC00D52C17 /* SolutionsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolutionsThreeViewController.h; sourceTree = "<group>"; };
+		D492873C15BB6AEC00D52C17 /* SolutionsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolutionsThreeViewController.m; sourceTree = "<group>"; };
+		D4973651158D10F400B334AF /* HIV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HIV.png; sourceTree = "<group>"; };
+		D497365C158D2E6700B334AF /* HumanEgg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HumanEgg.png; sourceTree = "<group>"; };
+		D498180915BEE8FD00CA4A69 /* Testerrrr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Testerrrr.h; path = ../Testerrrr.h; sourceTree = "<group>"; };
+		D498180A15BEE8FD00CA4A69 /* Testerrrr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Testerrrr.m; path = ../Testerrrr.m; sourceTree = "<group>"; };
+		D498180C15BF153100CA4A69 /* SeparatingOne3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeparatingOne3.png; sourceTree = "<group>"; };
+		D498180F15BF156400CA4A69 /* SeparatingOneThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatingOneThreeViewController.h; sourceTree = "<group>"; };
+		D498181015BF156400CA4A69 /* SeparatingOneThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatingOneThreeViewController.m; sourceTree = "<group>"; };
+		D498181215BF44D000CA4A69 /* SeparatingTwo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeparatingTwo3.png; sourceTree = "<group>"; };
+		D498181515BF478900CA4A69 /* SeparatingTwoThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatingTwoThreeViewController.h; sourceTree = "<group>"; };
+		D498181615BF478900CA4A69 /* SeparatingTwoThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatingTwoThreeViewController.m; sourceTree = "<group>"; };
+		D498181A15BF570700CA4A69 /* NonRenewableThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonRenewableThreeViewController.h; sourceTree = "<group>"; };
+		D498181B15BF570700CA4A69 /* NonRenewableThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonRenewableThreeViewController.m; sourceTree = "<group>"; };
+		D498181F15BF5A1B00CA4A69 /* NonRenewable3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NonRenewable3.png; sourceTree = "<group>"; };
+		D498332D154484BE0082F508 /* 7A Cells AP Cells 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "7A Cells AP Cells 3.plist"; sourceTree = "<group>"; };
+		D498333815448CD70082F508 /* BigBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigBrain.h; sourceTree = "<group>"; };
+		D498333915448CD70082F508 /* BigBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigBrain.m; sourceTree = "<group>"; };
+		D499F0FD15556161008092A9 /* PlanetaryOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlanetaryOrder.png; sourceTree = "<group>"; };
+		D499F10015556841008092A9 /* OverallLevelsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverallLevelsModel.h; sourceTree = "<group>"; };
+		D499F10115556841008092A9 /* OverallLevelsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverallLevelsModel.m; sourceTree = "<group>"; };
+		D49AA75715922F45002A7D7A /* Life Cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Life Cycle.png"; sourceTree = "<group>"; };
+		D49AA75915925072002A7D7A /* LifeCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeCycleViewController.h; sourceTree = "<group>"; };
+		D49AA75A15925072002A7D7A /* LifeCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeCycleViewController.m; sourceTree = "<group>"; };
+		D49AA75F1592754B002A7D7A /* HabitatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitatsViewController.h; sourceTree = "<group>"; };
+		D49AA7601592754B002A7D7A /* HabitatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitatsViewController.m; sourceTree = "<group>"; };
+		D4A2EB0815221DE1009BD22E /* Mr Wakeling's Science Year 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr Wakeling's Science Year 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A2EB0C15221DE1009BD22E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4A2EB0E15221DE1009BD22E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4A2EB1015221DE1009BD22E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4A2EB1415221DE1009BD22E /* Mr Wakeling's Science Year 7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mr Wakeling's Science Year 7-Info.plist"; sourceTree = "<group>"; };
+		D4A2EB1615221DE1009BD22E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4A2EB1815221DE1009BD22E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4A2EB1A15221DE1009BD22E /* Mr Wakeling's Science Year 7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mr Wakeling's Science Year 7-Prefix.pch"; sourceTree = "<group>"; };
+		D4A2EB1B15221DE1009BD22E /* ScienceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScienceAppDelegate.h; sourceTree = "<group>"; };
+		D4A2EB1C15221DE1009BD22E /* ScienceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScienceAppDelegate.m; sourceTree = "<group>"; };
+		D4A2EB1F15221DE1009BD22E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D4A2EB2915221E22009BD22E /* UnitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnitViewController.h; path = ../UnitViewController.h; sourceTree = "<group>"; };
+		D4A2EB2A15221E22009BD22E /* UnitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnitViewController.m; path = ../UnitViewController.m; sourceTree = "<group>"; };
+		D4A2EB2F1522544D009BD22E /* SubUnitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubUnitViewController.h; sourceTree = "<group>"; };
+		D4A2EB301522544D009BD22E /* SubUnitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubUnitViewController.m; sourceTree = "<group>"; };
+		D4A2EB3215225E53009BD22E /* LevelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelsViewController.h; sourceTree = "<group>"; };
+		D4A2EB3315225E53009BD22E /* LevelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelsViewController.m; sourceTree = "<group>"; };
+		D4A42B8C15A4EF6A006EF178 /* Classification3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Classification3.png; sourceTree = "<group>"; };
+		D4ACED7A1584036E00997D10 /* OverallDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OverallDictionary.plist; sourceTree = "<group>"; };
+		D4AFA2B8158B90ED00A0BC85 /* PlantCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlantCell.png; sourceTree = "<group>"; };
+		D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcidReactions3.png; sourceTree = "<group>"; };
+		D4B9DDA915ACD2ED00A70D07 /* AcidReactionsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidReactionsThreeViewController.h; sourceTree = "<group>"; };
+		D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidReactionsThreeViewController.m; sourceTree = "<group>"; };
+		D4B9DDAD15ACD95B00A70D07 /* AcidCarbonates3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcidCarbonates3.png; sourceTree = "<group>"; };
+		D4B9DDAF15ACD9C500A70D07 /* AcidCarbonatesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidCarbonatesThreeViewController.h; sourceTree = "<group>"; };
+		D4B9DDB015ACD9C500A70D07 /* AcidCarbonatesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidCarbonatesThreeViewController.m; sourceTree = "<group>"; };
+		D4B9DDB515ACF02000A70D07 /* CombustionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombustionThreeViewController.h; sourceTree = "<group>"; };
+		D4B9DDB615ACF02000A70D07 /* CombustionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombustionThreeViewController.m; sourceTree = "<group>"; };
+		D4B9DDB915ACF5DC00A70D07 /* VariationTypes3-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VariationTypes3-1.png"; sourceTree = "<group>"; };
+		D4B9DDBB15ACF8EE00A70D07 /* Combustion3-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combustion3-1.png"; sourceTree = "<group>"; };
+		D4C07F3315445776003A8721 /* MicroscopeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroscopeModel.h; sourceTree = "<group>"; };
+		D4C07F3415445776003A8721 /* MicroscopeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroscopeModel.m; sourceTree = "<group>"; };
+		D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Growth3.3-01.png"; sourceTree = "<group>"; };
+		D4CB3CD1159882A400FDB9E2 /* Types3-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Types3-02.png"; sourceTree = "<group>"; };
+		D4CB3CDA1598842800FDB9E2 /* TypesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypesThreeViewController.h; sourceTree = "<group>"; };
+		D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypesThreeViewController.m; sourceTree = "<group>"; };
+		D4CB3CDD1598A16900FDB9E2 /* _Repro3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _Repro3.png; sourceTree = "<group>"; };
+		D4CB3CDF1598A18600FDB9E2 /* ReproThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReproThreeViewController.h; sourceTree = "<group>"; };
+		D4CB3CE01598A18600FDB9E2 /* ReproThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReproThreeViewController.m; sourceTree = "<group>"; };
+		D4CB3CE21598A2B300FDB9E2 /* Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Default.h; sourceTree = "<group>"; };
+		D4CB3CE31598A2B300FDB9E2 /* Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Default.m; sourceTree = "<group>"; };
+		D4CC00171555B76A009E6DC0 /* MicroscopeThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroscopeThreeViewController.h; sourceTree = "<group>"; };
+		D4CC00181555B76A009E6DC0 /* MicroscopeThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroscopeThreeViewController.m; sourceTree = "<group>"; };
+		D4CCC78C15A2031D00CC58C6 /* AcidsThree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AcidsThree.plist; sourceTree = "<group>"; };
+		D4DB985915910BF400A60F23 /* Specialised3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Specialised3.png; sourceTree = "<group>"; };
+		D4DB985C15912EDA00A60F23 /* SpecialisedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialisedViewController.h; sourceTree = "<group>"; };
+		D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialisedViewController.m; sourceTree = "<group>"; };
+		D4E5711D153F14B800BE6D65 /* units.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = units.h; path = ../units.h; sourceTree = "<group>"; };
+		D4E5711E153F14B800BE6D65 /* units.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = units.m; path = ../units.m; sourceTree = "<group>"; };
+		D4F3EC2B15A7992900116514 /* AcidAlkaliReaction3-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AcidAlkaliReaction3-2.png"; sourceTree = "<group>"; };
+		D4F3EC2D15A79BA400116514 /* NeutralisationThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeutralisationThreeViewController.h; sourceTree = "<group>"; };
+		D4F3EC2E15A79BA400116514 /* NeutralisationThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeutralisationThreeViewController.m; sourceTree = "<group>"; };
+		D4FB78391597632300BBE2EB /* Habitats2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Habitats2.png; sourceTree = "<group>"; };
+		D4FB783F1597C5FE00BBE2EB /* GrowthThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowthThree.h; sourceTree = "<group>"; };
+		D4FB78401597C5FE00BBE2EB /* GrowthThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowthThree.m; sourceTree = "<group>"; };
+		D4FB78441597C6E000BBE2EB /* GrowthThreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowthThreeModel.h; sourceTree = "<group>"; };
+		D4FB78451597C6E000BBE2EB /* GrowthThreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowthThreeModel.m; sourceTree = "<group>"; };
+		D4FB78471597C94100BBE2EB /* GrowthThreeText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GrowthThreeText.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A2EB0515221DE1009BD22E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C0CE3159BBEB300DA141E /* QuartzCore.framework in Frameworks */,
+				D4A2EB0D15221DE1009BD22E /* UIKit.framework in Frameworks */,
+				D4A2EB0F15221DE1009BD22E /* Foundation.framework in Frameworks */,
+				D4A2EB1115221DE1009BD22E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D406D42615A395A100F27C79 /* Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				D464761E15A5F1C9009AC972 /* ButtonBackRed.png */,
+				D464762015A5F248009AC972 /* ButtonBackBlue.png */,
+				D406D42215A3959A00F27C79 /* AcidsThreeTesterViewController.h */,
+				D406D42315A3959A00F27C79 /* AcidsThreeTesterViewController.m */,
+				D406D42815A39D8500F27C79 /* AcidsThreeTester.plist */,
+			);
+			name = Assessment;
+			sourceTree = "<group>";
+		};
+		D406D42715A395B000F27C79 /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+				D473624A15A34D6E002E89E2 /* AcidsThreeV2ViewController.h */,
+				D473624B15A34D6E002E89E2 /* AcidsThreeV2ViewController.m */,
+				D4CCC78C15A2031D00CC58C6 /* AcidsThree.plist */,
+			);
+			name = Theory;
+			sourceTree = "<group>";
+		};
+		D406FE061598E1CF00410D39 /* Chains 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D406FE041598E1BF00410D39 /* Chains3-02.png */,
+				D406FE071598E1F300410D39 /* ChainsThreeViewController.h */,
+				D406FE081598E1F300410D39 /* ChainsThreeViewController.m */,
+			);
+			name = "Chains 3";
+			sourceTree = "<group>";
+		};
+		D406FE0F1598E8E500410D39 /* Webs 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D406FE0D1598E8D700410D39 /* Webs3.png */,
+				D406FE101598E90300410D39 /* WebsThreeViewController.h */,
+				D406FE111598E90300410D39 /* WebsThreeViewController.m */,
+			);
+			name = "Webs 3";
+			sourceTree = "<group>";
+		};
+		D406FE151598F10E00410D39 /* 7D Variation */ = {
+			isa = PBXGroup;
+			children = (
+				D406FE161598F15B00410D39 /* VariationTypes 3 */,
+				D48C0CD0159B9CD300DA141E /* Variation Causes 3 */,
+				D48C0CDE159BBDBF00DA141E /* Grouping 3 */,
+				D48C0CE7159BC17000DA141E /* Classification 3 */,
+			);
+			name = "7D Variation";
+			sourceTree = "<group>";
+		};
+		D406FE161598F15B00410D39 /* VariationTypes 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4B9DDB915ACF5DC00A70D07 /* VariationTypes3-1.png */,
+				D406FE1A1598F73900410D39 /* Theory */,
+				D406FE1E1598F75C00410D39 /* Assessment */,
+			);
+			name = "VariationTypes 3";
+			sourceTree = "<group>";
+		};
+		D406FE1A1598F73900410D39 /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+				D406FE171598F17300410D39 /* VariationTypesThreeViewController.h */,
+				D406FE181598F17300410D39 /* VariationTypesThreeViewController.m */,
+			);
+			name = Theory;
+			sourceTree = "<group>";
+		};
+		D406FE1E1598F75C00410D39 /* Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				D406FE1B1598F75700410D39 /* VariationThree.h */,
+				D406FE1C1598F75700410D39 /* VariationThree.m */,
+				D406FE211598F89000410D39 /* VariationThreeModel.h */,
+				D406FE221598F89000410D39 /* VariationThreeModel.m */,
+				D406FE1F1598F86F00410D39 /* VariationThree.plist */,
+			);
+			name = Assessment;
+			sourceTree = "<group>";
+		};
+		D409608E15B5EBA900B0E251 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D409609A15B608A600B0E251 /* CarbonDioxide.png */,
+				D44270A815B4BA3E006E87E6 /* Air.png */,
+				D44270AB15B4BE7C006E87E6 /* Milk.png */,
+				D44270AF15B4C292006E87E6 /* Table.png */,
+				D44270B115B4C358006E87E6 /* Water.png */,
+				D44270B315B4C8EE006E87E6 /* Oxygen.png */,
+				D409609015B5EED300B0E251 /* Nail.png */,
+				D409609215B5F5EA00B0E251 /* Acid.png */,
+				D409609415B5FD1100B0E251 /* Gold.png */,
+				D409609815B6074700B0E251 /* Bleach.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D409609E15B613AF00B0E251 /* States of Matter */ = {
+			isa = PBXGroup;
+			children = (
+				D4469EF015B36101003B4D40 /* Matter 3 */,
+			);
+			name = "States of Matter";
+			sourceTree = "<group>";
+		};
+		D409609F15B613F500B0E251 /* Particle Theory */ = {
+			isa = PBXGroup;
+			children = (
+				D409609C15B610C800B0E251 /* Particles3.png */,
+				D40960A015B6141700B0E251 /* ParticlesThreeViewController.h */,
+				D40960A115B6141700B0E251 /* ParticlesThreeViewController.m */,
+			);
+			name = "Particle Theory";
+			sourceTree = "<group>";
+		};
+		D40960A515B61BDE00B0E251 /* Gas Pressure */ = {
+			isa = PBXGroup;
+			children = (
+				D40960A615B61FA400B0E251 /* GasPressure3.png */,
+				D40960A815B620BA00B0E251 /* GasPressureThreeViewController.h */,
+				D40960A915B620BA00B0E251 /* GasPressureThreeViewController.m */,
+			);
+			name = "Gas Pressure";
+			sourceTree = "<group>";
+		};
+		D40D2C8515A0F11E001BBC07 /* Acids 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D406D42715A395B000F27C79 /* Theory */,
+				D406D42615A395A100F27C79 /* Assessment */,
+				D40D2C9A15A0FB88001BBC07 /* Images */,
+			);
+			name = "Acids 3";
+			sourceTree = "<group>";
+		};
+		D40D2C8615A0F136001BBC07 /* AcidSafety 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D46DFB1B154DCD5900E04A24 /* HazardsViewController.h */,
+				D46DFB1C154DCD5900E04A24 /* HazardsViewController.m */,
+				D46DFB1E154DCD7400E04A24 /* HazardModel.h */,
+				D46DFB1F154DCD7400E04A24 /* HazardModel.m */,
+				D46DFB21154DCD7E00E04A24 /* Hazards.plist */,
+				D46DFB18154DCCB900E04A24 /* HazardSymbols.png */,
+			);
+			name = "AcidSafety 3";
+			sourceTree = "<group>";
+		};
+		D40D2C9A15A0FB88001BBC07 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D40D2C9815A0F92B001BBC07 /* Acids3Background-08.png */,
+				D40D2C9615A0F83C001BBC07 /* Acids3Bleach2-07.png */,
+				D40D2C9415A0F7B1001BBC07 /* Acids3Hydroxide2-06.png */,
+				D40D2C9215A0F718001BBC07 /* Acids3Vinegar2-03.png */,
+				D40D2C9015A0F66D001BBC07 /* Acids3Cola2-02.png */,
+				D40D2C8E15A0F5F6001BBC07 /* Acids3Cleaner2-05.png */,
+				D40D2C8C15A0F56E001BBC07 /* Acids3Shampoo2-04.png */,
+				D40D2C8A15A0F4BF001BBC07 /* Acids3Lemon2-01.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D416FB541587E2520068F376 /* Microscopes 6 */ = {
+			isa = PBXGroup;
+			children = (
+				D44FF3BD1589483300AFEB7B /* Theory */,
+				D44FF3C11589485500AFEB7B /* Assessment */,
+			);
+			name = "Microscopes 6";
+			sourceTree = "<group>";
+		};
+		D4469EEC15B2B616003B4D40 /* Fuels 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4469EE815B2B5B0003B4D40 /* FuelsThreeViewController.h */,
+				D4469EE915B2B5B0003B4D40 /* FuelsThreeViewController.m */,
+				D48CD25115AEA5C7002A8B24 /* Fuels3.1.png */,
+			);
+			name = "Fuels 3";
+			sourceTree = "<group>";
+		};
+		D4469EEF15B360C1003B4D40 /* 7G Particle Model */ = {
+			isa = PBXGroup;
+			children = (
+				D409609E15B613AF00B0E251 /* States of Matter */,
+				D409609F15B613F500B0E251 /* Particle Theory */,
+				D40960A515B61BDE00B0E251 /* Gas Pressure */,
+				D492870115BB48AD00D52C17 /* Diffusion */,
+			);
+			name = "7G Particle Model";
+			sourceTree = "<group>";
+		};
+		D4469EF015B36101003B4D40 /* Matter 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D44270AD15B4C184006E87E6 /* Matter3.png */,
+				D4469EF115B3611B003B4D40 /* MatterThreeViewController.h */,
+				D4469EF215B3611B003B4D40 /* MatterThreeViewController.m */,
+				D4469EF615B3674A003B4D40 /* Matter3.plist */,
+				D409608E15B5EBA900B0E251 /* Images */,
+			);
+			name = "Matter 3";
+			sourceTree = "<group>";
+		};
+		D44FF3BD1589483300AFEB7B /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+				D44FF3AC15892AE900AFEB7B /* AnimalCell.png */,
+				D416FB511587E24E0068F376 /* MagnificationViewController.h */,
+				D416FB521587E24E0068F376 /* MagnificationViewController.m */,
+				D416FB591587EB160068F376 /* Ruler.png */,
+			);
+			name = Theory;
+			sourceTree = "<group>";
+		};
+		D44FF3C11589485500AFEB7B /* Assessment */ = {
+			isa = PBXGroup;
+			children = (
+				D44FF3BE1589485000AFEB7B /* MagAssessmentViewController.h */,
+				D44FF3BF1589485000AFEB7B /* MagAssessmentViewController.m */,
+				D44FF3C61589495100AFEB7B /* Magnification.plist */,
+				D497365C158D2E6700B334AF /* HumanEgg.png */,
+				D4AFA2B8158B90ED00A0BC85 /* PlantCell.png */,
+				D4973651158D10F400B334AF /* HIV.png */,
+			);
+			name = Assessment;
+			sourceTree = "<group>";
+		};
+		D45B3B3C154382F70077F110 /* Basic Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5711D153F14B800BE6D65 /* units.h */,
+				D4E5711E153F14B800BE6D65 /* units.m */,
+				D45B3B3D1543832B0077F110 /* SubUnitModel.h */,
+				D45B3B3E1543832B0077F110 /* SubUnitModel.m */,
+				D45B3B4015438AFC0077F110 /* LevelsModel.h */,
+				D45B3B4115438AFC0077F110 /* LevelsModel.m */,
+				D499F10015556841008092A9 /* OverallLevelsModel.h */,
+				D499F10115556841008092A9 /* OverallLevelsModel.m */,
+			);
+			name = "Basic Models";
+			sourceTree = "<group>";
+		};
+		D46DFB1A154DCCEA00E04A24 /* 7E Acids Alkalis */ = {
+			isa = PBXGroup;
+			children = (
+				D40D2C8515A0F11E001BBC07 /* Acids 3 */,
+				D40D2C8615A0F136001BBC07 /* AcidSafety 3 */,
+				D481D51715A73760006A919B /* Indicators 3 */,
+				D4F3EC2815A7904B00116514 /* Neutralisation 3 */,
+			);
+			name = "7E Acids Alkalis";
+			sourceTree = "<group>";
+		};
+		D46E6A2C154CBB8500469046 /* 7L Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				D46E6A2D154CBBB700469046 /* The Solar System */,
+			);
+			name = "7L Solar System";
+			sourceTree = "<group>";
+		};
+		D46E6A2D154CBBB700469046 /* The Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				D46E6A29154CBB8100469046 /* PlanetaryOrderViewController.h */,
+				D46E6A2A154CBB8100469046 /* PlanetaryOrderViewController.m */,
+				35CCFEA1154D7AEF008D8046 /* PlanetModel.h */,
+				35CCFEA2154D7AEF008D8046 /* PlanetModel.m */,
+				35CCFEA4154D7B91008D8046 /* Planet plist.plist */,
+				D499F0FD15556161008092A9 /* PlanetaryOrder.png */,
+			);
+			name = "The Solar System";
+			sourceTree = "<group>";
+		};
+		D4726B68157D491A000D2F10 /* Cells 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4888484153A38ED002AE758 /* AnimalPlantCell.png */,
+				D46DFB12154DB26F00E04A24 /* CellsLevelThreeViewController.h */,
+				D46DFB13154DB26F00E04A24 /* CellsLevelThreeViewController.m */,
+				D498332D154484BE0082F508 /* 7A Cells AP Cells 3.plist */,
+				D43EE87F1545B2AD004D608D /* CellsModel.h */,
+				D43EE8801545B2AD004D608D /* CellsModel.m */,
+			);
+			name = "Cells 3";
+			sourceTree = "<group>";
+		};
+		D4726B6A157D4929000D2F10 /* Cells 4 */ = {
+			isa = PBXGroup;
+			children = (
+				D47C480315852FD80080E13E /* Drag and Drop */,
+				D4726B79157D4DF5000D2F10 /* Images */,
+				D47C480D158537390080E13E /* Text Entry */,
+			);
+			name = "Cells 4";
+			sourceTree = "<group>";
+		};
+		D4726B79157D4DF5000D2F10 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D4726B6B157D495F000D2F10 /* AnimalCellCytoplasm.png */,
+				D4726B6C157D495F000D2F10 /* AnimalCellMembrane.png */,
+				D4726B6D157D495F000D2F10 /* AnimalCellNucleus.png */,
+				D4726B6E157D495F000D2F10 /* FinalCellsDifferences.png */,
+				D4726B6F157D495F000D2F10 /* PlantCellCellWall.png */,
+				D4726B70157D495F000D2F10 /* PlantCellChloroplast.png */,
+				D4726B71157D495F000D2F10 /* PlantCellVacuole.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D47C480315852FD80080E13E /* Drag and Drop */ = {
+			isa = PBXGroup;
+			children = (
+				D4726B7A157D4E41000D2F10 /* CellsFour.h */,
+				D4726B7B157D4E41000D2F10 /* CellsFour.m */,
+				D4726B7D157D506E000D2F10 /* CellsFour.plist */,
+			);
+			name = "Drag and Drop";
+			sourceTree = "<group>";
+		};
+		D47C480D158537390080E13E /* Text Entry */ = {
+			isa = PBXGroup;
+			children = (
+				D47C4805158530010080E13E /* CellsFourViewController.h */,
+				D47C4806158530010080E13E /* CellsFourViewController.m */,
+				D47C4808158531990080E13E /* CellsFourModel.h */,
+				D47C4809158531990080E13E /* CellsFourModel.m */,
+				D47C480B1585347C0080E13E /* CellsFourText.plist */,
+			);
+			name = "Text Entry";
+			sourceTree = "<group>";
+		};
+		D47C4811158543E00080E13E /* Cells 5 */ = {
+			isa = PBXGroup;
+			children = (
+				D47C4812158549E90080E13E /* Theory Section */,
+				D47C481615854A0D0080E13E /* Assessment Section */,
+			);
+			name = "Cells 5";
+			sourceTree = "<group>";
+		};
+		D47C4812158549E90080E13E /* Theory Section */ = {
+			isa = PBXGroup;
+			children = (
+				D47C480E158543DC0080E13E /* CellDescriptionFiveViewController.h */,
+				D47C480F158543DC0080E13E /* CellDescriptionFiveViewController.m */,
+			);
+			name = "Theory Section";
+			sourceTree = "<group>";
+		};
+		D47C481615854A0D0080E13E /* Assessment Section */ = {
+			isa = PBXGroup;
+			children = (
+				D47C481315854A070080E13E /* CellFiveAssessmentViewController.h */,
+				D47C481415854A070080E13E /* CellFiveAssessmentViewController.m */,
+			);
+			name = "Assessment Section";
+			sourceTree = "<group>";
+		};
+		D481D51715A73760006A919B /* Indicators 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D481D51915A7378F006A919B /* IndicatorsThreeViewController.h */,
+				D481D51A15A7378F006A919B /* IndicatorsThreeViewController.m */,
+				D481D52015A743A7006A919B /* IndicatorThreeModel.h */,
+				D481D52115A743A7006A919B /* IndicatorThreeModel.m */,
+				D481D52315A743EF006A919B /* Indicator3.plist */,
+				D481D51E15A73894006A919B /* Indicators3.png */,
+			);
+			name = "Indicators 3";
+			sourceTree = "<group>";
+		};
+		D4888486153A3F92002AE758 /* Microscope */ = {
+			isa = PBXGroup;
+			children = (
+				D4ECDDC3157EA11A00DD659B /* Microscopes3 */,
+				D416FB541587E2520068F376 /* Microscopes 6 */,
+			);
+			name = Microscope;
+			sourceTree = "<group>";
+		};
+		D488848A153A4093002AE758 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D4726B68157D491A000D2F10 /* Cells 3 */,
+				D4726B6A157D4929000D2F10 /* Cells 4 */,
+				D47C4811158543E00080E13E /* Cells 5 */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D48C0CD0159B9CD300DA141E /* Variation Causes 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D48C0CCD159B9B6100DA141E /* VariationCauses3.png */,
+				D48C0CD1159B9CF200DA141E /* VariationCausesThreeViewController.h */,
+				D48C0CD2159B9CF200DA141E /* VariationCausesThreeViewController.m */,
+			);
+			name = "Variation Causes 3";
+			sourceTree = "<group>";
+		};
+		D48C0CDE159BBDBF00DA141E /* Grouping 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D48C0CDC159BBD7E00DA141E /* Grouping3.png */,
+				D48C0CDF159BBDDD00DA141E /* GroupingThreeViewController.h */,
+				D48C0CE0159BBDDD00DA141E /* GroupingThreeViewController.m */,
+			);
+			name = "Grouping 3";
+			sourceTree = "<group>";
+		};
+		D48C0CE7159BC17000DA141E /* Classification 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D48C0CE4159BC16800DA141E /* ClassificationThreeViewController.h */,
+				D48C0CE5159BC16800DA141E /* ClassificationThreeViewController.m */,
+				D4A42B8C15A4EF6A006EF178 /* Classification3.png */,
+			);
+			name = "Classification 3";
+			sourceTree = "<group>";
+		};
+		D492870115BB48AD00D52C17 /* Diffusion */ = {
+			isa = PBXGroup;
+			children = (
+				D49286FE15BB489900D52C17 /* Diffusion3-02.png */,
+				D492870215BB4CDA00D52C17 /* DiffusionThreeViewController.h */,
+				D492870315BB4CDA00D52C17 /* DiffusionThreeViewController.m */,
+			);
+			name = Diffusion;
+			sourceTree = "<group>";
+		};
+		D492870715BB58AA00D52C17 /* 7H Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				D492870815BB58D200D52C17 /* Mixtures */,
+				D492870E15BB651700D52C17 /* Solutions 3 */,
+				D498180E15BF153C00CA4A69 /* SeparatingOne 3 */,
+				D498181415BF475C00CA4A69 /* SeparatingTwo3 */,
+			);
+			name = "7H Solutions";
+			sourceTree = "<group>";
+		};
+		D492870815BB58D200D52C17 /* Mixtures */ = {
+			isa = PBXGroup;
+			children = (
+				D492870515BB56E500D52C17 /* Mixtures3.png */,
+				D492870915BB58E300D52C17 /* MixturesThreeViewController.h */,
+				D492870A15BB58E300D52C17 /* MixturesThreeViewController.m */,
+			);
+			name = Mixtures;
+			sourceTree = "<group>";
+		};
+		D492870E15BB651700D52C17 /* Solutions 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D492870C15BB64CD00D52C17 /* Solutions3.png */,
+				D492873B15BB6AEC00D52C17 /* SolutionsThreeViewController.h */,
+				D492873C15BB6AEC00D52C17 /* SolutionsThreeViewController.m */,
+				D498180915BEE8FD00CA4A69 /* Testerrrr.h */,
+				D498180A15BEE8FD00CA4A69 /* Testerrrr.m */,
+			);
+			name = "Solutions 3";
+			sourceTree = "<group>";
+		};
+		D498180E15BF153C00CA4A69 /* SeparatingOne 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D498180C15BF153100CA4A69 /* SeparatingOne3.png */,
+				D498180F15BF156400CA4A69 /* SeparatingOneThreeViewController.h */,
+				D498181015BF156400CA4A69 /* SeparatingOneThreeViewController.m */,
+			);
+			name = "SeparatingOne 3";
+			sourceTree = "<group>";
+		};
+		D498181415BF475C00CA4A69 /* SeparatingTwo3 */ = {
+			isa = PBXGroup;
+			children = (
+				D498181215BF44D000CA4A69 /* SeparatingTwo3.png */,
+				D498181515BF478900CA4A69 /* SeparatingTwoThreeViewController.h */,
+				D498181615BF478900CA4A69 /* SeparatingTwoThreeViewController.m */,
+			);
+			name = SeparatingTwo3;
+			sourceTree = "<group>";
+		};
+		D498181D15BF570C00CA4A69 /* 7I Energy Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D498181E15BF573100CA4A69 /* Non Renewable 3 */,
+			);
+			name = "7I Energy Resources";
+			sourceTree = "<group>";
+		};
+		D498181E15BF573100CA4A69 /* Non Renewable 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D498181F15BF5A1B00CA4A69 /* NonRenewable3.png */,
+				D498181A15BF570700CA4A69 /* NonRenewableThreeViewController.h */,
+				D498181B15BF570700CA4A69 /* NonRenewableThreeViewController.m */,
+			);
+			name = "Non Renewable 3";
+			sourceTree = "<group>";
+		};
+		D49AA75515922EB7002A7D7A /* 7B Reproduction */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3CD5159883CC00FDB9E2 /* Types */,
+				D4CB3CD6159883D400FDB9E2 /* Reproduction */,
+				D4CB3CD7159883DF00FDB9E2 /* Cycle */,
+				D4CB3CD8159883E600FDB9E2 /* Baby */,
+			);
+			name = "7B Reproduction";
+			sourceTree = "<group>";
+		};
+		D49AA75C15927387002A7D7A /* 7C Environment */ = {
+			isa = PBXGroup;
+			children = (
+				D49AA7621592778F002A7D7A /* Habitats 3 */,
+				D406FE061598E1CF00410D39 /* Chains 3 */,
+				D406FE0F1598E8E500410D39 /* Webs 3 */,
+			);
+			name = "7C Environment";
+			sourceTree = "<group>";
+		};
+		D49AA7621592778F002A7D7A /* Habitats 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D49AA75F1592754B002A7D7A /* HabitatsViewController.h */,
+				D49AA7601592754B002A7D7A /* HabitatsViewController.m */,
+				D4FB78391597632300BBE2EB /* Habitats2.png */,
+			);
+			name = "Habitats 3";
+			sourceTree = "<group>";
+		};
+		D4A2EAFD15221DE1009BD22E = {
+			isa = PBXGroup;
+			children = (
+				D4A2EB1215221DE1009BD22E /* Mr Wakeling's Science Year 7 */,
+				D4A2EB0B15221DE1009BD22E /* Frameworks */,
+				D4A2EB0915221DE1009BD22E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A2EB0915221DE1009BD22E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A2EB0815221DE1009BD22E /* Mr Wakeling's Science Year 7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A2EB0B15221DE1009BD22E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D48C0CE2159BBEB300DA141E /* QuartzCore.framework */,
+				D4A2EB0C15221DE1009BD22E /* UIKit.framework */,
+				D4A2EB0E15221DE1009BD22E /* Foundation.framework */,
+				D4A2EB1015221DE1009BD22E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4A2EB1215221DE1009BD22E /* Mr Wakeling's Science Year 7 */ = {
+			isa = PBXGroup;
+			children = (
+				D4A2EB1B15221DE1009BD22E /* ScienceAppDelegate.h */,
+				D4A2EB1C15221DE1009BD22E /* ScienceAppDelegate.m */,
+				D4A2EB1E15221DE1009BD22E /* MainStoryboard.storyboard */,
+				D406FE0A1598E26100410D39 /* DefaultLabel.h */,
+				D406FE0B1598E26100410D39 /* DefaultLabel.m */,
+				D4CB3CE21598A2B300FDB9E2 /* Default.h */,
+				D4CB3CE31598A2B300FDB9E2 /* Default.m */,
+				D406FE011598CCA300410D39 /* SaveButton.h */,
+				D406FE021598CCA300410D39 /* SaveButton.m */,
+				D4CB3CD41598838000FDB9E2 /* Standards */,
+				D4ACED7D1584037600997D10 /* Overall Controllers */,
+				D4CCD4811524CC9C004F1263 /* 7A Cells */,
+				D49AA75515922EB7002A7D7A /* 7B Reproduction */,
+				D49AA75C15927387002A7D7A /* 7C Environment */,
+				D406FE151598F10E00410D39 /* 7D Variation */,
+				D46DFB1A154DCCEA00E04A24 /* 7E Acids Alkalis */,
+				D4B9DDA815ACD2D200A70D07 /* 7F Acid Reactions */,
+				D4469EEF15B360C1003B4D40 /* 7G Particle Model */,
+				D492870715BB58AA00D52C17 /* 7H Solutions */,
+				D498181D15BF570C00CA4A69 /* 7I Energy Resources */,
+				D46E6A2C154CBB8500469046 /* 7L Solar System */,
+				D4CCD47C1524CC62004F1263 /* Basic Controllers */,
+				D45B3B3C154382F70077F110 /* Basic Models */,
+				D4A2EB1315221DE1009BD22E /* Supporting Files */,
+			);
+			path = "Mr Wakeling's Science Year 7";
+			sourceTree = "<group>";
+		};
+		D4A2EB1315221DE1009BD22E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3CD31598834800FDB9E2 /* Testing Bits */,
+				D431A8EB15279C3A00D0D161 /* Periodic Table Background.png */,
+				D431A8ED1527AC0600D0D161 /* Tick.png */,
+				D4A2EB1415221DE1009BD22E /* Mr Wakeling's Science Year 7-Info.plist */,
+				D4A2EB1515221DE1009BD22E /* InfoPlist.strings */,
+				D449DFEC153380AC00254514 /* Test.plist */,
+				D4A2EB1815221DE1009BD22E /* main.m */,
+				D4A2EB1A15221DE1009BD22E /* Mr Wakeling's Science Year 7-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4ACED7D1584037600997D10 /* Overall Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4014F831583D434001BBACF /* Tester.h */,
+				D4014F841583D434001BBACF /* Tester.m */,
+				D4014F801583C7D5001BBACF /* Keys.plist */,
+				D4ACED7A1584036E00997D10 /* OverallDictionary.plist */,
+			);
+			name = "Overall Controllers";
+			sourceTree = "<group>";
+		};
+		D4B9DDA815ACD2D200A70D07 /* 7F Acid Reactions */ = {
+			isa = PBXGroup;
+			children = (
+				D4B9DDAC15ACD93B00A70D07 /* Acid Reactions 3 */,
+				D4B9DDB215ACD9CD00A70D07 /* Acid Carbonates 3 */,
+				D4B9DDB815ACF02600A70D07 /* Combustion 3 */,
+				D4469EEC15B2B616003B4D40 /* Fuels 3 */,
+			);
+			name = "7F Acid Reactions";
+			sourceTree = "<group>";
+		};
+		D4B9DDAC15ACD93B00A70D07 /* Acid Reactions 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */,
+				D4B9DDA915ACD2ED00A70D07 /* AcidReactionsThreeViewController.h */,
+				D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */,
+			);
+			name = "Acid Reactions 3";
+			sourceTree = "<group>";
+		};
+		D4B9DDB215ACD9CD00A70D07 /* Acid Carbonates 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4B9DDAD15ACD95B00A70D07 /* AcidCarbonates3.png */,
+				D4B9DDAF15ACD9C500A70D07 /* AcidCarbonatesThreeViewController.h */,
+				D4B9DDB015ACD9C500A70D07 /* AcidCarbonatesThreeViewController.m */,
+			);
+			name = "Acid Carbonates 3";
+			sourceTree = "<group>";
+		};
+		D4B9DDB815ACF02600A70D07 /* Combustion 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4B9DDB515ACF02000A70D07 /* CombustionThreeViewController.h */,
+				D4B9DDB615ACF02000A70D07 /* CombustionThreeViewController.m */,
+				D4B9DDBB15ACF8EE00A70D07 /* Combustion3-1.png */,
+			);
+			name = "Combustion 3";
+			sourceTree = "<group>";
+		};
+		D4CB3CD31598834800FDB9E2 /* Testing Bits */ = {
+			isa = PBXGroup;
+			children = (
+				D498333815448CD70082F508 /* BigBrain.h */,
+				D498333915448CD70082F508 /* BigBrain.m */,
+				D40A9A731561A438004A0BE6 /* TesterViewController.h */,
+				D40A9A741561A438004A0BE6 /* TesterViewController.m */,
+				D4840CA21564360800A1C5D4 /* CheckmarkGestureRecognizer.h */,
+				D4840CA31564360800A1C5D4 /* CheckmarkGestureRecognizer.m */,
+				D4840CA51564362C00A1C5D4 /* CustomGestureViewController.h */,
+				D4840CA61564362C00A1C5D4 /* CustomGestureViewController.m */,
+			);
+			name = "Testing Bits";
+			sourceTree = "<group>";
+		};
+		D4CB3CD41598838000FDB9E2 /* Standards */ = {
+			isa = PBXGroup;
+			children = (
+				D40A9A771561A533004A0BE6 /* DraggingTester.plist */,
+				D4443CF915601ED500FFAD56 /* DraggingViewController.h */,
+				D4443CFA15601ED500FFAD56 /* DraggingViewController.m */,
+				D4443CFD1560201D00FFAD56 /* DraggingProtocol.h */,
+				D4443CFE1560201D00FFAD56 /* DraggingProtocol.m */,
+				D46E6A26154CB03200469046 /* TextfieldCheckerViewController.h */,
+				D46E6A27154CB03200469046 /* TextfieldCheckerViewController.m */,
+				35CCFE9D154D7634008D8046 /* GenericProtocol.h */,
+				35CCFE9E154D7634008D8046 /* GenericProtocol.m */,
+			);
+			name = Standards;
+			sourceTree = "<group>";
+		};
+		D4CB3CD5159883CC00FDB9E2 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3CD1159882A400FDB9E2 /* Types3-02.png */,
+				D4CB3CDA1598842800FDB9E2 /* TypesThreeViewController.h */,
+				D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		D4CB3CD6159883D400FDB9E2 /* Reproduction */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3CDD1598A16900FDB9E2 /* _Repro3.png */,
+				D4CB3CDF1598A18600FDB9E2 /* ReproThreeViewController.h */,
+				D4CB3CE01598A18600FDB9E2 /* ReproThreeViewController.m */,
+			);
+			name = Reproduction;
+			sourceTree = "<group>";
+		};
+		D4CB3CD7159883DF00FDB9E2 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				D406FDFB1598AEED00410D39 /* Cycle3.png */,
+				D406FDFE1598AF1200410D39 /* CycleThreeViewController.h */,
+				D406FDFF1598AF1200410D39 /* CycleThreeViewController.m */,
+			);
+			name = Cycle;
+			sourceTree = "<group>";
+		};
+		D4CB3CD8159883E600FDB9E2 /* Baby */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3CD91598840000FDB9E2 /* Baby 3 */,
+			);
+			name = Baby;
+			sourceTree = "<group>";
+		};
+		D4CB3CD91598840000FDB9E2 /* Baby 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D49AA75715922F45002A7D7A /* Life Cycle.png */,
+				D49AA75915925072002A7D7A /* LifeCycleViewController.h */,
+				D49AA75A15925072002A7D7A /* LifeCycleViewController.m */,
+			);
+			name = "Baby 3";
+			sourceTree = "<group>";
+		};
+		D4CCD47C1524CC62004F1263 /* Basic Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4A2EB2915221E22009BD22E /* UnitViewController.h */,
+				D4A2EB2A15221E22009BD22E /* UnitViewController.m */,
+				D4A2EB2F1522544D009BD22E /* SubUnitViewController.h */,
+				D4A2EB301522544D009BD22E /* SubUnitViewController.m */,
+				D4A2EB3215225E53009BD22E /* LevelsViewController.h */,
+				D4A2EB3315225E53009BD22E /* LevelsViewController.m */,
+			);
+			name = "Basic Controllers";
+			sourceTree = "<group>";
+		};
+		D4CCD4811524CC9C004F1263 /* 7A Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D4888486153A3F92002AE758 /* Microscope */,
+				D488848A153A4093002AE758 /* Cells */,
+				D4DB985B15912EBC00A60F23 /* Specialised */,
+				D4FB78421597C60400BBE2EB /* Growth */,
+			);
+			name = "7A Cells";
+			sourceTree = "<group>";
+		};
+		D4DB985B15912EBC00A60F23 /* Specialised */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB985F1591352F00A60F23 /* Specialised 3 */,
+			);
+			name = Specialised;
+			sourceTree = "<group>";
+		};
+		D4DB985F1591352F00A60F23 /* Specialised 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB985C15912EDA00A60F23 /* SpecialisedViewController.h */,
+				D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */,
+				D4DB985915910BF400A60F23 /* Specialised3.png */,
+			);
+			name = "Specialised 3";
+			sourceTree = "<group>";
+		};
+		D4ECDDC3157EA11A00DD659B /* Microscopes3 */ = {
+			isa = PBXGroup;
+			children = (
+				D431A8E8152795E500D0D161 /* Microscope.png */,
+				D4CC00171555B76A009E6DC0 /* MicroscopeThreeViewController.h */,
+				D4CC00181555B76A009E6DC0 /* MicroscopeThreeViewController.m */,
+				D48AD8731534B10F003D2633 /* 7A Cells Microscopes 3.plist */,
+				D4C07F3315445776003A8721 /* MicroscopeModel.h */,
+				D4C07F3415445776003A8721 /* MicroscopeModel.m */,
+			);
+			name = Microscopes3;
+			sourceTree = "<group>";
+		};
+		D4F3EC2815A7904B00116514 /* Neutralisation 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4F3EC2B15A7992900116514 /* AcidAlkaliReaction3-2.png */,
+				D4F3EC2D15A79BA400116514 /* NeutralisationThreeViewController.h */,
+				D4F3EC2E15A79BA400116514 /* NeutralisationThreeViewController.m */,
+			);
+			name = "Neutralisation 3";
+			sourceTree = "<group>";
+		};
+		D4FB78421597C60400BBE2EB /* Growth */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB78431597C60D00BBE2EB /* Growth 3 */,
+			);
+			name = Growth;
+			sourceTree = "<group>";
+		};
+		D4FB78431597C60D00BBE2EB /* Growth 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB783F1597C5FE00BBE2EB /* GrowthThree.h */,
+				D4FB78401597C5FE00BBE2EB /* GrowthThree.m */,
+				D4FB78441597C6E000BBE2EB /* GrowthThreeModel.h */,
+				D4FB78451597C6E000BBE2EB /* GrowthThreeModel.m */,
+				D4FB78471597C94100BBE2EB /* GrowthThreeText.plist */,
+				D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */,
+			);
+			name = "Growth 3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A2EB0715221DE1009BD22E /* Mr Wakeling's Science Year 7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A2EB2615221DE1009BD22E /* Build configuration list for PBXNativeTarget "Mr Wakeling's Science Year 7" */;
+			buildPhases = (
+				D4A2EB0415221DE1009BD22E /* Sources */,
+				D4A2EB0515221DE1009BD22E /* Frameworks */,
+				D4A2EB0615221DE1009BD22E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mr Wakeling's Science Year 7";
+			productName = "Mr Wakeling's Science Year 7";
+			productReference = D4A2EB0815221DE1009BD22E /* Mr Wakeling's Science Year 7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A2EAFF15221DE1009BD22E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Science;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D4A2EB0215221DE1009BD22E /* Build configuration list for PBXProject "Mr Wakeling's Science Year 7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4A2EAFD15221DE1009BD22E;
+			productRefGroup = D4A2EB0915221DE1009BD22E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A2EB0715221DE1009BD22E /* Mr Wakeling's Science Year 7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A2EB0615221DE1009BD22E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A2EB1715221DE1009BD22E /* InfoPlist.strings in Resources */,
+				D4A2EB2015221DE1009BD22E /* MainStoryboard.storyboard in Resources */,
+				D431A8E9152795E500D0D161 /* Microscope.png in Resources */,
+				D431A8EC15279C3A00D0D161 /* Periodic Table Background.png in Resources */,
+				D431A8EE1527AC0600D0D161 /* Tick.png in Resources */,
+				D449DFED153380AC00254514 /* Test.plist in Resources */,
+				D48AD8741534B10F003D2633 /* 7A Cells Microscopes 3.plist in Resources */,
+				D4888485153A38ED002AE758 /* AnimalPlantCell.png in Resources */,
+				D498332E154484BE0082F508 /* 7A Cells AP Cells 3.plist in Resources */,
+				35CCFEA5154D7B91008D8046 /* Planet plist.plist in Resources */,
+				D46DFB19154DCCB900E04A24 /* HazardSymbols.png in Resources */,
+				D46DFB22154DCD7E00E04A24 /* Hazards.plist in Resources */,
+				D499F0FE15556161008092A9 /* PlanetaryOrder.png in Resources */,
+				D40A9A781561A533004A0BE6 /* DraggingTester.plist in Resources */,
+				D4726B72157D495F000D2F10 /* AnimalCellCytoplasm.png in Resources */,
+				D4726B73157D495F000D2F10 /* AnimalCellMembrane.png in Resources */,
+				D4726B74157D495F000D2F10 /* AnimalCellNucleus.png in Resources */,
+				D4726B75157D495F000D2F10 /* FinalCellsDifferences.png in Resources */,
+				D4726B76157D495F000D2F10 /* PlantCellCellWall.png in Resources */,
+				D4726B77157D495F000D2F10 /* PlantCellChloroplast.png in Resources */,
+				D4726B78157D495F000D2F10 /* PlantCellVacuole.png in Resources */,
+				D4726B7E157D506E000D2F10 /* CellsFour.plist in Resources */,
+				D4014F811583C7D5001BBACF /* Keys.plist in Resources */,
+				D4ACED7B1584036E00997D10 /* OverallDictionary.plist in Resources */,
+				D47C480C1585347C0080E13E /* CellsFourText.plist in Resources */,
+				D416FB5A1587EB160068F376 /* Ruler.png in Resources */,
+				D44FF3AD15892AE900AFEB7B /* AnimalCell.png in Resources */,
+				D44FF3C71589495100AFEB7B /* Magnification.plist in Resources */,
+				D4AFA2B9158B90ED00A0BC85 /* PlantCell.png in Resources */,
+				D4973652158D10F400B334AF /* HIV.png in Resources */,
+				D497365D158D2E6700B334AF /* HumanEgg.png in Resources */,
+				D4DB985A15910BF400A60F23 /* Specialised3.png in Resources */,
+				D49AA75815922F45002A7D7A /* Life Cycle.png in Resources */,
+				D4FB783A1597632300BBE2EB /* Habitats2.png in Resources */,
+				D4FB78481597C94100BBE2EB /* GrowthThreeText.plist in Resources */,
+				D4CB3CCF159876F200FDB9E2 /* Growth3.3-01.png in Resources */,
+				D4CB3CD2159882A400FDB9E2 /* Types3-02.png in Resources */,
+				D4CB3CDE1598A16900FDB9E2 /* _Repro3.png in Resources */,
+				D406FDFC1598AEED00410D39 /* Cycle3.png in Resources */,
+				D406FE051598E1BF00410D39 /* Chains3-02.png in Resources */,
+				D406FE0E1598E8D700410D39 /* Webs3.png in Resources */,
+				D406FE201598F86F00410D39 /* VariationThree.plist in Resources */,
+				D48C0CCE159B9B6100DA141E /* VariationCauses3.png in Resources */,
+				D48C0CDD159BBD7E00DA141E /* Grouping3.png in Resources */,
+				D40D2C8B15A0F4BF001BBC07 /* Acids3Lemon2-01.png in Resources */,
+				D40D2C8D15A0F56E001BBC07 /* Acids3Shampoo2-04.png in Resources */,
+				D40D2C8F15A0F5F6001BBC07 /* Acids3Cleaner2-05.png in Resources */,
+				D40D2C9115A0F66D001BBC07 /* Acids3Cola2-02.png in Resources */,
+				D40D2C9315A0F718001BBC07 /* Acids3Vinegar2-03.png in Resources */,
+				D40D2C9515A0F7B1001BBC07 /* Acids3Hydroxide2-06.png in Resources */,
+				D40D2C9715A0F83C001BBC07 /* Acids3Bleach2-07.png in Resources */,
+				D40D2C9915A0F92B001BBC07 /* Acids3Background-08.png in Resources */,
+				D4CCC78D15A2031D00CC58C6 /* AcidsThree.plist in Resources */,
+				D406D42915A39D8500F27C79 /* AcidsThreeTester.plist in Resources */,
+				D4A42B8D15A4EF6A006EF178 /* Classification3.png in Resources */,
+				D464761F15A5F1C9009AC972 /* ButtonBackRed.png in Resources */,
+				D464762115A5F248009AC972 /* ButtonBackBlue.png in Resources */,
+				D481D51F15A73894006A919B /* Indicators3.png in Resources */,
+				D481D52415A743EF006A919B /* Indicator3.plist in Resources */,
+				D4F3EC2C15A7992900116514 /* AcidAlkaliReaction3-2.png in Resources */,
+				D4B9DDA715ACD16800A70D07 /* AcidReactions3.png in Resources */,
+				D4B9DDAE15ACD95B00A70D07 /* AcidCarbonates3.png in Resources */,
+				D4B9DDBA15ACF5DC00A70D07 /* VariationTypes3-1.png in Resources */,
+				D4B9DDBC15ACF8EE00A70D07 /* Combustion3-1.png in Resources */,
+				D48CD25215AEA5C7002A8B24 /* Fuels3.1.png in Resources */,
+				D4469EF715B3674A003B4D40 /* Matter3.plist in Resources */,
+				D44270A915B4BA3E006E87E6 /* Air.png in Resources */,
+				D44270AC15B4BE7C006E87E6 /* Milk.png in Resources */,
+				D44270AE15B4C184006E87E6 /* Matter3.png in Resources */,
+				D44270B015B4C292006E87E6 /* Table.png in Resources */,
+				D44270B215B4C358006E87E6 /* Water.png in Resources */,
+				D44270B415B4C8EF006E87E6 /* Oxygen.png in Resources */,
+				D409609115B5EED300B0E251 /* Nail.png in Resources */,
+				D409609315B5F5EA00B0E251 /* Acid.png in Resources */,
+				D409609515B5FD1100B0E251 /* Gold.png in Resources */,
+				D409609915B6074700B0E251 /* Bleach.png in Resources */,
+				D409609B15B608A700B0E251 /* CarbonDioxide.png in Resources */,
+				D409609D15B610C800B0E251 /* Particles3.png in Resources */,
+				D40960A715B61FA400B0E251 /* GasPressure3.png in Resources */,
+				D49286FF15BB489900D52C17 /* Diffusion3-02.png in Resources */,
+				D492870615BB56E500D52C17 /* Mixtures3.png in Resources */,
+				D492870D15BB64CD00D52C17 /* Solutions3.png in Resources */,
+				D498180D15BF153100CA4A69 /* SeparatingOne3.png in Resources */,
+				D498181315BF44D000CA4A69 /* SeparatingTwo3.png in Resources */,
+				D498182015BF5A1B00CA4A69 /* NonRenewable3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A2EB0415221DE1009BD22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A2EB1915221DE1009BD22E /* main.m in Sources */,
+				D4A2EB1D15221DE1009BD22E /* ScienceAppDelegate.m in Sources */,
+				D4A2EB2B15221E22009BD22E /* UnitViewController.m in Sources */,
+				D4A2EB311522544D009BD22E /* SubUnitViewController.m in Sources */,
+				D4A2EB3415225E53009BD22E /* LevelsViewController.m in Sources */,
+				D4E5711F153F14B800BE6D65 /* units.m in Sources */,
+				D45B3B3F1543832B0077F110 /* SubUnitModel.m in Sources */,
+				D45B3B4215438AFC0077F110 /* LevelsModel.m in Sources */,
+				D4C07F3515445776003A8721 /* MicroscopeModel.m in Sources */,
+				D498333A15448CD70082F508 /* BigBrain.m in Sources */,
+				D43EE8811545B2AE004D608D /* CellsModel.m in Sources */,
+				D46E6A28154CB03200469046 /* TextfieldCheckerViewController.m in Sources */,
+				D46E6A2B154CBB8100469046 /* PlanetaryOrderViewController.m in Sources */,
+				35CCFE9F154D7634008D8046 /* GenericProtocol.m in Sources */,
+				35CCFEA3154D7AEF008D8046 /* PlanetModel.m in Sources */,
+				D46DFB14154DB26F00E04A24 /* CellsLevelThreeViewController.m in Sources */,
+				D46DFB1D154DCD5900E04A24 /* HazardsViewController.m in Sources */,
+				D46DFB20154DCD7400E04A24 /* HazardModel.m in Sources */,
+				D499F10215556841008092A9 /* OverallLevelsModel.m in Sources */,
+				D4CC00191555B76A009E6DC0 /* MicroscopeThreeViewController.m in Sources */,
+				D4443CFB15601ED500FFAD56 /* DraggingViewController.m in Sources */,
+				D4443CFF1560201D00FFAD56 /* DraggingProtocol.m in Sources */,
+				D40A9A751561A438004A0BE6 /* TesterViewController.m in Sources */,
+				D4726B7C157D4E41000D2F10 /* CellsFour.m in Sources */,
+				D4014F851583D434001BBACF /* Tester.m in Sources */,
+				D47C4807158530010080E13E /* CellsFourViewController.m in Sources */,
+				D47C480A158531990080E13E /* CellsFourModel.m in Sources */,
+				D47C4810158543DC0080E13E /* CellDescriptionFiveViewController.m in Sources */,
+				D47C481515854A070080E13E /* CellFiveAssessmentViewController.m in Sources */,
+				D416FB531587E24E0068F376 /* MagnificationViewController.m in Sources */,
+				D44FF3C01589485000AFEB7B /* MagAssessmentViewController.m in Sources */,
+				D4DB985E15912EDA00A60F23 /* SpecialisedViewController.m in Sources */,
+				D49AA75B15925072002A7D7A /* LifeCycleViewController.m in Sources */,
+				D49AA7611592754B002A7D7A /* HabitatsViewController.m in Sources */,
+				D4FB78411597C5FE00BBE2EB /* GrowthThree.m in Sources */,
+				D4FB78461597C6E000BBE2EB /* GrowthThreeModel.m in Sources */,
+				D4CB3CDC1598842800FDB9E2 /* TypesThreeViewController.m in Sources */,
+				D4CB3CE11598A18600FDB9E2 /* ReproThreeViewController.m in Sources */,
+				D4CB3CE41598A2B300FDB9E2 /* Default.m in Sources */,
+				D406FE001598AF1200410D39 /* CycleThreeViewController.m in Sources */,
+				D406FE031598CCA300410D39 /* SaveButton.m in Sources */,
+				D406FE091598E1F300410D39 /* ChainsThreeViewController.m in Sources */,
+				D406FE0C1598E26100410D39 /* DefaultLabel.m in Sources */,
+				D406FE121598E90300410D39 /* WebsThreeViewController.m in Sources */,
+				D406FE191598F17300410D39 /* VariationTypesThreeViewController.m in Sources */,
+				D406FE1D1598F75700410D39 /* VariationThree.m in Sources */,
+				D406FE231598F89000410D39 /* VariationThreeModel.m in Sources */,
+				D48C0CD3159B9CF200DA141E /* VariationCausesThreeViewController.m in Sources */,
+				D48C0CE1159BBDDD00DA141E /* GroupingThreeViewController.m in Sources */,
+				D48C0CE6159BC16800DA141E /* ClassificationThreeViewController.m in Sources */,
+				D473624C15A34D6E002E89E2 /* AcidsThreeV2ViewController.m in Sources */,
+				D406D42415A3959A00F27C79 /* AcidsThreeTesterViewController.m in Sources */,
+				D481D51B15A7378F006A919B /* IndicatorsThreeViewController.m in Sources */,
+				D481D52215A743A7006A919B /* IndicatorThreeModel.m in Sources */,
+				D4F3EC2F15A79BA400116514 /* NeutralisationThreeViewController.m in Sources */,
+				D4B9DDAB15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m in Sources */,
+				D4B9DDB115ACD9C500A70D07 /* AcidCarbonatesThreeViewController.m in Sources */,
+				D4B9DDB715ACF02000A70D07 /* CombustionThreeViewController.m in Sources */,
+				D4469EEA15B2B5B0003B4D40 /* FuelsThreeViewController.m in Sources */,
+				D4469EF315B3611B003B4D40 /* MatterThreeViewController.m in Sources */,
+				D40960A215B6141700B0E251 /* ParticlesThreeViewController.m in Sources */,
+				D40960AA15B620BA00B0E251 /* GasPressureThreeViewController.m in Sources */,
+				D492870415BB4CDA00D52C17 /* DiffusionThreeViewController.m in Sources */,
+				D492870B15BB58E300D52C17 /* MixturesThreeViewController.m in Sources */,
+				D492873D15BB6AEC00D52C17 /* SolutionsThreeViewController.m in Sources */,
+				D498180B15BEE8FD00CA4A69 /* Testerrrr.m in Sources */,
+				D498181115BF156400CA4A69 /* SeparatingOneThreeViewController.m in Sources */,
+				D498181715BF478900CA4A69 /* SeparatingTwoThreeViewController.m in Sources */,
+				D498181C15BF570700CA4A69 /* NonRenewableThreeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4A2EB1515221DE1009BD22E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A2EB1615221DE1009BD22E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4A2EB1E15221DE1009BD22E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A2EB1F15221DE1009BD22E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4A2EB2415221DE1009BD22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D4A2EB2515221DE1009BD22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A2EB2715221DE1009BD22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mr Wakeling's Science Year 7/Mr Wakeling's Science Year 7-Prefix.pch";
+				INFOPLIST_FILE = "Mr Wakeling's Science Year 7/Mr Wakeling's Science Year 7-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4A2EB2815221DE1009BD22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mr Wakeling's Science Year 7/Mr Wakeling's Science Year 7-Prefix.pch";
+				INFOPLIST_FILE = "Mr Wakeling's Science Year 7/Mr Wakeling's Science Year 7-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A2EB0215221DE1009BD22E /* Build configuration list for PBXProject "Mr Wakeling's Science Year 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A2EB2415221DE1009BD22E /* Debug */,
+				D4A2EB2515221DE1009BD22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A2EB2615221DE1009BD22E /* Build configuration list for PBXNativeTarget "Mr Wakeling's Science Year 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A2EB2715221DE1009BD22E /* Debug */,
+				D4A2EB2815221DE1009BD22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4A2EAFF15221DE1009BD22E /* Project object */;
+}

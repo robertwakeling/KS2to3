@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Lemon</key>
+	<dict>
+		<key>Answer</key>
+		<string>Acid</string>
+		<key>Image</key>
+		<string>Acids3Lemon2-01</string>
+	</dict>
+	<key>Oven Cleaner</key>
+	<dict>
+		<key>Answer</key>
+		<string>Alkali</string>
+		<key>Image</key>
+		<string>Acids3Cleaner2-05</string>
+	</dict>
+	<key>Bleach</key>
+	<dict>
+		<key>Answer</key>
+		<string>Alkali</string>
+		<key>Image</key>
+		<string>Acids3Bleach2-07</string>
+	</dict>
+	<key>Shampoo</key>
+	<dict>
+		<key>Answer</key>
+		<string>Alkali</string>
+		<key>Image</key>
+		<string>Acids3Shampoo2-04</string>
+	</dict>
+	<key>Vinegar</key>
+	<dict>
+		<key>Answer</key>
+		<string>Acid</string>
+		<key>Image</key>
+		<string>Acids3Vinegar2-03</string>
+	</dict>
+	<key>Cola</key>
+	<dict>
+		<key>Answer</key>
+		<string>Acid</string>
+		<key>Image</key>
+		<string>Acids3Cola2-02</string>
+	</dict>
+	<key>Sodium hydroxide</key>
+	<dict>
+		<key>Answer</key>
+		<string>Alkali</string>
+		<key>Image</key>
+		<string>Acids3Hydroxide2-06</string>
+	</dict>
+</dict>
+</plist>

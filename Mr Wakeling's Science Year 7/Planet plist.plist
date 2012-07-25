@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Answer</key>
+		<string>Mercury</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Answer</key>
+		<string>Venus</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Answer</key>
+		<string>Earth</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Answer</key>
+		<string>Mars</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Answer</key>
+		<string>Jupiter</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>Answer</key>
+		<string>Saturn</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>Answer</key>
+		<string>Uranus</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>Answer</key>
+		<string>Neptune</string>
+	</dict>
+</dict>
+</plist>
