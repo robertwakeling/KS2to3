@@ -32,6 +32,11 @@
 	// Do any additional setup after loading the view.
 }
 
+-(void)test
+{
+    
+}
+
 -(IBAction)checkAnswers
 {
     if ([coal.text isEqualToString:@"Coal"]) {
