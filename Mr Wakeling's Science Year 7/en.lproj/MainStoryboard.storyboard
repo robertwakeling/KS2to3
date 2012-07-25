@@ -2769,12 +2769,53 @@
                                     <segue destination="8z6-4r-qNH" kind="push" id="2AL-he-hN0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="These three fuels are the main sources of non-renewable energy" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="TuR-Fb-gdR">
+                                <rect key="frame" x="0.0" y="20" width="768" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.28235295414924622" green="0.0" blue="0.29411765933036804" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="4835" y="28494"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Iun-7w-GCJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dha-m8-gxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="BurningFuels3" id="kMa-HG-bRO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rVb-l8-h6N">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BurningFuels3-cut.png" id="7FW-pN-7Bg">
+                                <rect key="frame" x="0.0" y="0.0" width="773" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="4823" y="29614"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sYZ-w0-fBZ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GJg-HX-5uQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="ZHY-0R-kHs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cb1-Tj-FL9">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5631" y="29626"/>
         </scene>
         <!--Non Renewable Three View Controller-->
         <scene sceneID="XYw-CB-462">
@@ -2785,8 +2826,19 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="NonRenewable3-2.png" id="OwV-eY-K81">
+                                <rect key="frame" x="-9" y="0.0" width="777" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The main sources of non-renewable energy are:" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="7HU-mv-KHq">
+                                <rect key="frame" x="0.0" y="20" width="768" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.2823529541" green="0.0" blue="0.2941176593" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="T8W-Y4-fUN">
-                                <rect key="frame" x="323" y="294" width="123" height="31"/>
+                                <rect key="frame" x="538" y="109" width="123" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2796,7 +2848,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="4e0-Nx-Gmx">
-                                <rect key="frame" x="323" y="343" width="123" height="31"/>
+                                <rect key="frame" x="538" y="158" width="123" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2806,7 +2858,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="pyv-Y1-cpq">
-                                <rect key="frame" x="323" y="393" width="123" height="31"/>
+                                <rect key="frame" x="538" y="208" width="123" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2815,6 +2867,48 @@
                                     <outlet property="delegate" destination="8z6-4r-qNH" id="2ib-Ym-tm1"/>
                                 </connections>
                             </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="T3C-oc-McT">
+                                <rect key="frame" x="469" y="106" width="81" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.2823529541" green="0.0" blue="0.2941176593" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="sC9-gh-oBy">
+                                <rect key="frame" x="290" y="106" width="81" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.98823535442352295" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="2" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="BPh-B0-ain">
+                                <rect key="frame" x="426" y="340" width="81" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.98823535439999999" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="2" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="G7R-f8-8Mm">
+                                <rect key="frame" x="469" y="155" width="81" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.2823529541" green="0.0" blue="0.2941176593" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="3" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="fzP-cs-Mj3">
+                                <rect key="frame" x="469" y="205" width="81" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.2823529541" green="0.0" blue="0.2941176593" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="3" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="xqk-zg-V4X">
+                                <rect key="frame" x="192" y="597" width="81" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.98823535439999999" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -6217,6 +6311,7 @@
         <image name="AnimalCellMembrane.png" width="200" height="200"/>
         <image name="AnimalCellNucleus.png" width="200" height="200"/>
         <image name="AnimalPlantCell.png" width="768" height="1004"/>
+        <image name="BurningFuels3-cut.png" width="768" height="1004"/>
         <image name="ButtonBackBlue.png" width="302" height="192"/>
         <image name="ButtonBackRed.png" width="302" height="192"/>
         <image name="Chains3-02.png" width="596" height="842"/>
@@ -6236,6 +6331,7 @@
         <image name="Matter3.png" width="1602" height="2094"/>
         <image name="Microscope.png" width="531" height="825"/>
         <image name="Mixtures3.png" width="1600" height="2092"/>
+        <image name="NonRenewable3-2.png" width="1620" height="2092"/>
         <image name="NonRenewable3.png" width="1620" height="2092"/>
         <image name="Particles3.png" width="1477" height="638"/>
         <image name="Periodic Table Background.png" width="768" height="1004"/>

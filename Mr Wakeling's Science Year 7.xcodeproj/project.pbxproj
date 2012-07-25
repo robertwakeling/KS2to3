@@ -50,6 +50,9 @@
 		D431A8E9152795E500D0D161 /* Microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = D431A8E8152795E500D0D161 /* Microscope.png */; };
 		D431A8EC15279C3A00D0D161 /* Periodic Table Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D431A8EB15279C3A00D0D161 /* Periodic Table Background.png */; };
 		D431A8EE1527AC0600D0D161 /* Tick.png in Resources */ = {isa = PBXBuildFile; fileRef = D431A8ED1527AC0600D0D161 /* Tick.png */; };
+		D435699415C03A1F00882905 /* NonRenewable3-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D435699315C03A1F00882905 /* NonRenewable3-2.png */; };
+		D435699815C03A4200882905 /* NonRenewable3.png in Resources */ = {isa = PBXBuildFile; fileRef = D435699715C03A4200882905 /* NonRenewable3.png */; };
+		D43569A015C045CC00882905 /* BurningFuels3-cut.png in Resources */ = {isa = PBXBuildFile; fileRef = D435699F15C045CC00882905 /* BurningFuels3-cut.png */; };
 		D43EE8811545B2AE004D608D /* CellsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EE8801545B2AD004D608D /* CellsModel.m */; };
 		D44270A915B4BA3E006E87E6 /* Air.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270A815B4BA3E006E87E6 /* Air.png */; };
 		D44270AC15B4BE7C006E87E6 /* Milk.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270AB15B4BE7C006E87E6 /* Milk.png */; };
@@ -119,7 +122,6 @@
 		D498181315BF44D000CA4A69 /* SeparatingTwo3.png in Resources */ = {isa = PBXBuildFile; fileRef = D498181215BF44D000CA4A69 /* SeparatingTwo3.png */; };
 		D498181715BF478900CA4A69 /* SeparatingTwoThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D498181615BF478900CA4A69 /* SeparatingTwoThreeViewController.m */; };
 		D498181C15BF570700CA4A69 /* NonRenewableThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D498181B15BF570700CA4A69 /* NonRenewableThreeViewController.m */; };
-		D498182015BF5A1B00CA4A69 /* NonRenewable3.png in Resources */ = {isa = PBXBuildFile; fileRef = D498181F15BF5A1B00CA4A69 /* NonRenewable3.png */; };
 		D498332E154484BE0082F508 /* 7A Cells AP Cells 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D498332D154484BE0082F508 /* 7A Cells AP Cells 3.plist */; };
 		D498333A15448CD70082F508 /* BigBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = D498333915448CD70082F508 /* BigBrain.m */; };
 		D499F0FE15556161008092A9 /* PlanetaryOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = D499F0FD15556161008092A9 /* PlanetaryOrder.png */; };
@@ -227,6 +229,9 @@
 		D431A8E8152795E500D0D161 /* Microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Microscope.png; sourceTree = "<group>"; };
 		D431A8EB15279C3A00D0D161 /* Periodic Table Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Periodic Table Background.png"; sourceTree = "<group>"; };
 		D431A8ED1527AC0600D0D161 /* Tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tick.png; sourceTree = "<group>"; };
+		D435699315C03A1F00882905 /* NonRenewable3-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NonRenewable3-2.png"; sourceTree = "<group>"; };
+		D435699715C03A4200882905 /* NonRenewable3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NonRenewable3.png; sourceTree = "<group>"; };
+		D435699F15C045CC00882905 /* BurningFuels3-cut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BurningFuels3-cut.png"; sourceTree = "<group>"; };
 		D43EE87F1545B2AD004D608D /* CellsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsModel.h; sourceTree = "<group>"; };
 		D43EE8801545B2AD004D608D /* CellsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsModel.m; sourceTree = "<group>"; };
 		D44270A815B4BA3E006E87E6 /* Air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Air.png; sourceTree = "<group>"; };
@@ -331,7 +336,6 @@
 		D498181615BF478900CA4A69 /* SeparatingTwoThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatingTwoThreeViewController.m; sourceTree = "<group>"; };
 		D498181A15BF570700CA4A69 /* NonRenewableThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonRenewableThreeViewController.h; sourceTree = "<group>"; };
 		D498181B15BF570700CA4A69 /* NonRenewableThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonRenewableThreeViewController.m; sourceTree = "<group>"; };
-		D498181F15BF5A1B00CA4A69 /* NonRenewable3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NonRenewable3.png; sourceTree = "<group>"; };
 		D498332D154484BE0082F508 /* 7A Cells AP Cells 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "7A Cells AP Cells 3.plist"; sourceTree = "<group>"; };
 		D498333815448CD70082F508 /* BigBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigBrain.h; sourceTree = "<group>"; };
 		D498333915448CD70082F508 /* BigBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigBrain.m; sourceTree = "<group>"; };
@@ -912,6 +916,7 @@
 		D498181D15BF570C00CA4A69 /* 7I Energy Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D435699F15C045CC00882905 /* BurningFuels3-cut.png */,
 				D498181E15BF573100CA4A69 /* Non Renewable 3 */,
 			);
 			name = "7I Energy Resources";
@@ -920,7 +925,8 @@
 		D498181E15BF573100CA4A69 /* Non Renewable 3 */ = {
 			isa = PBXGroup;
 			children = (
-				D498181F15BF5A1B00CA4A69 /* NonRenewable3.png */,
+				D435699715C03A4200882905 /* NonRenewable3.png */,
+				D435699315C03A1F00882905 /* NonRenewable3-2.png */,
 				D498181A15BF570700CA4A69 /* NonRenewableThreeViewController.h */,
 				D498181B15BF570700CA4A69 /* NonRenewableThreeViewController.m */,
 			);
@@ -1384,7 +1390,9 @@
 				D492870D15BB64CD00D52C17 /* Solutions3.png in Resources */,
 				D498180D15BF153100CA4A69 /* SeparatingOne3.png in Resources */,
 				D498181315BF44D000CA4A69 /* SeparatingTwo3.png in Resources */,
-				D498182015BF5A1B00CA4A69 /* NonRenewable3.png in Resources */,
+				D435699415C03A1F00882905 /* NonRenewable3-2.png in Resources */,
+				D435699815C03A4200882905 /* NonRenewable3.png in Resources */,
+				D43569A015C045CC00882905 /* BurningFuels3-cut.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
