@@ -53,6 +53,8 @@
 		D435699415C03A1F00882905 /* NonRenewable3-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D435699315C03A1F00882905 /* NonRenewable3-2.png */; };
 		D435699815C03A4200882905 /* NonRenewable3.png in Resources */ = {isa = PBXBuildFile; fileRef = D435699715C03A4200882905 /* NonRenewable3.png */; };
 		D43569A015C045CC00882905 /* BurningFuels3-cut.png in Resources */ = {isa = PBXBuildFile; fileRef = D435699F15C045CC00882905 /* BurningFuels3-cut.png */; };
+		D43D774D15C1AA1A0025CE3C /* Renewable3.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D774C15C1AA1A0025CE3C /* Renewable3.png */; };
+		D43D775215C1AA3F0025CE3C /* RenewableThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D775115C1AA3F0025CE3C /* RenewableThreeViewController.m */; };
 		D43EE8811545B2AE004D608D /* CellsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EE8801545B2AD004D608D /* CellsModel.m */; };
 		D44270A915B4BA3E006E87E6 /* Air.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270A815B4BA3E006E87E6 /* Air.png */; };
 		D44270AC15B4BE7C006E87E6 /* Milk.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270AB15B4BE7C006E87E6 /* Milk.png */; };
@@ -233,6 +235,9 @@
 		D435699315C03A1F00882905 /* NonRenewable3-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NonRenewable3-2.png"; sourceTree = "<group>"; };
 		D435699715C03A4200882905 /* NonRenewable3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NonRenewable3.png; sourceTree = "<group>"; };
 		D435699F15C045CC00882905 /* BurningFuels3-cut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BurningFuels3-cut.png"; sourceTree = "<group>"; };
+		D43D774C15C1AA1A0025CE3C /* Renewable3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Renewable3.png; sourceTree = "<group>"; };
+		D43D775015C1AA3F0025CE3C /* RenewableThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenewableThreeViewController.h; sourceTree = "<group>"; };
+		D43D775115C1AA3F0025CE3C /* RenewableThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenewableThreeViewController.m; sourceTree = "<group>"; };
 		D43EE87F1545B2AD004D608D /* CellsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsModel.h; sourceTree = "<group>"; };
 		D43EE8801545B2AD004D608D /* CellsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsModel.m; sourceTree = "<group>"; };
 		D44270A815B4BA3E006E87E6 /* Air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Air.png; sourceTree = "<group>"; };
@@ -601,6 +606,16 @@
 			name = "Microscopes 6";
 			sourceTree = "<group>";
 		};
+		D43D774F15C1AA230025CE3C /* Renewable 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D43D774C15C1AA1A0025CE3C /* Renewable3.png */,
+				D43D775015C1AA3F0025CE3C /* RenewableThreeViewController.h */,
+				D43D775115C1AA3F0025CE3C /* RenewableThreeViewController.m */,
+			);
+			name = "Renewable 3";
+			sourceTree = "<group>";
+		};
 		D4469EEC15B2B616003B4D40 /* Fuels 3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -931,6 +946,7 @@
 			children = (
 				D498181E15BF573100CA4A69 /* Non Renewable 3 */,
 				D44C29A015C0AA94004FEBE0 /* Burning Fuels 3 */,
+				D43D774F15C1AA230025CE3C /* Renewable 3 */,
 			);
 			name = "7I Energy Resources";
 			sourceTree = "<group>";
@@ -1406,6 +1422,7 @@
 				D435699415C03A1F00882905 /* NonRenewable3-2.png in Resources */,
 				D435699815C03A4200882905 /* NonRenewable3.png in Resources */,
 				D43569A015C045CC00882905 /* BurningFuels3-cut.png in Resources */,
+				D43D774D15C1AA1A0025CE3C /* Renewable3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1486,6 +1503,7 @@
 				D498181715BF478900CA4A69 /* SeparatingTwoThreeViewController.m in Sources */,
 				D498181C15BF570700CA4A69 /* NonRenewableThreeViewController.m in Sources */,
 				D44C29A415C0AAAF004FEBE0 /* BurningFuelsThreeViewController.m in Sources */,
+				D43D775215C1AA3F0025CE3C /* RenewableThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2967,6 +2967,168 @@
             </objects>
             <point key="canvasLocation" x="5631" y="29626"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="T1B-At-fyI">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DqQ-ea-g2g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Renewable3" id="hkH-Yh-1Kc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xZ4-YR-ccp">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Renewable3.png" id="f6Y-eE-L3J">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Ih-8R-1Jt">
+                                <rect key="frame" x="555" y="769" width="172" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Test yourself!">
+                                    <color key="titleColor" red="0.0" green="0.99215692280000001" blue="0.039215687659999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ehg-eG-JB4" kind="push" id="udB-lE-y5K"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You need to know some common sources of renewable energy.  Test yourself when you think you know them!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="BiB-iZ-jdz">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.050980396570000003" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="4810" y="30766"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8vE-Oh-0LW">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nfs-zc-Q7u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="GaQ-UA-wLE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IWy-dD-aJX">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="4818" y="33030"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5p9-Qc-6a3">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Puu-7W-aL6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="IsL-cg-hs4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KlD-AF-2BR">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5650" y="33030"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1wV-kP-nTz">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ej6-SL-v8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="AgE-cW-ozb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0iI-YJ-FvL">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="4818" y="31894"/>
+        </scene>
+        <!--Renewable Three View Controller-->
+        <scene sceneID="zBP-73-gmR">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RWD-DD-uS1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Ehg-eG-JB4" customClass="RenewableThreeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xA0-Re-m7s">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="87Q-Uq-GkI">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.77647066116333008" green="0.74901962280273438" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="ChI-my-6h1">
+                                <rect key="frame" x="40" y="89" width="250" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="q8X-L0-lrZ">
+                                <rect key="frame" x="40" y="367" width="250" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="UP3-Au-VU8">
+                                <rect key="frame" x="40" y="645" width="250" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="f4Q-UT-O3W">
+                                <rect key="frame" x="491" y="208" width="100" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0039215688589999999" green="0.95294123890000004" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Ehg-eG-JB4" id="WrA-m6-hd8"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="mj6-jZ-pep">
+                                <rect key="frame" x="486" y="498" width="100" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0039215688589999999" green="0.95294123890000004" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Ehg-eG-JB4" id="vXM-j5-cwe"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="dld-OJ-dRE">
+                                <rect key="frame" x="478" y="795" width="100" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0039215688589999999" green="0.95294123890000004" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Ehg-eG-JB4" id="B77-96-XSu"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Oq4-9O-j14"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5642" y="30774"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vH4-AQ-e3g">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ap-8n-pIZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="hnq-Pg-7yZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YAZ-na-BpQ">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5642" y="31894"/>
+        </scene>
         <!--Non Renewable Three View Controller-->
         <scene sceneID="XYw-CB-462">
             <objects>
@@ -6489,6 +6651,7 @@
         <image name="PlantCellCellWall.png" width="200" height="200"/>
         <image name="PlantCellChloroplast.png" width="200" height="200"/>
         <image name="PlantCellVacuole.png" width="200" height="200"/>
+        <image name="Renewable3.png" width="768" height="1004"/>
         <image name="Ruler.png" width="420" height="80"/>
         <image name="SeparatingOne3.png" width="1600" height="2092"/>
         <image name="SeparatingTwo3.png" width="1600" height="2092"/>
@@ -6646,7 +6809,6 @@
         <class className="CombustionThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CombustionThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="revealAnswer:"/>
                 <relationship kind="outlet" name="answerLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
@@ -6680,7 +6842,6 @@
         <class className="FuelsThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FuelsThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="checkAnswers:" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="co2" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="co2Tick" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="energy" candidateClass="UITextField"/>
@@ -6773,7 +6934,6 @@
         <class className="LifeCycleViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LifeCycleViewController.h"/>
             <relationships>
-                <relationship kind="action" name="hideAndShow:"/>
                 <relationship kind="outlet" name="adolescence" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="adulthood" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="birth" candidateClass="UILabel"/>
@@ -6812,8 +6972,6 @@
         <class className="MatterThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MatterThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="checkAnswers:" candidateClass="UIButton"/>
-                <relationship kind="action" name="labelColour:"/>
                 <relationship kind="outlet" name="Gas" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="Liquid" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="Solid" candidateClass="UIButton"/>
@@ -6850,7 +7008,6 @@
         <class className="NeutralisationThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NeutralisationThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="answerChecker:" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="neutral" candidateClass="UITextField"/>
             </relationships>
         </class>
@@ -6889,6 +7046,9 @@
                 <relationship kind="outlet" name="venus" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="venusTick" candidateClass="UIImageView"/>
             </relationships>
+        </class>
+        <class className="RenewableThreeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RenewableThreeViewController.h"/>
         </class>
         <class className="ReproThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ReproThreeViewController.h"/>
@@ -6951,11 +7111,6 @@
         </class>
         <class className="TextfieldCheckerViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TextfieldCheckerViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="buttonClear::" candidateClass="UITextField"/>
-                <relationship kind="action" name="checkAnswers:" candidateClass="UITextField"/>
-                <relationship kind="action" name="secondSaveUserEntries:" candidateClass="UITextField"/>
-            </relationships>
         </class>
         <class className="TypesThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TypesThreeViewController.h"/>
