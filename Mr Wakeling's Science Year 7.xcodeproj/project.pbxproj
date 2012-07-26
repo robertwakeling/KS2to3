@@ -58,6 +58,8 @@
 		D43D775415C1EB920025CE3C /* Solar.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775315C1EB920025CE3C /* Solar.png */; };
 		D43D775715C1EBA50025CE3C /* Tidal.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775515C1EBA50025CE3C /* Tidal.png */; };
 		D43D775815C1EBA50025CE3C /* Wind.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775615C1EBA50025CE3C /* Wind.png */; };
+		D43D775A15C1F9A90025CE3C /* ChemicalEnergy3.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775915C1F9A90025CE3C /* ChemicalEnergy3.png */; };
+		D43D775E15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D775D15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m */; };
 		D43EE8811545B2AE004D608D /* CellsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EE8801545B2AD004D608D /* CellsModel.m */; };
 		D44270A915B4BA3E006E87E6 /* Air.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270A815B4BA3E006E87E6 /* Air.png */; };
 		D44270AC15B4BE7C006E87E6 /* Milk.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270AB15B4BE7C006E87E6 /* Milk.png */; };
@@ -244,6 +246,9 @@
 		D43D775315C1EB920025CE3C /* Solar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Solar.png; sourceTree = "<group>"; };
 		D43D775515C1EBA50025CE3C /* Tidal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tidal.png; sourceTree = "<group>"; };
 		D43D775615C1EBA50025CE3C /* Wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wind.png; sourceTree = "<group>"; };
+		D43D775915C1F9A90025CE3C /* ChemicalEnergy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChemicalEnergy3.png; sourceTree = "<group>"; };
+		D43D775C15C1FC040025CE3C /* ChemicalEnergyThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemicalEnergyThreeViewController.h; sourceTree = "<group>"; };
+		D43D775D15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChemicalEnergyThreeViewController.m; sourceTree = "<group>"; };
 		D43EE87F1545B2AD004D608D /* CellsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsModel.h; sourceTree = "<group>"; };
 		D43EE8801545B2AD004D608D /* CellsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsModel.m; sourceTree = "<group>"; };
 		D44270A815B4BA3E006E87E6 /* Air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Air.png; sourceTree = "<group>"; };
@@ -625,6 +630,16 @@
 			name = "Renewable 3";
 			sourceTree = "<group>";
 		};
+		D43D775B15C1F9AD0025CE3C /* Chemical Energy 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D43D775915C1F9A90025CE3C /* ChemicalEnergy3.png */,
+				D43D775C15C1FC040025CE3C /* ChemicalEnergyThreeViewController.h */,
+				D43D775D15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m */,
+			);
+			name = "Chemical Energy 3";
+			sourceTree = "<group>";
+		};
 		D4469EEC15B2B616003B4D40 /* Fuels 3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -956,6 +971,7 @@
 				D498181E15BF573100CA4A69 /* Non Renewable 3 */,
 				D44C29A015C0AA94004FEBE0 /* Burning Fuels 3 */,
 				D43D774F15C1AA230025CE3C /* Renewable 3 */,
+				D43D775B15C1F9AD0025CE3C /* Chemical Energy 3 */,
 			);
 			name = "7I Energy Resources";
 			sourceTree = "<group>";
@@ -1435,6 +1451,7 @@
 				D43D775415C1EB920025CE3C /* Solar.png in Resources */,
 				D43D775715C1EBA50025CE3C /* Tidal.png in Resources */,
 				D43D775815C1EBA50025CE3C /* Wind.png in Resources */,
+				D43D775A15C1F9A90025CE3C /* ChemicalEnergy3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1516,6 +1533,7 @@
 				D498181C15BF570700CA4A69 /* NonRenewableThreeViewController.m in Sources */,
 				D44C29A415C0AAAF004FEBE0 /* BurningFuelsThreeViewController.m in Sources */,
 				D43D775215C1AA3F0025CE3C /* RenewableThreeViewController.m in Sources */,
+				D43D775E15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
