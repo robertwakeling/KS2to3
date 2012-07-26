@@ -3065,52 +3065,96 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.77647066116333008" green="0.74901962280273438" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="ChI-my-6h1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Solar.png" id="ChI-my-6h1">
                                 <rect key="frame" x="40" y="89" width="250" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="q8X-L0-lrZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Wind.png" id="q8X-L0-lrZ">
                                 <rect key="frame" x="40" y="367" width="250" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="UP3-Au-VU8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Tidal.png" id="UP3-Au-VU8">
                                 <rect key="frame" x="40" y="645" width="250" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="f4Q-UT-O3W">
-                                <rect key="frame" x="491" y="208" width="100" height="31"/>
+                                <rect key="frame" x="490" y="208" width="100" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.0039215688589999999" green="0.95294123890000004" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.054901964962482452" green="0.0" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="checkAnswers" destination="Ehg-eG-JB4" eventType="editingDidEnd" id="5rx-hI-UWQ"/>
                                     <outlet property="delegate" destination="Ehg-eG-JB4" id="WrA-m6-hd8"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="mj6-jZ-pep">
-                                <rect key="frame" x="486" y="498" width="100" height="31"/>
+                                <rect key="frame" x="485" y="497" width="100" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.0039215688589999999" green="0.95294123890000004" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.054901964962482452" green="0.0" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="checkAnswers" destination="Ehg-eG-JB4" eventType="editingDidEnd" id="hv9-lY-nvR"/>
                                     <outlet property="delegate" destination="Ehg-eG-JB4" id="vXM-j5-cwe"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="dld-OJ-dRE">
-                                <rect key="frame" x="478" y="795" width="100" height="31"/>
+                                <rect key="frame" x="478" y="794" width="100" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.0039215688589999999" green="0.95294123890000004" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.054901964962482452" green="0.0" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="checkAnswers" destination="Ehg-eG-JB4" eventType="editingDidEnd" id="hnL-7r-eQb"/>
                                     <outlet property="delegate" destination="Ehg-eG-JB4" id="B77-96-XSu"/>
                                 </connections>
                             </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tap in the text fields to name the sources of renewable energy." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ele-y4-OxR">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <color key="textColor" red="0.015686275437474251" green="0.011764707043766975" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This is" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="fl1-Qz-eVa">
+                                <rect key="frame" x="377" y="208" width="106" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <color key="textColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This is" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="UJn-6c-cMD">
+                                <rect key="frame" x="377" y="497" width="106" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <color key="textColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This is" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="hLn-ZN-52i">
+                                <rect key="frame" x="377" y="795" width="106" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <color key="textColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="0eG-vh-IUt">
+                                <rect key="frame" x="366" y="83" width="129" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.015686275440000001" green="0.011764707040000001" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Oq4-9O-j14"/>
+                    <connections>
+                        <outlet property="scoreLabel" destination="0eG-vh-IUt" id="RDB-LD-Zej"/>
+                        <outlet property="solar" destination="f4Q-UT-O3W" id="6EZ-2r-ZhJ"/>
+                        <outlet property="tidal" destination="dld-OJ-dRE" id="qwL-fG-h5N"/>
+                        <outlet property="wind" destination="mj6-jZ-pep" id="fGd-uE-qED"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="5642" y="30774"/>
@@ -6655,13 +6699,16 @@
         <image name="Ruler.png" width="420" height="80"/>
         <image name="SeparatingOne3.png" width="1600" height="2092"/>
         <image name="SeparatingTwo3.png" width="1600" height="2092"/>
+        <image name="Solar.png" width="162" height="255"/>
         <image name="Solutions3.png" width="1600" height="2092"/>
         <image name="Specialised3.png" width="352" height="622"/>
         <image name="Tick.png" width="54" height="50"/>
+        <image name="Tidal.png" width="244" height="160"/>
         <image name="Types3-02.png" width="596" height="842"/>
         <image name="VariationCauses3.png" width="602" height="759"/>
         <image name="VariationTypes3-1.png" width="1505" height="1755"/>
         <image name="Webs3.png" width="493" height="569"/>
+        <image name="Wind.png" width="162" height="263"/>
         <image name="_Repro3.png" width="992" height="1121"/>
     </resources>
     <classes>
@@ -7049,6 +7096,12 @@
         </class>
         <class className="RenewableThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/RenewableThreeViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="solar" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tidal" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="wind" candidateClass="UITextField"/>
+            </relationships>
         </class>
         <class className="ReproThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ReproThreeViewController.h"/>

@@ -55,6 +55,9 @@
 		D43569A015C045CC00882905 /* BurningFuels3-cut.png in Resources */ = {isa = PBXBuildFile; fileRef = D435699F15C045CC00882905 /* BurningFuels3-cut.png */; };
 		D43D774D15C1AA1A0025CE3C /* Renewable3.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D774C15C1AA1A0025CE3C /* Renewable3.png */; };
 		D43D775215C1AA3F0025CE3C /* RenewableThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D775115C1AA3F0025CE3C /* RenewableThreeViewController.m */; };
+		D43D775415C1EB920025CE3C /* Solar.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775315C1EB920025CE3C /* Solar.png */; };
+		D43D775715C1EBA50025CE3C /* Tidal.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775515C1EBA50025CE3C /* Tidal.png */; };
+		D43D775815C1EBA50025CE3C /* Wind.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775615C1EBA50025CE3C /* Wind.png */; };
 		D43EE8811545B2AE004D608D /* CellsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EE8801545B2AD004D608D /* CellsModel.m */; };
 		D44270A915B4BA3E006E87E6 /* Air.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270A815B4BA3E006E87E6 /* Air.png */; };
 		D44270AC15B4BE7C006E87E6 /* Milk.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270AB15B4BE7C006E87E6 /* Milk.png */; };
@@ -238,6 +241,9 @@
 		D43D774C15C1AA1A0025CE3C /* Renewable3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Renewable3.png; sourceTree = "<group>"; };
 		D43D775015C1AA3F0025CE3C /* RenewableThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenewableThreeViewController.h; sourceTree = "<group>"; };
 		D43D775115C1AA3F0025CE3C /* RenewableThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenewableThreeViewController.m; sourceTree = "<group>"; };
+		D43D775315C1EB920025CE3C /* Solar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Solar.png; sourceTree = "<group>"; };
+		D43D775515C1EBA50025CE3C /* Tidal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tidal.png; sourceTree = "<group>"; };
+		D43D775615C1EBA50025CE3C /* Wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wind.png; sourceTree = "<group>"; };
 		D43EE87F1545B2AD004D608D /* CellsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsModel.h; sourceTree = "<group>"; };
 		D43EE8801545B2AD004D608D /* CellsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsModel.m; sourceTree = "<group>"; };
 		D44270A815B4BA3E006E87E6 /* Air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Air.png; sourceTree = "<group>"; };
@@ -610,6 +616,9 @@
 			isa = PBXGroup;
 			children = (
 				D43D774C15C1AA1A0025CE3C /* Renewable3.png */,
+				D43D775315C1EB920025CE3C /* Solar.png */,
+				D43D775515C1EBA50025CE3C /* Tidal.png */,
+				D43D775615C1EBA50025CE3C /* Wind.png */,
 				D43D775015C1AA3F0025CE3C /* RenewableThreeViewController.h */,
 				D43D775115C1AA3F0025CE3C /* RenewableThreeViewController.m */,
 			);
@@ -1423,6 +1432,9 @@
 				D435699815C03A4200882905 /* NonRenewable3.png in Resources */,
 				D43569A015C045CC00882905 /* BurningFuels3-cut.png in Resources */,
 				D43D774D15C1AA1A0025CE3C /* Renewable3.png in Resources */,
+				D43D775415C1EB920025CE3C /* Solar.png in Resources */,
+				D43D775715C1EBA50025CE3C /* Tidal.png in Resources */,
+				D43D775815C1EBA50025CE3C /* Wind.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
