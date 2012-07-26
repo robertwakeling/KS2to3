@@ -60,6 +60,7 @@
 		D43D775815C1EBA50025CE3C /* Wind.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775615C1EBA50025CE3C /* Wind.png */; };
 		D43D775A15C1F9A90025CE3C /* ChemicalEnergy3.png in Resources */ = {isa = PBXBuildFile; fileRef = D43D775915C1F9A90025CE3C /* ChemicalEnergy3.png */; };
 		D43D775E15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D775D15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m */; };
+		D43D776215C2092F0025CE3C /* AdaptationThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D776115C2092F0025CE3C /* AdaptationThreeViewController.m */; };
 		D43EE8811545B2AE004D608D /* CellsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EE8801545B2AD004D608D /* CellsModel.m */; };
 		D44270A915B4BA3E006E87E6 /* Air.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270A815B4BA3E006E87E6 /* Air.png */; };
 		D44270AC15B4BE7C006E87E6 /* Milk.png in Resources */ = {isa = PBXBuildFile; fileRef = D44270AB15B4BE7C006E87E6 /* Milk.png */; };
@@ -249,6 +250,8 @@
 		D43D775915C1F9A90025CE3C /* ChemicalEnergy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChemicalEnergy3.png; sourceTree = "<group>"; };
 		D43D775C15C1FC040025CE3C /* ChemicalEnergyThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemicalEnergyThreeViewController.h; sourceTree = "<group>"; };
 		D43D775D15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChemicalEnergyThreeViewController.m; sourceTree = "<group>"; };
+		D43D776015C2092F0025CE3C /* AdaptationThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptationThreeViewController.h; sourceTree = "<group>"; };
+		D43D776115C2092F0025CE3C /* AdaptationThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptationThreeViewController.m; sourceTree = "<group>"; };
 		D43EE87F1545B2AD004D608D /* CellsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsModel.h; sourceTree = "<group>"; };
 		D43EE8801545B2AD004D608D /* CellsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsModel.m; sourceTree = "<group>"; };
 		D44270A815B4BA3E006E87E6 /* Air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Air.png; sourceTree = "<group>"; };
@@ -640,6 +643,15 @@
 			name = "Chemical Energy 3";
 			sourceTree = "<group>";
 		};
+		D43D775F15C209180025CE3C /* Adaptation3 */ = {
+			isa = PBXGroup;
+			children = (
+				D43D776015C2092F0025CE3C /* AdaptationThreeViewController.h */,
+				D43D776115C2092F0025CE3C /* AdaptationThreeViewController.m */,
+			);
+			name = Adaptation3;
+			sourceTree = "<group>";
+		};
 		D4469EEC15B2B616003B4D40 /* Fuels 3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1002,6 +1014,7 @@
 			isa = PBXGroup;
 			children = (
 				D49AA7621592778F002A7D7A /* Habitats 3 */,
+				D43D775F15C209180025CE3C /* Adaptation3 */,
 				D406FE061598E1CF00410D39 /* Chains 3 */,
 				D406FE0F1598E8E500410D39 /* Webs 3 */,
 			);
@@ -1534,6 +1547,7 @@
 				D44C29A415C0AAAF004FEBE0 /* BurningFuelsThreeViewController.m in Sources */,
 				D43D775215C1AA3F0025CE3C /* RenewableThreeViewController.m in Sources */,
 				D43D775E15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m in Sources */,
+				D43D776215C2092F0025CE3C /* AdaptationThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
