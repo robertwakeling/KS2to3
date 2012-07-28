@@ -13,6 +13,12 @@
 		D4014F811583C7D5001BBACF /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4014F801583C7D5001BBACF /* Keys.plist */; };
 		D4014F851583D434001BBACF /* Tester.m in Sources */ = {isa = PBXBuildFile; fileRef = D4014F841583D434001BBACF /* Tester.m */; };
 		D40645FF15C4503D00BE07DE /* Adaptation3.png in Resources */ = {isa = PBXBuildFile; fileRef = D40645FE15C4503D00BE07DE /* Adaptation3.png */; };
+		D406460215C47F9F00BE07DE /* Circuits3.png in Resources */ = {isa = PBXBuildFile; fileRef = D406460115C47F9F00BE07DE /* Circuits3.png */; };
+		D406460D15C48F9700BE07DE /* CircuitsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D406460C15C48F9700BE07DE /* CircuitsThreeViewController.m */; };
+		D406460F15C4939B00BE07DE /* Circuits3-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D406460E15C4939B00BE07DE /* Circuits3-1.png */; };
+		D406461115C496FD00BE07DE /* Circuits3 - Bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = D406461015C496FD00BE07DE /* Circuits3 - Bulb.png */; };
+		D406461315C4975900BE07DE /* Circuits3 - Cell.png in Resources */ = {isa = PBXBuildFile; fileRef = D406461215C4975900BE07DE /* Circuits3 - Cell.png */; };
+		D406461715C4980800BE07DE /* Circuits 3 - Switch.png in Resources */ = {isa = PBXBuildFile; fileRef = D406461615C4980800BE07DE /* Circuits 3 - Switch.png */; };
 		D406D42415A3959A00F27C79 /* AcidsThreeTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D406D42315A3959A00F27C79 /* AcidsThreeTesterViewController.m */; };
 		D406D42915A39D8500F27C79 /* AcidsThreeTester.plist in Resources */ = {isa = PBXBuildFile; fileRef = D406D42815A39D8500F27C79 /* AcidsThreeTester.plist */; };
 		D406FDFC1598AEED00410D39 /* Cycle3.png in Resources */ = {isa = PBXBuildFile; fileRef = D406FDFB1598AEED00410D39 /* Cycle3.png */; };
@@ -189,6 +195,13 @@
 		D4014F831583D434001BBACF /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
 		D4014F841583D434001BBACF /* Tester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tester.m; sourceTree = "<group>"; };
 		D40645FE15C4503D00BE07DE /* Adaptation3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adaptation3.png; sourceTree = "<group>"; };
+		D406460115C47F9F00BE07DE /* Circuits3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circuits3.png; sourceTree = "<group>"; };
+		D406460B15C48F9700BE07DE /* CircuitsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircuitsThreeViewController.h; sourceTree = "<group>"; };
+		D406460C15C48F9700BE07DE /* CircuitsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircuitsThreeViewController.m; sourceTree = "<group>"; };
+		D406460E15C4939B00BE07DE /* Circuits3-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circuits3-1.png"; sourceTree = "<group>"; };
+		D406461015C496FD00BE07DE /* Circuits3 - Bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circuits3 - Bulb.png"; sourceTree = "<group>"; };
+		D406461215C4975900BE07DE /* Circuits3 - Cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circuits3 - Cell.png"; sourceTree = "<group>"; };
+		D406461615C4980800BE07DE /* Circuits 3 - Switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circuits 3 - Switch.png"; sourceTree = "<group>"; };
 		D406D42215A3959A00F27C79 /* AcidsThreeTesterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidsThreeTesterViewController.h; sourceTree = "<group>"; };
 		D406D42315A3959A00F27C79 /* AcidsThreeTesterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidsThreeTesterViewController.m; sourceTree = "<group>"; };
 		D406D42815A39D8500F27C79 /* AcidsThreeTester.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AcidsThreeTester.plist; sourceTree = "<group>"; };
@@ -446,6 +459,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D406460315C47FA300BE07DE /* 7J Electrical Circuits */ = {
+			isa = PBXGroup;
+			children = (
+				D406460415C47FC200BE07DE /* Circuits 3 */,
+			);
+			name = "7J Electrical Circuits";
+			sourceTree = "<group>";
+		};
+		D406460415C47FC200BE07DE /* Circuits 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D406460115C47F9F00BE07DE /* Circuits3.png */,
+				D406460B15C48F9700BE07DE /* CircuitsThreeViewController.h */,
+				D406460C15C48F9700BE07DE /* CircuitsThreeViewController.m */,
+				D406460E15C4939B00BE07DE /* Circuits3-1.png */,
+				D406461015C496FD00BE07DE /* Circuits3 - Bulb.png */,
+				D406461215C4975900BE07DE /* Circuits3 - Cell.png */,
+				D406461615C4980800BE07DE /* Circuits 3 - Switch.png */,
+			);
+			name = "Circuits 3";
+			sourceTree = "<group>";
+		};
 		D406D42615A395A100F27C79 /* Assessment */ = {
 			isa = PBXGroup;
 			children = (
@@ -1085,6 +1120,7 @@
 				D4469EEF15B360C1003B4D40 /* 7G Particle Model */,
 				D492870715BB58AA00D52C17 /* 7H Solutions */,
 				D498181D15BF570C00CA4A69 /* 7I Energy Resources */,
+				D406460315C47FA300BE07DE /* 7J Electrical Circuits */,
 				D46E6A2C154CBB8500469046 /* 7L Solar System */,
 				D4CCD47C1524CC62004F1263 /* Basic Controllers */,
 				D45B3B3C154382F70077F110 /* Basic Models */,
@@ -1469,6 +1505,11 @@
 				D43D775815C1EBA50025CE3C /* Wind.png in Resources */,
 				D43D775A15C1F9A90025CE3C /* ChemicalEnergy3.png in Resources */,
 				D40645FF15C4503D00BE07DE /* Adaptation3.png in Resources */,
+				D406460215C47F9F00BE07DE /* Circuits3.png in Resources */,
+				D406460F15C4939B00BE07DE /* Circuits3-1.png in Resources */,
+				D406461115C496FD00BE07DE /* Circuits3 - Bulb.png in Resources */,
+				D406461315C4975900BE07DE /* Circuits3 - Cell.png in Resources */,
+				D406461715C4980800BE07DE /* Circuits 3 - Switch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1552,6 +1593,7 @@
 				D43D775215C1AA3F0025CE3C /* RenewableThreeViewController.m in Sources */,
 				D43D775E15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m in Sources */,
 				D43D776215C2092F0025CE3C /* AdaptationThreeViewController.m in Sources */,
+				D406460D15C48F9700BE07DE /* CircuitsThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
