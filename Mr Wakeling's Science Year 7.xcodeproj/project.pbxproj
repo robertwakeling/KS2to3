@@ -12,6 +12,7 @@
 		35CCFEA5154D7B91008D8046 /* Planet plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35CCFEA4154D7B91008D8046 /* Planet plist.plist */; };
 		D4014F811583C7D5001BBACF /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4014F801583C7D5001BBACF /* Keys.plist */; };
 		D4014F851583D434001BBACF /* Tester.m in Sources */ = {isa = PBXBuildFile; fileRef = D4014F841583D434001BBACF /* Tester.m */; };
+		D40645FF15C4503D00BE07DE /* Adaptation3.png in Resources */ = {isa = PBXBuildFile; fileRef = D40645FE15C4503D00BE07DE /* Adaptation3.png */; };
 		D406D42415A3959A00F27C79 /* AcidsThreeTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D406D42315A3959A00F27C79 /* AcidsThreeTesterViewController.m */; };
 		D406D42915A39D8500F27C79 /* AcidsThreeTester.plist in Resources */ = {isa = PBXBuildFile; fileRef = D406D42815A39D8500F27C79 /* AcidsThreeTester.plist */; };
 		D406FDFC1598AEED00410D39 /* Cycle3.png in Resources */ = {isa = PBXBuildFile; fileRef = D406FDFB1598AEED00410D39 /* Cycle3.png */; };
@@ -187,6 +188,7 @@
 		D4014F801583C7D5001BBACF /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		D4014F831583D434001BBACF /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
 		D4014F841583D434001BBACF /* Tester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tester.m; sourceTree = "<group>"; };
+		D40645FE15C4503D00BE07DE /* Adaptation3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Adaptation3.png; sourceTree = "<group>"; };
 		D406D42215A3959A00F27C79 /* AcidsThreeTesterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidsThreeTesterViewController.h; sourceTree = "<group>"; };
 		D406D42315A3959A00F27C79 /* AcidsThreeTesterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidsThreeTesterViewController.m; sourceTree = "<group>"; };
 		D406D42815A39D8500F27C79 /* AcidsThreeTester.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AcidsThreeTester.plist; sourceTree = "<group>"; };
@@ -646,6 +648,7 @@
 		D43D775F15C209180025CE3C /* Adaptation3 */ = {
 			isa = PBXGroup;
 			children = (
+				D40645FE15C4503D00BE07DE /* Adaptation3.png */,
 				D43D776015C2092F0025CE3C /* AdaptationThreeViewController.h */,
 				D43D776115C2092F0025CE3C /* AdaptationThreeViewController.m */,
 			);
@@ -1465,6 +1468,7 @@
 				D43D775715C1EBA50025CE3C /* Tidal.png in Resources */,
 				D43D775815C1EBA50025CE3C /* Wind.png in Resources */,
 				D43D775A15C1F9A90025CE3C /* ChemicalEnergy3.png in Resources */,
+				D40645FF15C4503D00BE07DE /* Adaptation3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

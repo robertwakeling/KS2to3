@@ -13,7 +13,16 @@
 {
     int theScore;
     
-    NSArray *textfieldThatNeedsMoving;
 }
+
+@property (weak, nonatomic) IBOutlet UITextField *light;
+@property (weak, nonatomic) IBOutlet UITextField *temperature;
+
+@property (weak, nonatomic) IBOutlet UITextField *spring;
+@property (weak, nonatomic) IBOutlet UITextField *summer;
+@property (weak, nonatomic) IBOutlet UITextField *autumn;
+@property (weak, nonatomic) IBOutlet UITextField *winter;
+
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 
 @end
