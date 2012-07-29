@@ -182,6 +182,8 @@
 		D4D2225715C5DF3100F4838E /* SeriesParallel3 - Parallel5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225215C5DF3000F4838E /* SeriesParallel3 - Parallel5.png */; };
 		D4D2225815C5DF3100F4838E /* SeriesParallel3 - Series1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225315C5DF3000F4838E /* SeriesParallel3 - Series1.png */; };
 		D4D2225915C5DF3100F4838E /* SeriesParallel3 - Series3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225415C5DF3100F4838E /* SeriesParallel3 - Series3.png */; };
+		D4D2225C15C5EB9800F4838E /* Current3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225B15C5EB9800F4838E /* Current3.png */; };
+		D4D2226015C5EDAA00F4838E /* CurrentThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D2225F15C5EDAA00F4838E /* CurrentThreeViewController.m */; };
 		D4DB985A15910BF400A60F23 /* Specialised3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DB985915910BF400A60F23 /* Specialised3.png */; };
 		D4DB985E15912EDA00A60F23 /* SpecialisedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */; };
 		D4E5711F153F14B800BE6D65 /* units.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E5711E153F14B800BE6D65 /* units.m */; };
@@ -445,6 +447,9 @@
 		D4D2225215C5DF3000F4838E /* SeriesParallel3 - Parallel5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeriesParallel3 - Parallel5.png"; sourceTree = "<group>"; };
 		D4D2225315C5DF3000F4838E /* SeriesParallel3 - Series1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeriesParallel3 - Series1.png"; sourceTree = "<group>"; };
 		D4D2225415C5DF3100F4838E /* SeriesParallel3 - Series3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeriesParallel3 - Series3.png"; sourceTree = "<group>"; };
+		D4D2225B15C5EB9800F4838E /* Current3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Current3.png; sourceTree = "<group>"; };
+		D4D2225E15C5EDA900F4838E /* CurrentThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentThreeViewController.h; sourceTree = "<group>"; };
+		D4D2225F15C5EDAA00F4838E /* CurrentThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentThreeViewController.m; sourceTree = "<group>"; };
 		D4DB985915910BF400A60F23 /* Specialised3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Specialised3.png; sourceTree = "<group>"; };
 		D4DB985C15912EDA00A60F23 /* SpecialisedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialisedViewController.h; sourceTree = "<group>"; };
 		D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialisedViewController.m; sourceTree = "<group>"; };
@@ -481,6 +486,7 @@
 			children = (
 				D406460415C47FC200BE07DE /* Circuits 3 */,
 				D4D2224A15C5CA6400F4838E /* Series Parallel 3 */,
+				D4D2225D15C5EC1D00F4838E /* Current 3 */,
 			);
 			name = "7J Electrical Circuits";
 			sourceTree = "<group>";
@@ -1341,6 +1347,16 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		D4D2225D15C5EC1D00F4838E /* Current 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4D2225B15C5EB9800F4838E /* Current3.png */,
+				D4D2225E15C5EDA900F4838E /* CurrentThreeViewController.h */,
+				D4D2225F15C5EDAA00F4838E /* CurrentThreeViewController.m */,
+			);
+			name = "Current 3";
+			sourceTree = "<group>";
+		};
 		D4DB985B15912EBC00A60F23 /* Specialised */ = {
 			isa = PBXGroup;
 			children = (
@@ -1559,6 +1575,7 @@
 				D4D2225715C5DF3100F4838E /* SeriesParallel3 - Parallel5.png in Resources */,
 				D4D2225815C5DF3100F4838E /* SeriesParallel3 - Series1.png in Resources */,
 				D4D2225915C5DF3100F4838E /* SeriesParallel3 - Series3.png in Resources */,
+				D4D2225C15C5EB9800F4838E /* Current3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1644,6 +1661,7 @@
 				D43D776215C2092F0025CE3C /* AdaptationThreeViewController.m in Sources */,
 				D406460D15C48F9700BE07DE /* CircuitsThreeViewController.m in Sources */,
 				D4D2224D15C5CA9200F4838E /* SeriesParallelThreeViewController.m in Sources */,
+				D4D2226015C5EDAA00F4838E /* CurrentThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

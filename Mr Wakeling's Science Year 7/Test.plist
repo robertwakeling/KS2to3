@@ -1263,7 +1263,7 @@
 				<key>3</key>
 				<dict>
 					<key>Descriptor</key>
-					<string>State that current is a measure of the energy flowing in a circuit</string>
+					<string>State that current is a measure of the rate of electrons flowing in a circuit</string>
 					<key>View Controller</key>
 					<string>Current3</string>
 				</dict>
