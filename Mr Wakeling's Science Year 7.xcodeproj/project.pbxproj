@@ -174,6 +174,14 @@
 		D4CB3CE41598A2B300FDB9E2 /* Default.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CE31598A2B300FDB9E2 /* Default.m */; };
 		D4CC00191555B76A009E6DC0 /* MicroscopeThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CC00181555B76A009E6DC0 /* MicroscopeThreeViewController.m */; };
 		D4CCC78D15A2031D00CC58C6 /* AcidsThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4CCC78C15A2031D00CC58C6 /* AcidsThree.plist */; };
+		D4D2224915C5CA2B00F4838E /* SeriesParallel3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2224815C5CA2B00F4838E /* SeriesParallel3.png */; };
+		D4D2224D15C5CA9200F4838E /* SeriesParallelThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D2224C15C5CA9200F4838E /* SeriesParallelThreeViewController.m */; };
+		D4D2224F15C5CAFA00F4838E /* SeriesParallel.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4D2224E15C5CAFA00F4838E /* SeriesParallel.plist */; };
+		D4D2225515C5DF3100F4838E /* SeriesParallel3 - Parallel2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225015C5DF3000F4838E /* SeriesParallel3 - Parallel2.png */; };
+		D4D2225615C5DF3100F4838E /* SeriesParallel3 - Parallel4.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225115C5DF3000F4838E /* SeriesParallel3 - Parallel4.png */; };
+		D4D2225715C5DF3100F4838E /* SeriesParallel3 - Parallel5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225215C5DF3000F4838E /* SeriesParallel3 - Parallel5.png */; };
+		D4D2225815C5DF3100F4838E /* SeriesParallel3 - Series1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225315C5DF3000F4838E /* SeriesParallel3 - Series1.png */; };
+		D4D2225915C5DF3100F4838E /* SeriesParallel3 - Series3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225415C5DF3100F4838E /* SeriesParallel3 - Series3.png */; };
 		D4DB985A15910BF400A60F23 /* Specialised3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DB985915910BF400A60F23 /* Specialised3.png */; };
 		D4DB985E15912EDA00A60F23 /* SpecialisedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */; };
 		D4E5711F153F14B800BE6D65 /* units.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E5711E153F14B800BE6D65 /* units.m */; };
@@ -428,6 +436,15 @@
 		D4CC00171555B76A009E6DC0 /* MicroscopeThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroscopeThreeViewController.h; sourceTree = "<group>"; };
 		D4CC00181555B76A009E6DC0 /* MicroscopeThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroscopeThreeViewController.m; sourceTree = "<group>"; };
 		D4CCC78C15A2031D00CC58C6 /* AcidsThree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AcidsThree.plist; sourceTree = "<group>"; };
+		D4D2224815C5CA2B00F4838E /* SeriesParallel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeriesParallel3.png; sourceTree = "<group>"; };
+		D4D2224B15C5CA9200F4838E /* SeriesParallelThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesParallelThreeViewController.h; sourceTree = "<group>"; };
+		D4D2224C15C5CA9200F4838E /* SeriesParallelThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriesParallelThreeViewController.m; sourceTree = "<group>"; };
+		D4D2224E15C5CAFA00F4838E /* SeriesParallel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SeriesParallel.plist; sourceTree = "<group>"; };
+		D4D2225015C5DF3000F4838E /* SeriesParallel3 - Parallel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeriesParallel3 - Parallel2.png"; sourceTree = "<group>"; };
+		D4D2225115C5DF3000F4838E /* SeriesParallel3 - Parallel4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeriesParallel3 - Parallel4.png"; sourceTree = "<group>"; };
+		D4D2225215C5DF3000F4838E /* SeriesParallel3 - Parallel5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeriesParallel3 - Parallel5.png"; sourceTree = "<group>"; };
+		D4D2225315C5DF3000F4838E /* SeriesParallel3 - Series1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeriesParallel3 - Series1.png"; sourceTree = "<group>"; };
+		D4D2225415C5DF3100F4838E /* SeriesParallel3 - Series3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SeriesParallel3 - Series3.png"; sourceTree = "<group>"; };
 		D4DB985915910BF400A60F23 /* Specialised3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Specialised3.png; sourceTree = "<group>"; };
 		D4DB985C15912EDA00A60F23 /* SpecialisedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialisedViewController.h; sourceTree = "<group>"; };
 		D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialisedViewController.m; sourceTree = "<group>"; };
@@ -463,6 +480,7 @@
 			isa = PBXGroup;
 			children = (
 				D406460415C47FC200BE07DE /* Circuits 3 */,
+				D4D2224A15C5CA6400F4838E /* Series Parallel 3 */,
 			);
 			name = "7J Electrical Circuits";
 			sourceTree = "<group>";
@@ -1105,9 +1123,9 @@
 				D4A2EB1E15221DE1009BD22E /* MainStoryboard.storyboard */,
 				D406FE0A1598E26100410D39 /* DefaultLabel.h */,
 				D406FE0B1598E26100410D39 /* DefaultLabel.m */,
-				D4CB3CE21598A2B300FDB9E2 /* Default.h */,
 				D4CB3CE31598A2B300FDB9E2 /* Default.m */,
 				D406FE011598CCA300410D39 /* SaveButton.h */,
+				D4CB3CE21598A2B300FDB9E2 /* Default.h */,
 				D406FE021598CCA300410D39 /* SaveButton.m */,
 				D4CB3CD41598838000FDB9E2 /* Standards */,
 				D4ACED7D1584037600997D10 /* Overall Controllers */,
@@ -1297,6 +1315,30 @@
 				D4FB78421597C60400BBE2EB /* Growth */,
 			);
 			name = "7A Cells";
+			sourceTree = "<group>";
+		};
+		D4D2224A15C5CA6400F4838E /* Series Parallel 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4D2224815C5CA2B00F4838E /* SeriesParallel3.png */,
+				D4D2224B15C5CA9200F4838E /* SeriesParallelThreeViewController.h */,
+				D4D2224C15C5CA9200F4838E /* SeriesParallelThreeViewController.m */,
+				D4D2224E15C5CAFA00F4838E /* SeriesParallel.plist */,
+				D4D2225A15C5DF4700F4838E /* Images */,
+			);
+			name = "Series Parallel 3";
+			sourceTree = "<group>";
+		};
+		D4D2225A15C5DF4700F4838E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D4D2225015C5DF3000F4838E /* SeriesParallel3 - Parallel2.png */,
+				D4D2225115C5DF3000F4838E /* SeriesParallel3 - Parallel4.png */,
+				D4D2225215C5DF3000F4838E /* SeriesParallel3 - Parallel5.png */,
+				D4D2225315C5DF3000F4838E /* SeriesParallel3 - Series1.png */,
+				D4D2225415C5DF3100F4838E /* SeriesParallel3 - Series3.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		D4DB985B15912EBC00A60F23 /* Specialised */ = {
@@ -1510,6 +1552,13 @@
 				D406461115C496FD00BE07DE /* Circuits3 - Bulb.png in Resources */,
 				D406461315C4975900BE07DE /* Circuits3 - Cell.png in Resources */,
 				D406461715C4980800BE07DE /* Circuits 3 - Switch.png in Resources */,
+				D4D2224915C5CA2B00F4838E /* SeriesParallel3.png in Resources */,
+				D4D2224F15C5CAFA00F4838E /* SeriesParallel.plist in Resources */,
+				D4D2225515C5DF3100F4838E /* SeriesParallel3 - Parallel2.png in Resources */,
+				D4D2225615C5DF3100F4838E /* SeriesParallel3 - Parallel4.png in Resources */,
+				D4D2225715C5DF3100F4838E /* SeriesParallel3 - Parallel5.png in Resources */,
+				D4D2225815C5DF3100F4838E /* SeriesParallel3 - Series1.png in Resources */,
+				D4D2225915C5DF3100F4838E /* SeriesParallel3 - Series3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1594,6 +1643,7 @@
 				D43D775E15C1FC040025CE3C /* ChemicalEnergyThreeViewController.m in Sources */,
 				D43D776215C2092F0025CE3C /* AdaptationThreeViewController.m in Sources */,
 				D406460D15C48F9700BE07DE /* CircuitsThreeViewController.m in Sources */,
+				D4D2224D15C5CA9200F4838E /* SeriesParallelThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
