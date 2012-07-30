@@ -169,6 +169,8 @@
 		D4C27A3915C72543005AE12F /* ElectricalSafety3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C27A3815C72543005AE12F /* ElectricalSafety3.png */; };
 		D4C27A3F15C73AC8005AE12F /* Forces3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C27A3E15C73AC8005AE12F /* Forces3.png */; };
 		D4C27A4415C73E4B005AE12F /* ForcesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C27A4315C73E4B005AE12F /* ForcesThreeViewController.m */; };
+		D4C27A5015C745AC005AE12F /* Upthrust3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C27A4F15C745AC005AE12F /* Upthrust3.png */; };
+		D4C27A5415C747E4005AE12F /* UpthrustThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C27A5315C747E4005AE12F /* UpthrustThreeViewController.m */; };
 		D4CB3CCF159876F200FDB9E2 /* Growth3.3-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */; };
 		D4CB3CD2159882A400FDB9E2 /* Types3-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CD1159882A400FDB9E2 /* Types3-02.png */; };
 		D4CB3CDC1598842800FDB9E2 /* TypesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */; };
@@ -434,6 +436,9 @@
 		D4C27A3E15C73AC8005AE12F /* Forces3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Forces3.png; sourceTree = "<group>"; };
 		D4C27A4215C73E4B005AE12F /* ForcesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForcesThreeViewController.h; sourceTree = "<group>"; };
 		D4C27A4315C73E4B005AE12F /* ForcesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForcesThreeViewController.m; sourceTree = "<group>"; };
+		D4C27A4F15C745AC005AE12F /* Upthrust3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upthrust3.png; sourceTree = "<group>"; };
+		D4C27A5215C747E4005AE12F /* UpthrustThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpthrustThreeViewController.h; sourceTree = "<group>"; };
+		D4C27A5315C747E4005AE12F /* UpthrustThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpthrustThreeViewController.m; sourceTree = "<group>"; };
 		D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Growth3.3-01.png"; sourceTree = "<group>"; };
 		D4CB3CD1159882A400FDB9E2 /* Types3-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Types3-02.png"; sourceTree = "<group>"; };
 		D4CB3CDA1598842800FDB9E2 /* TypesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypesThreeViewController.h; sourceTree = "<group>"; };
@@ -1236,6 +1241,7 @@
 			isa = PBXGroup;
 			children = (
 				D4C27A4115C73E32005AE12F /* Forces 3 */,
+				D4C27A5115C747D0005AE12F /* Upthrust 3 */,
 			);
 			name = "7K Forces";
 			sourceTree = "<group>";
@@ -1248,6 +1254,16 @@
 				D4C27A4315C73E4B005AE12F /* ForcesThreeViewController.m */,
 			);
 			name = "Forces 3";
+			sourceTree = "<group>";
+		};
+		D4C27A5115C747D0005AE12F /* Upthrust 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4C27A4F15C745AC005AE12F /* Upthrust3.png */,
+				D4C27A5215C747E4005AE12F /* UpthrustThreeViewController.h */,
+				D4C27A5315C747E4005AE12F /* UpthrustThreeViewController.m */,
+			);
+			name = "Upthrust 3";
 			sourceTree = "<group>";
 		};
 		D4CB3CD31598834800FDB9E2 /* Testing Bits */ = {
@@ -1618,6 +1634,7 @@
 				D4D2225C15C5EB9800F4838E /* Current3.png in Resources */,
 				D4C27A3915C72543005AE12F /* ElectricalSafety3.png in Resources */,
 				D4C27A3F15C73AC8005AE12F /* Forces3.png in Resources */,
+				D4C27A5015C745AC005AE12F /* Upthrust3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1706,6 +1723,7 @@
 				D4D2226015C5EDAA00F4838E /* CurrentThreeViewController.m in Sources */,
 				D4D2226815C5F8AC00F4838E /* ElectricalSafetyThreeViewController.m in Sources */,
 				D4C27A4415C73E4B005AE12F /* ForcesThreeViewController.m in Sources */,
+				D4C27A5415C747E4005AE12F /* UpthrustThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
