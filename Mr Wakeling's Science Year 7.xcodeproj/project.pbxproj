@@ -166,6 +166,9 @@
 		D4B9DDBA15ACF5DC00A70D07 /* VariationTypes3-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDB915ACF5DC00A70D07 /* VariationTypes3-1.png */; };
 		D4B9DDBC15ACF8EE00A70D07 /* Combustion3-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDBB15ACF8EE00A70D07 /* Combustion3-1.png */; };
 		D4C07F3515445776003A8721 /* MicroscopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C07F3415445776003A8721 /* MicroscopeModel.m */; };
+		D4C27A3915C72543005AE12F /* ElectricalSafety3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C27A3815C72543005AE12F /* ElectricalSafety3.png */; };
+		D4C27A3F15C73AC8005AE12F /* Forces3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C27A3E15C73AC8005AE12F /* Forces3.png */; };
+		D4C27A4415C73E4B005AE12F /* ForcesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C27A4315C73E4B005AE12F /* ForcesThreeViewController.m */; };
 		D4CB3CCF159876F200FDB9E2 /* Growth3.3-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */; };
 		D4CB3CD2159882A400FDB9E2 /* Types3-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CD1159882A400FDB9E2 /* Types3-02.png */; };
 		D4CB3CDC1598842800FDB9E2 /* TypesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */; };
@@ -184,7 +187,6 @@
 		D4D2225915C5DF3100F4838E /* SeriesParallel3 - Series3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225415C5DF3100F4838E /* SeriesParallel3 - Series3.png */; };
 		D4D2225C15C5EB9800F4838E /* Current3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2225B15C5EB9800F4838E /* Current3.png */; };
 		D4D2226015C5EDAA00F4838E /* CurrentThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D2225F15C5EDAA00F4838E /* CurrentThreeViewController.m */; };
-		D4D2226415C5F7E800F4838E /* ElectricalSafety3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D2226315C5F7E800F4838E /* ElectricalSafety3.png */; };
 		D4D2226815C5F8AC00F4838E /* ElectricalSafetyThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D2226715C5F8AC00F4838E /* ElectricalSafetyThreeViewController.m */; };
 		D4DB985A15910BF400A60F23 /* Specialised3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DB985915910BF400A60F23 /* Specialised3.png */; };
 		D4DB985E15912EDA00A60F23 /* SpecialisedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB985D15912EDA00A60F23 /* SpecialisedViewController.m */; };
@@ -428,6 +430,10 @@
 		D4B9DDBB15ACF8EE00A70D07 /* Combustion3-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combustion3-1.png"; sourceTree = "<group>"; };
 		D4C07F3315445776003A8721 /* MicroscopeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroscopeModel.h; sourceTree = "<group>"; };
 		D4C07F3415445776003A8721 /* MicroscopeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroscopeModel.m; sourceTree = "<group>"; };
+		D4C27A3815C72543005AE12F /* ElectricalSafety3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElectricalSafety3.png; sourceTree = "<group>"; };
+		D4C27A3E15C73AC8005AE12F /* Forces3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Forces3.png; sourceTree = "<group>"; };
+		D4C27A4215C73E4B005AE12F /* ForcesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForcesThreeViewController.h; sourceTree = "<group>"; };
+		D4C27A4315C73E4B005AE12F /* ForcesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForcesThreeViewController.m; sourceTree = "<group>"; };
 		D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Growth3.3-01.png"; sourceTree = "<group>"; };
 		D4CB3CD1159882A400FDB9E2 /* Types3-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Types3-02.png"; sourceTree = "<group>"; };
 		D4CB3CDA1598842800FDB9E2 /* TypesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypesThreeViewController.h; sourceTree = "<group>"; };
@@ -452,7 +458,6 @@
 		D4D2225B15C5EB9800F4838E /* Current3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Current3.png; sourceTree = "<group>"; };
 		D4D2225E15C5EDA900F4838E /* CurrentThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentThreeViewController.h; sourceTree = "<group>"; };
 		D4D2225F15C5EDAA00F4838E /* CurrentThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentThreeViewController.m; sourceTree = "<group>"; };
-		D4D2226315C5F7E800F4838E /* ElectricalSafety3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElectricalSafety3.png; sourceTree = "<group>"; };
 		D4D2226615C5F8AC00F4838E /* ElectricalSafetyThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectricalSafetyThreeViewController.h; sourceTree = "<group>"; };
 		D4D2226715C5F8AC00F4838E /* ElectricalSafetyThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectricalSafetyThreeViewController.m; sourceTree = "<group>"; };
 		D4DB985915910BF400A60F23 /* Specialised3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Specialised3.png; sourceTree = "<group>"; };
@@ -1151,6 +1156,7 @@
 				D492870715BB58AA00D52C17 /* 7H Solutions */,
 				D498181D15BF570C00CA4A69 /* 7I Energy Resources */,
 				D406460315C47FA300BE07DE /* 7J Electrical Circuits */,
+				D4C27A4015C73E27005AE12F /* 7K Forces */,
 				D46E6A2C154CBB8500469046 /* 7L Solar System */,
 				D4CCD47C1524CC62004F1263 /* Basic Controllers */,
 				D45B3B3C154382F70077F110 /* Basic Models */,
@@ -1224,6 +1230,24 @@
 				D4B9DDBB15ACF8EE00A70D07 /* Combustion3-1.png */,
 			);
 			name = "Combustion 3";
+			sourceTree = "<group>";
+		};
+		D4C27A4015C73E27005AE12F /* 7K Forces */ = {
+			isa = PBXGroup;
+			children = (
+				D4C27A4115C73E32005AE12F /* Forces 3 */,
+			);
+			name = "7K Forces";
+			sourceTree = "<group>";
+		};
+		D4C27A4115C73E32005AE12F /* Forces 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4C27A3E15C73AC8005AE12F /* Forces3.png */,
+				D4C27A4215C73E4B005AE12F /* ForcesThreeViewController.h */,
+				D4C27A4315C73E4B005AE12F /* ForcesThreeViewController.m */,
+			);
+			name = "Forces 3";
 			sourceTree = "<group>";
 		};
 		D4CB3CD31598834800FDB9E2 /* Testing Bits */ = {
@@ -1366,7 +1390,7 @@
 		D4D2226515C5F89000F4838E /* Electrical Safety 3 */ = {
 			isa = PBXGroup;
 			children = (
-				D4D2226315C5F7E800F4838E /* ElectricalSafety3.png */,
+				D4C27A3815C72543005AE12F /* ElectricalSafety3.png */,
 				D4D2226615C5F8AC00F4838E /* ElectricalSafetyThreeViewController.h */,
 				D4D2226715C5F8AC00F4838E /* ElectricalSafetyThreeViewController.m */,
 			);
@@ -1592,7 +1616,8 @@
 				D4D2225815C5DF3100F4838E /* SeriesParallel3 - Series1.png in Resources */,
 				D4D2225915C5DF3100F4838E /* SeriesParallel3 - Series3.png in Resources */,
 				D4D2225C15C5EB9800F4838E /* Current3.png in Resources */,
-				D4D2226415C5F7E800F4838E /* ElectricalSafety3.png in Resources */,
+				D4C27A3915C72543005AE12F /* ElectricalSafety3.png in Resources */,
+				D4C27A3F15C73AC8005AE12F /* Forces3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1680,6 +1705,7 @@
 				D4D2224D15C5CA9200F4838E /* SeriesParallelThreeViewController.m in Sources */,
 				D4D2226015C5EDAA00F4838E /* CurrentThreeViewController.m in Sources */,
 				D4D2226815C5F8AC00F4838E /* ElectricalSafetyThreeViewController.m in Sources */,
+				D4C27A4415C73E4B005AE12F /* ForcesThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

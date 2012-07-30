@@ -3562,15 +3562,172 @@
         <scene sceneID="jkT-nD-y3M">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zhm-MX-XJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="k4O-Ee-Zm3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Forces3" id="k4O-Ee-Zm3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xvn-wt-DJ1">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Forces3.png" id="67d-Wl-rfh">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You have to know different types of forces.  Some common ones are shown below.  " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="awA-wm-etP">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.1294117719" blue="0.80000007149999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="vJa-8d-YAk">
+                                <rect key="frame" x="383" y="115" width="385" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This is Ed.  The reason he's smiling right now is that he has just jumped out of a plane and his parachute opened (phew!).  His weight is a force due to gravity pulling him towards the centre of the Earth.  The parachute opens and provides air resistance, another force which slows him down.  His hands are gripping the ropes creating friction and the ropes themselves have tension.</string>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.33725491166114807" green="0.086274512112140656" blue="0.52549022436141968" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="There are many other types of force.  Examples include upthrust (helps things float), magnetic force and thrust." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="x1V-eb-HAy">
+                                <rect key="frame" x="284" y="482" width="478" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.1294117719" blue="0.80000007149999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sWN-rC-ECe">
+                                <rect key="frame" x="521" y="612" width="188" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Test yourself!">
+                                    <color key="titleColor" red="0.0039215688593685627" green="1" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NpP-zV-z8V" kind="push" id="jXy-gd-OIz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="4834" y="37518"/>
+        </scene>
+        <!--Forces Three View Controller-->
+        <scene sceneID="a0V-1v-Ey2">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ub6-a4-i9z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="NpP-zV-z8V" customClass="ForcesThreeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BNd-NK-6IL">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Forces3.png" id="cRj-jq-Rcs">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tap below to answer the questions!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="fxd-cb-roD">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.1294117719" blue="0.80000007149999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The force on an object due to gravity is called the" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="4Sn-Mc-RN8">
+                                <rect key="frame" x="360" y="155" width="408" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.1294117719" blue="0.80000007149999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="jK1-gH-SBc">
+                                <rect key="frame" x="601" y="198" width="142" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.074509806931018829" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="NpP-zV-z8V" eventType="editingDidEnd" id="Iwf-VJ-fjg"/>
+                                    <outlet property="delegate" destination="NpP-zV-z8V" id="qAw-w9-Kh2"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="A parachute provides Ed with" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="E88-Aq-teE">
+                                <rect key="frame" x="360" y="291" width="408" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.1294117719" blue="0.80000007149999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="XXy-zk-OVA">
+                                <rect key="frame" x="360" y="356" width="255" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.074509806930000005" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="NpP-zV-z8V" eventType="editingDidEnd" id="sUs-OA-SFJ"/>
+                                    <outlet property="delegate" destination="NpP-zV-z8V" id="gLJ-Rv-QVU"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="When two objects touch, a force is generated called" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="WEb-aY-Yxm">
+                                <rect key="frame" x="360" y="426" width="408" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.1294117719" blue="0.80000007149999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="qah-fH-WFa">
+                                <rect key="frame" x="576" y="467" width="143" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.074509806930000005" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="NpP-zV-z8V" eventType="editingDidEnd" id="zYQ-Ct-pAQ"/>
+                                    <outlet property="delegate" destination="NpP-zV-z8V" id="CIe-ag-eSn"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The rocket propels itself forwards with" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="yt1-jK-LNL">
+                                <rect key="frame" x="360" y="577" width="408" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.1294117719" blue="0.80000007149999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="tNO-UA-Vxn">
+                                <rect key="frame" x="427" y="618" width="143" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.074509806930000005" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="NpP-zV-z8V" eventType="editingDidEnd" id="ALn-nT-V4H"/>
+                                    <outlet property="delegate" destination="NpP-zV-z8V" id="5F1-sl-8ef"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="xWn-kH-pez">
+                                <rect key="frame" x="340" y="67" width="348" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.1294117719" blue="0.80000007149999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0pe-MK-cPd"/>
+                    <connections>
+                        <outlet property="airResistance" destination="XXy-zk-OVA" id="xSm-lE-jU2"/>
+                        <outlet property="friction" destination="qah-fH-WFa" id="QyG-PR-0E7"/>
+                        <outlet property="scoreLabel" destination="xWn-kH-pez" id="Mea-0c-kIB"/>
+                        <outlet property="thrust" destination="tNO-UA-Vxn" id="Vys-Vj-E0K"/>
+                        <outlet property="weight" destination="jK1-gH-SBc" id="uY7-Op-1rm"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5623" y="37519"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FwP-Oz-sy0">
@@ -7686,6 +7843,7 @@
         <image name="Diffusion3-02.png" width="1600" height="2092"/>
         <image name="ElectricalSafety3.png" width="768" height="1004"/>
         <image name="FinalCellsDifferences.png" width="684" height="918"/>
+        <image name="Forces3.png" width="768" height="1006"/>
         <image name="Fuels3.1.png" width="1372" height="1724"/>
         <image name="GasPressure3.png" width="1388" height="1735"/>
         <image name="Grouping3.png" width="505" height="781"/>
@@ -7939,6 +8097,21 @@
         </class>
         <class className="ElectricalSafetyThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ElectricalSafetyThreeViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="conduct" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="shock" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ForcesThreeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ForcesThreeViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="airResistance" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="friction" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="thrust" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="weight" candidateClass="UITextField"/>
+            </relationships>
         </class>
         <class className="FuelsThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FuelsThreeViewController.h"/>
@@ -8035,6 +8208,7 @@
         <class className="LifeCycleViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LifeCycleViewController.h"/>
             <relationships>
+                <relationship kind="action" name="hideAndShow:"/>
                 <relationship kind="outlet" name="adolescence" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="adulthood" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="birth" candidateClass="UILabel"/>
@@ -8073,6 +8247,8 @@
         <class className="MatterThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MatterThreeViewController.h"/>
             <relationships>
+                <relationship kind="action" name="checkAnswers:" candidateClass="UIButton"/>
+                <relationship kind="action" name="labelColour:"/>
                 <relationship kind="outlet" name="Gas" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="Liquid" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="Solid" candidateClass="UIButton"/>
@@ -8109,6 +8285,7 @@
         <class className="NeutralisationThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NeutralisationThreeViewController.h"/>
             <relationships>
+                <relationship kind="action" name="answerChecker:" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="neutral" candidateClass="UITextField"/>
             </relationships>
         </class>
