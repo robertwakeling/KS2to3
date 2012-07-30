@@ -3839,15 +3839,120 @@
         <scene sceneID="Cfd-uu-juA">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PlI-yB-xXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="KkN-VZ-ofO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Motion3" id="KkN-VZ-ofO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="086-BQ-vIx">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Motion3.png" id="UNu-yu-VcL">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="How does a sat nav know the speed you are driving at?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="M4R-lj-C4y">
+                                <rect key="frame" x="18" y="7" width="733" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.015686275437474251" green="0.011764707043766975" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="IfY-RO-oWv">
+                                <rect key="frame" x="20" y="510" width="423" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">It calculates the distance that you have travelled in a certain duration of time.  For example if you've gone 30 miles in 30 minutes, you are travelling at 60 miles per hour.  The formula it uses is speed = distance / time.</string>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692281723022" green="0.9960784912109375" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wxH-70-Abu">
+                                <rect key="frame" x="28" y="828" width="220" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Test yourself!">
+                                    <color key="titleColor" red="0.0" green="0.9960784912109375" blue="0.078431375324726105" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DsH-1x-B8A" kind="push" id="YSy-hU-Vul"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="4827" y="39742"/>
+        </scene>
+        <!--Motion Three View Controller-->
+        <scene sceneID="pcV-tl-UBE">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7iJ-F1-lDO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="DsH-1x-B8A" customClass="MotionThreeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a5M-Ta-iCM">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Motion3.png" id="3MS-zC-MRs">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Calculating speed: tap in the text fields to describe the formula for speed." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="GQr-IR-3cQ">
+                                <rect key="frame" x="18" y="0.0" width="733" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.9960784912109375" green="0.050980396568775177" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Speed =  ________________" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="mgc-Rb-EFB">
+                                <rect key="frame" x="18" y="596" width="499" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99607849120000003" green="0.050980396570000003" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="tcL-c4-Pxb">
+                                <rect key="frame" x="253" y="596" width="152" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.011764707043766975" green="0.97254908084869385" blue="0.98823535442352295" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="DsH-1x-B8A" eventType="editingDidEnd" id="owC-qS-5rY"/>
+                                    <outlet property="delegate" destination="DsH-1x-B8A" id="hpk-tn-puw"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="HNa-Bs-gfI">
+                                <rect key="frame" x="253" y="655" width="152" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.30196079611778259" green="0.0039215688593685627" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="DsH-1x-B8A" eventType="editingDidEnd" id="v5S-nH-tcj"/>
+                                    <outlet property="delegate" destination="DsH-1x-B8A" id="dI1-oG-tft"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="7Ew-qq-UA3">
+                                <rect key="frame" x="96" y="468" width="362" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99607849120000003" green="0.050980396570000003" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3W6-xM-516"/>
+                    <connections>
+                        <outlet property="distance" destination="tcL-c4-Pxb" id="T2H-PI-PWS"/>
+                        <outlet property="scoreLabel" destination="7Ew-qq-UA3" id="RMC-vw-Njc"/>
+                        <outlet property="time" destination="HNa-Bs-gfI" id="7kE-U3-8Gg"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5646" y="39742"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tp4-zh-f3Z">
@@ -7947,6 +8052,7 @@
         <image name="Matter3.png" width="1602" height="2094"/>
         <image name="Microscope.png" width="531" height="825"/>
         <image name="Mixtures3.png" width="1600" height="2092"/>
+        <image name="Motion3.png" width="769" height="1005"/>
         <image name="NonRenewable3-2.png" width="1620" height="2092"/>
         <image name="NonRenewable3.png" width="1620" height="2092"/>
         <image name="Particles3.png" width="1477" height="638"/>
@@ -8242,7 +8348,6 @@
         <class className="HabitatsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HabitatsViewController.h"/>
             <relationships>
-                <relationship kind="action" name="transitionToNewController:"/>
                 <relationship kind="outlet" name="coastal" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="desert" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="polar" candidateClass="UILabel"/>
@@ -8366,11 +8471,18 @@
         <class className="MixturesThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MixturesThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="checkAnswers:"/>
                 <relationship kind="outlet" name="carbonDioxide" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="nitrogen" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="oxygen" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MotionThreeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MotionThreeViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="distance" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="time" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="NeutralisationThreeViewController" superclassName="UIViewController">
