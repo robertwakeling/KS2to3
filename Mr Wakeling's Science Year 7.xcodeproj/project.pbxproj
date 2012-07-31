@@ -856,12 +856,7 @@
 		D46E6A2D154CBBB700469046 /* The Solar System */ = {
 			isa = PBXGroup;
 			children = (
-				D46E6A29154CBB8100469046 /* PlanetaryOrderViewController.h */,
-				D46E6A2A154CBB8100469046 /* PlanetaryOrderViewController.m */,
-				35CCFEA1154D7AEF008D8046 /* PlanetModel.h */,
-				35CCFEA2154D7AEF008D8046 /* PlanetModel.m */,
-				35CCFEA4154D7B91008D8046 /* Planet plist.plist */,
-				D499F0FD15556161008092A9 /* PlanetaryOrder.png */,
+				D4B3189415C83DDF0040CEB6 /* Solar System 3 */,
 			);
 			name = "The Solar System";
 			sourceTree = "<group>";
@@ -1246,6 +1241,19 @@
 				D4B3189115C839C40040CEB6 /* MoonThreeViewController.m */,
 			);
 			name = "Moon 3";
+			sourceTree = "<group>";
+		};
+		D4B3189415C83DDF0040CEB6 /* Solar System 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D46E6A29154CBB8100469046 /* PlanetaryOrderViewController.h */,
+				D46E6A2A154CBB8100469046 /* PlanetaryOrderViewController.m */,
+				35CCFEA1154D7AEF008D8046 /* PlanetModel.h */,
+				35CCFEA2154D7AEF008D8046 /* PlanetModel.m */,
+				35CCFEA4154D7B91008D8046 /* Planet plist.plist */,
+				D499F0FD15556161008092A9 /* PlanetaryOrder.png */,
+			);
+			name = "Solar System 3";
 			sourceTree = "<group>";
 		};
 		D4B9DDA815ACD2D200A70D07 /* 7F Acid Reactions */ = {

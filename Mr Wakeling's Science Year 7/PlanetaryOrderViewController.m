@@ -92,7 +92,7 @@
         Tester *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"Overall1"];
         [self.navigationController pushViewController:detail animated:YES];
         
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"SolarSystem4" object:self];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"SolarSystem3" object:self];
     }
 }
 

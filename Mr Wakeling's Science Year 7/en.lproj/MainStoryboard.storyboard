@@ -4409,7 +4409,7 @@
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="4839" y="44262"/>
+            <point key="canvasLocation" x="4818" y="45382"/>
         </scene>
         <!--Current Three View Controller-->
         <scene sceneID="XFh-7v-g6F">
@@ -6067,7 +6067,7 @@
         <scene sceneID="QvU-Vq-mBw">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t0Q-lS-wTv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController storyboardIdentifier="SolarSystem4" title="The Planets" id="dzm-Jz-0Md" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SolarSystem3" title="The Planets" id="dzm-Jz-0Md" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Pq-K2-aoO">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -6192,7 +6192,7 @@
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="6559" y="16366"/>
+            <point key="canvasLocation" x="4839" y="44246"/>
         </scene>
         <!--Planetary Order View Controller - The Planets Test-->
         <scene sceneID="V1b-o5-x8f">
@@ -6382,7 +6382,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="7437" y="16366"/>
+            <point key="canvasLocation" x="5717" y="44246"/>
         </scene>
         <!--Magnification View Controller - Calculating Magnification-->
         <scene sceneID="cyS-Mv-QxL">
@@ -8514,7 +8514,6 @@
         <class className="AcidsThreeV2ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AcidsThreeV2ViewController.h"/>
             <relationships>
-                <relationship kind="action" name="handlePan:" candidateClass="UIGestureRecognizer"/>
                 <relationship kind="outlet" name="bleach" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cleaner" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cola" candidateClass="UIButton"/>
@@ -8564,7 +8563,6 @@
             <relationships>
                 <relationship kind="action" name="checkScores"/>
                 <relationship kind="action" name="hideShowLabel:" candidateClass="UIButton"/>
-                <relationship kind="action" name="hideShowLabel::" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cellMembrane" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="cellWall" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="chloroplast" candidateClass="UILabel"/>
@@ -8661,7 +8659,6 @@
         <class className="CombustionThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CombustionThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="revealAnswer:"/>
                 <relationship kind="outlet" name="answerLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
@@ -8772,8 +8769,6 @@
         <class className="HabitatsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HabitatsViewController.h"/>
             <relationships>
-                <relationship kind="action" name="hideAndShow:"/>
-                <relationship kind="action" name="transitionToNewController:"/>
                 <relationship kind="outlet" name="coastal" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="desert" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="polar" candidateClass="UILabel"/>
@@ -8832,7 +8827,6 @@
         <class className="LifeCycleViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LifeCycleViewController.h"/>
             <relationships>
-                <relationship kind="action" name="hideAndShow:"/>
                 <relationship kind="outlet" name="adolescence" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="adulthood" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="birth" candidateClass="UILabel"/>
@@ -8871,8 +8865,6 @@
         <class className="MatterThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MatterThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="checkAnswers:" candidateClass="UIButton"/>
-                <relationship kind="action" name="labelColour:"/>
                 <relationship kind="outlet" name="Gas" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="Liquid" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="Solid" candidateClass="UIButton"/>
@@ -8900,7 +8892,6 @@
         <class className="MixturesThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MixturesThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="checkAnswers:"/>
                 <relationship kind="outlet" name="carbonDioxide" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="nitrogen" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="oxygen" candidateClass="UITextField"/>
@@ -8927,7 +8918,6 @@
         <class className="NeutralisationThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NeutralisationThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="answerChecker:" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="neutral" candidateClass="UITextField"/>
             </relationships>
         </class>
@@ -8997,7 +8987,6 @@
         <class className="SeriesParallelThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SeriesParallelThreeViewController.h"/>
             <relationships>
-                <relationship kind="action" name="checkAnswers:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="parallel" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
@@ -9014,7 +9003,6 @@
         <class className="SpecialisedViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SpecialisedViewController.h"/>
             <relationships>
-                <relationship kind="action" name="unhideTheAnswers:"/>
                 <relationship kind="outlet" name="correctAnswerEntry" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="presenceNucleus" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="question" candidateClass="UILabel"/>
