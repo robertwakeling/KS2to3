@@ -4474,7 +4474,7 @@
                                 <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="jcc-d6-cls">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="jcc-d6-cls">
                                 <rect key="frame" x="444" y="107" width="192" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
@@ -4484,8 +4484,8 @@
                                     <outlet property="delegate" destination="Iaj-7F-XlR" id="v48-Ux-WE9"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="MhV-IV-hvb">
-                                <rect key="frame" x="467" y="161" width="95" height="31"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="MhV-IV-hvb">
+                                <rect key="frame" x="467" y="162" width="95" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
@@ -4522,8 +4522,8 @@
                                 <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="sCB-Ql-n3z">
-                                <rect key="frame" x="408" y="216" width="95" height="31"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="sCB-Ql-n3z">
+                                <rect key="frame" x="408" y="217" width="95" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
@@ -8696,12 +8696,6 @@
         </class>
         <class className="BeyondThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BeyondThreeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="galaxy" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="milkyWay" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="universe" candidateClass="UITextField"/>
-            </relationships>
         </class>
         <class className="BurningFuelsThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BurningFuelsThreeViewController.h"/>
