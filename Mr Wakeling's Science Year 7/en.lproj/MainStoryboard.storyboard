@@ -4253,15 +4253,149 @@
         <scene sceneID="WR5-De-0nM">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVf-JO-Utw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Nq5-2S-MJN" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Moon3" id="Nq5-2S-MJN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="je7-CT-8ht">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Moon3.png" id="HKt-ma-Vpg">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The moon" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="lC0-dp-gpN">
+                                <rect key="frame" x="286" y="0.0" width="197" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The moon orbits our planet Earth.  This happens once every 28 days or a lunar month." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="IpM-7y-LNq">
+                                <rect key="frame" x="191" y="170" width="386" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="V7s-5Q-9Mf">
+                                <rect key="frame" x="494" y="662" width="169" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Test yourself!">
+                                    <color key="titleColor" red="0.0" green="1" blue="0.035294119268655777" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RvW-Pk-RiK" kind="push" id="jfh-zN-IWp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="4827" y="43126"/>
+        </scene>
+        <!--Moon Three View Controller-->
+        <scene sceneID="kn9-LF-oNk">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sOr-Rr-aD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="RvW-Pk-RiK" customClass="MoonThreeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="obr-cN-MFy">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Moon3.png" id="oeG-za-e3t">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tap in the text fields to test yourself!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="VFJ-RG-El1">
+                                <rect key="frame" x="87" y="0.0" width="594" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="TOS-dC-180">
+                                <rect key="frame" x="20" y="877" width="89" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="nfK-gl-p9E">
+                                <rect key="frame" x="109" y="882" width="116" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="RvW-Pk-RiK" eventType="editingDidEnd" id="P3K-EM-88t"/>
+                                    <outlet property="delegate" destination="RvW-Pk-RiK" id="qU2-sS-g8s"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="orbits the" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="kcc-T7-WSA">
+                                <rect key="frame" x="224" y="877" width="149" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="hTR-Qo-95S">
+                                <rect key="frame" x="381" y="882" width="116" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="RvW-Pk-RiK" eventType="editingDidEnd" id="sGq-gu-uS9"/>
+                                    <outlet property="delegate" destination="RvW-Pk-RiK" id="AEu-HA-WQw"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="once every" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Cfp-bn-f64">
+                                <rect key="frame" x="513" y="877" width="168" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="zbl-N7-g4W">
+                                <rect key="frame" x="39" y="927" width="116" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="RvW-Pk-RiK" eventType="editingDidEnd" id="qcn-FE-whj"/>
+                                    <outlet property="delegate" destination="RvW-Pk-RiK" id="J7o-HZ-VTc"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="days or a lunar month." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="HuA-Uu-4J8">
+                                <rect key="frame" x="163" y="922" width="367" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="hPL-ci-Qe5">
+                                <rect key="frame" x="201" y="765" width="367" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9X1-Hs-fiM"/>
+                    <connections>
+                        <outlet property="duration" destination="zbl-N7-g4W" id="unZ-0y-PGk"/>
+                        <outlet property="earth" destination="hTR-Qo-95S" id="jXZ-wK-LCC"/>
+                        <outlet property="moon" destination="nfK-gl-p9E" id="QE2-k6-b4E"/>
+                        <outlet property="scoreLabel" destination="hPL-ci-Qe5" id="CPl-s2-9Ia"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5647" y="43130"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FIF-4i-KTb">
@@ -8321,6 +8455,7 @@
         <image name="Matter3.png" width="1602" height="2094"/>
         <image name="Microscope.png" width="531" height="825"/>
         <image name="Mixtures3.png" width="1600" height="2092"/>
+        <image name="Moon3.png" width="768" height="1004"/>
         <image name="Motion3.png" width="769" height="1005"/>
         <image name="NonRenewable3-2.png" width="1620" height="2092"/>
         <image name="NonRenewable3.png" width="1620" height="2092"/>
@@ -8379,6 +8514,7 @@
         <class className="AcidsThreeV2ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AcidsThreeV2ViewController.h"/>
             <relationships>
+                <relationship kind="action" name="handlePan:" candidateClass="UIGestureRecognizer"/>
                 <relationship kind="outlet" name="bleach" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cleaner" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cola" candidateClass="UIButton"/>
@@ -8428,6 +8564,7 @@
             <relationships>
                 <relationship kind="action" name="checkScores"/>
                 <relationship kind="action" name="hideShowLabel:" candidateClass="UIButton"/>
+                <relationship kind="action" name="hideShowLabel::" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cellMembrane" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="cellWall" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="chloroplast" candidateClass="UILabel"/>
@@ -8635,6 +8772,8 @@
         <class className="HabitatsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HabitatsViewController.h"/>
             <relationships>
+                <relationship kind="action" name="hideAndShow:"/>
+                <relationship kind="action" name="transitionToNewController:"/>
                 <relationship kind="outlet" name="coastal" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="desert" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="polar" candidateClass="UILabel"/>
@@ -8761,9 +8900,19 @@
         <class className="MixturesThreeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MixturesThreeViewController.h"/>
             <relationships>
+                <relationship kind="action" name="checkAnswers:"/>
                 <relationship kind="outlet" name="carbonDioxide" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="nitrogen" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="oxygen" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MoonThreeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MoonThreeViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="duration" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="earth" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="moon" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
@@ -8865,6 +9014,7 @@
         <class className="SpecialisedViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SpecialisedViewController.h"/>
             <relationships>
+                <relationship kind="action" name="unhideTheAnswers:"/>
                 <relationship kind="outlet" name="correctAnswerEntry" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="presenceNucleus" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="question" candidateClass="UILabel"/>

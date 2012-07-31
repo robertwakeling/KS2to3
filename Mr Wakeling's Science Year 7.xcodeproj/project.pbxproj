@@ -162,6 +162,8 @@
 		D4B3188715C82D850040CEB6 /* FrictionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3188615C82D850040CEB6 /* FrictionThreeViewController.m */; };
 		D4B3188915C833D70040CEB6 /* EarthSun3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B3188815C833D70040CEB6 /* EarthSun3.png */; };
 		D4B3188D15C835D00040CEB6 /* EarthSunThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3188C15C835D00040CEB6 /* EarthSunThreeViewController.m */; };
+		D4B3188F15C839B40040CEB6 /* Moon3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B3188E15C839B40040CEB6 /* Moon3.png */; };
+		D4B3189215C839C40040CEB6 /* MoonThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3189115C839C40040CEB6 /* MoonThreeViewController.m */; };
 		D4B9DDA715ACD16800A70D07 /* AcidReactions3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */; };
 		D4B9DDAB15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */; };
 		D4B9DDAE15ACD95B00A70D07 /* AcidCarbonates3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDAD15ACD95B00A70D07 /* AcidCarbonates3.png */; };
@@ -432,6 +434,9 @@
 		D4B3188815C833D70040CEB6 /* EarthSun3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EarthSun3.png; sourceTree = "<group>"; };
 		D4B3188B15C835D00040CEB6 /* EarthSunThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthSunThreeViewController.h; sourceTree = "<group>"; };
 		D4B3188C15C835D00040CEB6 /* EarthSunThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthSunThreeViewController.m; sourceTree = "<group>"; };
+		D4B3188E15C839B40040CEB6 /* Moon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon3.png; sourceTree = "<group>"; };
+		D4B3189015C839C40040CEB6 /* MoonThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoonThreeViewController.h; sourceTree = "<group>"; };
+		D4B3189115C839C40040CEB6 /* MoonThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoonThreeViewController.m; sourceTree = "<group>"; };
 		D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcidReactions3.png; sourceTree = "<group>"; };
 		D4B9DDA915ACD2ED00A70D07 /* AcidReactionsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidReactionsThreeViewController.h; sourceTree = "<group>"; };
 		D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidReactionsThreeViewController.m; sourceTree = "<group>"; };
@@ -842,6 +847,7 @@
 			isa = PBXGroup;
 			children = (
 				D4B3188A15C835B00040CEB6 /* EarthSun 3 */,
+				D4B3189315C839CC0040CEB6 /* Moon 3 */,
 				D46E6A2D154CBBB700469046 /* The Solar System */,
 			);
 			name = "7L Solar System";
@@ -1230,6 +1236,16 @@
 				D4B3188C15C835D00040CEB6 /* EarthSunThreeViewController.m */,
 			);
 			name = "EarthSun 3";
+			sourceTree = "<group>";
+		};
+		D4B3189315C839CC0040CEB6 /* Moon 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4B3188E15C839B40040CEB6 /* Moon3.png */,
+				D4B3189015C839C40040CEB6 /* MoonThreeViewController.h */,
+				D4B3189115C839C40040CEB6 /* MoonThreeViewController.m */,
+			);
+			name = "Moon 3";
 			sourceTree = "<group>";
 		};
 		D4B9DDA815ACD2D200A70D07 /* 7F Acid Reactions */ = {
@@ -1686,6 +1702,7 @@
 				D4C27A5615C74FB5005AE12F /* Motion3.png in Resources */,
 				D4B3188215C8282F0040CEB6 /* Friction3.png in Resources */,
 				D4B3188915C833D70040CEB6 /* EarthSun3.png in Resources */,
+				D4B3188F15C839B40040CEB6 /* Moon3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1778,6 +1795,7 @@
 				D4C27A5A15C751AD005AE12F /* MotionThreeViewController.m in Sources */,
 				D4B3188715C82D850040CEB6 /* FrictionThreeViewController.m in Sources */,
 				D4B3188D15C835D00040CEB6 /* EarthSunThreeViewController.m in Sources */,
+				D4B3189215C839C40040CEB6 /* MoonThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
