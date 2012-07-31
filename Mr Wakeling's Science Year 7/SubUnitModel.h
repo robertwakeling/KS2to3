@@ -11,7 +11,9 @@
 @interface SubUnitModel : NSObject
 
 - (NSArray *) getTheSubUnitArray:(NSString *)string;
+- (NSDictionary*)getDictionary;
 
 @property (nonatomic, strong) NSArray *subUnitArray;
+@property (nonatomic, strong) NSDictionary *subUnitDictionary;
 
 @end

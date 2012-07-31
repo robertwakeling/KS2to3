@@ -11,16 +11,23 @@
 @implementation SubUnitModel
 
 @synthesize subUnitArray;
+@synthesize subUnitDictionary;
 
 -(NSArray *)getTheSubUnitArray:(NSString *)string
 {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Test" ofType:@"plist"];
-    NSDictionary *temp = [[NSDictionary alloc] initWithContentsOfFile:path];
+    subUnitDictionary = [[NSDictionary alloc] initWithContentsOfFile:path];
     
-    NSArray *second = [[[temp valueForKey:string] valueForKey:@"SubUnits"] allKeys];
+    NSArray *second = [[[subUnitDictionary valueForKey:string] valueForKey:@"SubUnits"] allKeys];
     
     subUnitArray = [second sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
+    
     return subUnitArray;
+}
+
+-(NSDictionary*)getDictionary
+{
+    return subUnitDictionary;
 }
 
 @end

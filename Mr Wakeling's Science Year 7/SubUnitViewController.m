@@ -150,6 +150,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
+//    [sUnitModel getTheSubUnitArray:unitToSubUnit];
+    NSString *temp = [NSString stringWithFormat:@"%@", [sUnitModel.subUnitArray objectAtIndex:indexPath.row]];
+    
+   // NSLog(@"%@", [[[[[sUnitModel.subUnitDictionary objectForKey:unitToSubUnit] valueForKey:@"SubUnits"] valueForKey:temp] valueForKey:@"3"] valueForKey:@"View Controller"]);
+/*
+//    NSString *newViewController = [sUnitModel.subUnitDictionary objectForKey:@"3"];
+                                   //objectForKey:@"View Controller"];
+//    NSLog(@"%@", newViewController);
     
     LevelsViewController *detailViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Levels"];
      // ...
@@ -162,7 +170,11 @@
   //  detailViewController.levelDict = [subDict objectForKey:@"SubUnits"];
     
      [self.navigationController pushViewController:detailViewController animated:YES];
-     
+*/
+    NSString *temporary = [NSString stringWithFormat:@"%@", [[[[[sUnitModel.subUnitDictionary objectForKey:unitToSubUnit] valueForKey:@"SubUnits"] valueForKey:temp] valueForKey:@"3"] valueForKey:@"View Controller"]];
+    TextfieldCheckerViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:temporary];
+    [self.navigationController pushViewController:detail animated:YES];
+    
 }
 
 @end
