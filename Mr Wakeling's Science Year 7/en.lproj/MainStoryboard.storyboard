@@ -4401,15 +4401,164 @@
         <scene sceneID="FIF-4i-KTb">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vxT-XJ-H8N" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="IM1-Bt-7pt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Beyond3" id="IM1-Bt-7pt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CBN-a4-VEM">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Beyond3.png" id="T5z-It-aR4">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="To infinity, and beyond?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ZA9-3H-oPs">
+                                <rect key="frame" x="218" y="0.0" width="333" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="uZv-Tv-2OE">
+                                <rect key="frame" x="20" y="72" width="728" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Even though our solar system seems huge, we are only a speck in the Milky Way galaxy.  This galaxy is made up of approximately 300 BILLION stars and within the universe, there are over 100 billion galaxies!  There are also other objects within the universe such as black holes, supernovae and red dwarfs.</string>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ItK-mI-834">
+                                <rect key="frame" x="521" y="363" width="214" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Test yourself!">
+                                    <color key="titleColor" red="0.0" green="1" blue="0.078431375324726105" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Iaj-7F-XlR" kind="push" id="nnL-H1-IG5"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="4818" y="45382"/>
+            <point key="canvasLocation" x="4839" y="45382"/>
+        </scene>
+        <!--Beyond Three View Controller-->
+        <scene sceneID="ZpS-PN-JMS">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AFA-nP-Cuz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Iaj-7F-XlR" customClass="BeyondThreeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JYr-0f-4We">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Beyond3.png" id="owK-b0-Hj1">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tap in the text fields to answer the questions!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="WJD-3f-NDJ">
+                                <rect key="frame" x="73" y="0.0" width="623" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Our solar system is part of the" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="TRs-N7-rlg">
+                                <rect key="frame" x="20" y="96" width="416" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="jcc-d6-cls">
+                                <rect key="frame" x="444" y="107" width="192" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="Iaj-7F-XlR" eventType="editingDidEnd" id="RtF-P4-HH1"/>
+                                    <outlet property="delegate" destination="Iaj-7F-XlR" id="v48-Ux-WE9"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="MhV-IV-hvb">
+                                <rect key="frame" x="467" y="161" width="95" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="Iaj-7F-XlR" eventType="editingDidEnd" id="Zi7-we-qdy"/>
+                                    <outlet property="delegate" destination="Iaj-7F-XlR" id="bpW-Ce-zzE"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="galaxy." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="sWA-Ic-R8q">
+                                <rect key="frame" x="644" y="96" width="107" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This galaxy is made up of about" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="m31-Lx-kBK">
+                                <rect key="frame" x="20" y="152" width="445" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="billion stars." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="LQ5-hb-8c8">
+                                <rect key="frame" x="570" y="152" width="178" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This universe contains about" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="2Re-h5-Pb8">
+                                <rect key="frame" x="20" y="208" width="389" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="sCB-Ql-n3z">
+                                <rect key="frame" x="408" y="216" width="95" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <connections>
+                                    <action selector="checkAnswers" destination="Iaj-7F-XlR" eventType="editingDidEnd" id="cAE-lW-Ic4"/>
+                                    <outlet property="delegate" destination="Iaj-7F-XlR" id="6g8-gV-IF6"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="billion galaxies." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="neN-YW-67d">
+                                <rect key="frame" x="511" y="208" width="222" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ax9-Uy-d5k">
+                                <rect key="frame" x="273" y="274" width="222" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="23"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ONy-Fh-E4W"/>
+                    <connections>
+                        <outlet property="galaxy" destination="MhV-IV-hvb" id="zk6-NZ-Czk"/>
+                        <outlet property="milkyWay" destination="jcc-d6-cls" id="bPQ-hG-zbN"/>
+                        <outlet property="scoreLabel" destination="ax9-Uy-d5k" id="y2J-fo-g1m"/>
+                        <outlet property="universe" destination="sCB-Ql-n3z" id="a8h-A0-jox"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5685" y="45382"/>
         </scene>
         <!--Current Three View Controller-->
         <scene sceneID="XFh-7v-g6F">
@@ -6187,6 +6336,14 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="gAa-81-H0j">
+                                <rect key="frame" x="251" y="0.0" width="507" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This is the Solar System.  It is made up of the Sun (a star) with eight planets orbiting it.  Try to learn these planets in order as you will be tested on the next page!</string>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -8424,6 +8581,7 @@
         <image name="AnimalCellMembrane.png" width="200" height="200"/>
         <image name="AnimalCellNucleus.png" width="200" height="200"/>
         <image name="AnimalPlantCell.png" width="768" height="1004"/>
+        <image name="Beyond3.png" width="769" height="1004"/>
         <image name="BurningFuels3-cut.png" width="768" height="1004"/>
         <image name="ButtonBackBlue.png" width="302" height="192"/>
         <image name="ButtonBackRed.png" width="302" height="192"/>
@@ -8534,6 +8692,15 @@
                 <relationship kind="outlet" name="summer" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="temperature" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="winter" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="BeyondThreeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BeyondThreeViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="galaxy" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="milkyWay" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="universe" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="BurningFuelsThreeViewController" superclassName="UIViewController">
