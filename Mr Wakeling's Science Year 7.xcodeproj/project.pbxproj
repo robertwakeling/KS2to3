@@ -160,6 +160,8 @@
 		D4AFA2B9158B90ED00A0BC85 /* PlantCell.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AFA2B8158B90ED00A0BC85 /* PlantCell.png */; };
 		D4B3188215C8282F0040CEB6 /* Friction3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B3188115C8282F0040CEB6 /* Friction3.png */; };
 		D4B3188715C82D850040CEB6 /* FrictionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3188615C82D850040CEB6 /* FrictionThreeViewController.m */; };
+		D4B3188915C833D70040CEB6 /* EarthSun3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B3188815C833D70040CEB6 /* EarthSun3.png */; };
+		D4B3188D15C835D00040CEB6 /* EarthSunThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3188C15C835D00040CEB6 /* EarthSunThreeViewController.m */; };
 		D4B9DDA715ACD16800A70D07 /* AcidReactions3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */; };
 		D4B9DDAB15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */; };
 		D4B9DDAE15ACD95B00A70D07 /* AcidCarbonates3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDAD15ACD95B00A70D07 /* AcidCarbonates3.png */; };
@@ -427,6 +429,9 @@
 		D4B3188115C8282F0040CEB6 /* Friction3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friction3.png; sourceTree = "<group>"; };
 		D4B3188515C82D850040CEB6 /* FrictionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrictionThreeViewController.h; sourceTree = "<group>"; };
 		D4B3188615C82D850040CEB6 /* FrictionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrictionThreeViewController.m; sourceTree = "<group>"; };
+		D4B3188815C833D70040CEB6 /* EarthSun3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EarthSun3.png; sourceTree = "<group>"; };
+		D4B3188B15C835D00040CEB6 /* EarthSunThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthSunThreeViewController.h; sourceTree = "<group>"; };
+		D4B3188C15C835D00040CEB6 /* EarthSunThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthSunThreeViewController.m; sourceTree = "<group>"; };
 		D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcidReactions3.png; sourceTree = "<group>"; };
 		D4B9DDA915ACD2ED00A70D07 /* AcidReactionsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidReactionsThreeViewController.h; sourceTree = "<group>"; };
 		D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidReactionsThreeViewController.m; sourceTree = "<group>"; };
@@ -836,6 +841,7 @@
 		D46E6A2C154CBB8500469046 /* 7L Solar System */ = {
 			isa = PBXGroup;
 			children = (
+				D4B3188A15C835B00040CEB6 /* EarthSun 3 */,
 				D46E6A2D154CBBB700469046 /* The Solar System */,
 			);
 			name = "7L Solar System";
@@ -1214,6 +1220,16 @@
 				D4B3188615C82D850040CEB6 /* FrictionThreeViewController.m */,
 			);
 			name = "Friction 3";
+			sourceTree = "<group>";
+		};
+		D4B3188A15C835B00040CEB6 /* EarthSun 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4B3188815C833D70040CEB6 /* EarthSun3.png */,
+				D4B3188B15C835D00040CEB6 /* EarthSunThreeViewController.h */,
+				D4B3188C15C835D00040CEB6 /* EarthSunThreeViewController.m */,
+			);
+			name = "EarthSun 3";
 			sourceTree = "<group>";
 		};
 		D4B9DDA815ACD2D200A70D07 /* 7F Acid Reactions */ = {
@@ -1669,6 +1685,7 @@
 				D4C27A5015C745AC005AE12F /* Upthrust3.png in Resources */,
 				D4C27A5615C74FB5005AE12F /* Motion3.png in Resources */,
 				D4B3188215C8282F0040CEB6 /* Friction3.png in Resources */,
+				D4B3188915C833D70040CEB6 /* EarthSun3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1760,6 +1777,7 @@
 				D4C27A5415C747E4005AE12F /* UpthrustThreeViewController.m in Sources */,
 				D4C27A5A15C751AD005AE12F /* MotionThreeViewController.m in Sources */,
 				D4B3188715C82D850040CEB6 /* FrictionThreeViewController.m in Sources */,
+				D4B3188D15C835D00040CEB6 /* EarthSunThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
