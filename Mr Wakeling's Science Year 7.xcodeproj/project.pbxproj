@@ -158,6 +158,8 @@
 		D4A42B8D15A4EF6A006EF178 /* Classification3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A42B8C15A4EF6A006EF178 /* Classification3.png */; };
 		D4ACED7B1584036E00997D10 /* OverallDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4ACED7A1584036E00997D10 /* OverallDictionary.plist */; };
 		D4AFA2B9158B90ED00A0BC85 /* PlantCell.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AFA2B8158B90ED00A0BC85 /* PlantCell.png */; };
+		D4B3188215C8282F0040CEB6 /* Friction3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B3188115C8282F0040CEB6 /* Friction3.png */; };
+		D4B3188715C82D850040CEB6 /* FrictionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B3188615C82D850040CEB6 /* FrictionThreeViewController.m */; };
 		D4B9DDA715ACD16800A70D07 /* AcidReactions3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */; };
 		D4B9DDAB15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */; };
 		D4B9DDAE15ACD95B00A70D07 /* AcidCarbonates3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DDAD15ACD95B00A70D07 /* AcidCarbonates3.png */; };
@@ -422,6 +424,9 @@
 		D4A42B8C15A4EF6A006EF178 /* Classification3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Classification3.png; sourceTree = "<group>"; };
 		D4ACED7A1584036E00997D10 /* OverallDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OverallDictionary.plist; sourceTree = "<group>"; };
 		D4AFA2B8158B90ED00A0BC85 /* PlantCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlantCell.png; sourceTree = "<group>"; };
+		D4B3188115C8282F0040CEB6 /* Friction3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friction3.png; sourceTree = "<group>"; };
+		D4B3188515C82D850040CEB6 /* FrictionThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrictionThreeViewController.h; sourceTree = "<group>"; };
+		D4B3188615C82D850040CEB6 /* FrictionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrictionThreeViewController.m; sourceTree = "<group>"; };
 		D4B9DDA615ACD16800A70D07 /* AcidReactions3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcidReactions3.png; sourceTree = "<group>"; };
 		D4B9DDA915ACD2ED00A70D07 /* AcidReactionsThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidReactionsThreeViewController.h; sourceTree = "<group>"; };
 		D4B9DDAA15ACD2ED00A70D07 /* AcidReactionsThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidReactionsThreeViewController.m; sourceTree = "<group>"; };
@@ -1201,6 +1206,16 @@
 			name = "Overall Controllers";
 			sourceTree = "<group>";
 		};
+		D4B3188415C82D6D0040CEB6 /* Friction 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4B3188115C8282F0040CEB6 /* Friction3.png */,
+				D4B3188515C82D850040CEB6 /* FrictionThreeViewController.h */,
+				D4B3188615C82D850040CEB6 /* FrictionThreeViewController.m */,
+			);
+			name = "Friction 3";
+			sourceTree = "<group>";
+		};
 		D4B9DDA815ACD2D200A70D07 /* 7F Acid Reactions */ = {
 			isa = PBXGroup;
 			children = (
@@ -1248,6 +1263,7 @@
 				D4C27A4115C73E32005AE12F /* Forces 3 */,
 				D4C27A5115C747D0005AE12F /* Upthrust 3 */,
 				D4C27A5715C751A3005AE12F /* Motion 3 */,
+				D4B3188415C82D6D0040CEB6 /* Friction 3 */,
 			);
 			name = "7K Forces";
 			sourceTree = "<group>";
@@ -1652,6 +1668,7 @@
 				D4C27A3F15C73AC8005AE12F /* Forces3.png in Resources */,
 				D4C27A5015C745AC005AE12F /* Upthrust3.png in Resources */,
 				D4C27A5615C74FB5005AE12F /* Motion3.png in Resources */,
+				D4B3188215C8282F0040CEB6 /* Friction3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1742,6 +1759,7 @@
 				D4C27A4415C73E4B005AE12F /* ForcesThreeViewController.m in Sources */,
 				D4C27A5415C747E4005AE12F /* UpthrustThreeViewController.m in Sources */,
 				D4C27A5A15C751AD005AE12F /* MotionThreeViewController.m in Sources */,
+				D4B3188715C82D850040CEB6 /* FrictionThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
