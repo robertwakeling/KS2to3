@@ -52,7 +52,6 @@
 		D40D2C9515A0F7B1001BBC07 /* Acids3Hydroxide2-06.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9415A0F7B1001BBC07 /* Acids3Hydroxide2-06.png */; };
 		D40D2C9715A0F83C001BBC07 /* Acids3Bleach2-07.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9615A0F83C001BBC07 /* Acids3Bleach2-07.png */; };
 		D40D2C9915A0F92B001BBC07 /* Acids3Background-08.png in Resources */ = {isa = PBXBuildFile; fileRef = D40D2C9815A0F92B001BBC07 /* Acids3Background-08.png */; };
-		D414248F15CFECD90083296C /* RandompList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D414248E15CFECD90083296C /* RandompList.plist */; };
 		D416FB531587E24E0068F376 /* MagnificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D416FB521587E24E0068F376 /* MagnificationViewController.m */; };
 		D416FB5A1587EB160068F376 /* Ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = D416FB591587EB160068F376 /* Ruler.png */; };
 		D431A8E9152795E500D0D161 /* Microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = D431A8E8152795E500D0D161 /* Microscope.png */; };
@@ -274,7 +273,6 @@
 		D40D2C9415A0F7B1001BBC07 /* Acids3Hydroxide2-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Hydroxide2-06.png"; sourceTree = "<group>"; };
 		D40D2C9615A0F83C001BBC07 /* Acids3Bleach2-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Bleach2-07.png"; sourceTree = "<group>"; };
 		D40D2C9815A0F92B001BBC07 /* Acids3Background-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acids3Background-08.png"; sourceTree = "<group>"; };
-		D414248E15CFECD90083296C /* RandompList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RandompList.plist; sourceTree = "<group>"; };
 		D416FB511587E24E0068F376 /* MagnificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnificationViewController.h; sourceTree = "<group>"; };
 		D416FB521587E24E0068F376 /* MagnificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnificationViewController.m; sourceTree = "<group>"; };
 		D416FB591587EB160068F376 /* Ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ruler.png; sourceTree = "<group>"; };
@@ -1137,7 +1135,6 @@
 		D4A2EAFD15221DE1009BD22E = {
 			isa = PBXGroup;
 			children = (
-				D414248E15CFECD90083296C /* RandompList.plist */,
 				D4A2EB1215221DE1009BD22E /* Mr Wakeling's Science Year 7 */,
 				D4A2EB0B15221DE1009BD22E /* Frameworks */,
 				D4A2EB0915221DE1009BD22E /* Products */,
@@ -1731,7 +1728,6 @@
 				D4B3188915C833D70040CEB6 /* EarthSun3.png in Resources */,
 				D4B3188F15C839B40040CEB6 /* Moon3.png in Resources */,
 				D4B3189815C845B10040CEB6 /* Beyond3.png in Resources */,
-				D414248F15CFECD90083296C /* RandompList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
