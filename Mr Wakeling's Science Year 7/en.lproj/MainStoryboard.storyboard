@@ -1578,11 +1578,11 @@
             </objects>
             <point key="canvasLocation" x="4791" y="-1955"/>
         </scene>
-        <!--Types Three View Controller-->
+        <!--Types View Controller-->
         <scene sceneID="EdV-65-53a">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iIw-Rn-V14" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="vJT-bM-7ci" customClass="TypesThreeViewController" sceneMemberID="viewController">
+                <viewController id="vJT-bM-7ci" customClass="TypesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JOh-1U-44q">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1599,7 +1599,7 @@
                                 <rect key="frame" x="40" y="31" width="688" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                <color key="textColor" red="0.72156864404678345" green="0.054901964962482452" blue="0.89019614458084106" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.42352944612503052" green="0.039215687662363052" blue="0.93333339691162109" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="These are" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="gLN-V1-sXZ">
@@ -1656,13 +1656,13 @@
                                 <rect key="frame" x="363" y="440" width="132" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                <color key="textColor" red="0.72156864399999998" green="0.054901964960000001" blue="0.89019614459999996" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.074509806931018829" green="0.20784315466880798" blue="0.82352948188781738" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="VIk-cx-Wbi">
                                 <rect key="frame" x="503" y="451" width="102" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.80392163989999998" green="0.054901964960000001" blue="0.89019614459999996" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.074509806931018829" green="0.10196079313755035" blue="0.82352948188781738" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -1671,9 +1671,9 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="jNk-YB-8MV">
-                                <rect key="frame" x="378" y="843" width="102" height="31"/>
+                                <rect key="frame" x="608" y="506" width="102" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.80392163989999998" green="0.054901964960000001" blue="0.89019614459999996" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.0078431377187371254" green="0.92156869173049927" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -1682,23 +1682,35 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="cells." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="qa9-og-E3d">
-                                <rect key="frame" x="603" y="442" width="78" height="49"/>
+                                <rect key="frame" x="603" y="440" width="78" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                <color key="textColor" red="0.72156864399999998" green="0.054901964960000001" blue="0.89019614459999996" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.074509806931018829" green="0.34117648005485535" blue="0.82352948188781738" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="cells." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="adt-K7-nz8">
-                                <rect key="frame" x="56" y="834" width="78" height="49"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="cells." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="oQZ-hv-448">
+                                <rect key="frame" x="613" y="449" width="78" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                <color key="textColor" red="0.72156864399999998" green="0.054901964960000001" blue="0.89019614459999996" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.074509806930000005" green="0.34117648010000001" blue="0.82352948189999997" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="When the two nuclei combine, this is called" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="adt-K7-nz8">
+                                <rect key="frame" x="41" y="497" width="554" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <color key="textColor" red="0.0078431377187371254" green="0.9803922176361084" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="F4i-wt-46Z"/>
+                    <connections>
+                        <outlet property="egg" destination="Klb-o3-DH8" id="04R-0d-NRM"/>
+                        <outlet property="fertilisation" destination="jNk-YB-8MV" id="Wo6-0k-6fA"/>
+                        <outlet property="sperm" destination="VIk-cx-Wbi" id="rdb-qq-kUe"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="5638" y="-1948"/>
@@ -9351,10 +9363,12 @@
         <class className="TextfieldCheckerViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TextfieldCheckerViewController.h"/>
         </class>
-        <class className="TypesThreeViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TypesThreeViewController.h"/>
+        <class className="TypesViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TypesViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="saveButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="egg" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="fertilisation" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="sperm" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="UnitViewController" superclassName="UITableViewController">

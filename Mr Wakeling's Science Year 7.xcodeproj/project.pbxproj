@@ -106,6 +106,7 @@
 		D4726B7C157D4E41000D2F10 /* CellsFour.m in Sources */ = {isa = PBXBuildFile; fileRef = D4726B7B157D4E41000D2F10 /* CellsFour.m */; };
 		D4726B7E157D506E000D2F10 /* CellsFour.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4726B7D157D506E000D2F10 /* CellsFour.plist */; };
 		D473624C15A34D6E002E89E2 /* AcidsThreeV2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D473624B15A34D6E002E89E2 /* AcidsThreeV2ViewController.m */; };
+		D475D18715D009C50091C98B /* TypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D475D18615D009C50091C98B /* TypesViewController.m */; };
 		D47C4807158530010080E13E /* CellsFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47C4806158530010080E13E /* CellsFourViewController.m */; };
 		D47C480A158531990080E13E /* CellsFourModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D47C4809158531990080E13E /* CellsFourModel.m */; };
 		D47C480C1585347C0080E13E /* CellsFourText.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47C480B1585347C0080E13E /* CellsFourText.plist */; };
@@ -183,7 +184,6 @@
 		D4C27A5A15C751AD005AE12F /* MotionThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C27A5915C751AD005AE12F /* MotionThreeViewController.m */; };
 		D4CB3CCF159876F200FDB9E2 /* Growth3.3-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */; };
 		D4CB3CD2159882A400FDB9E2 /* Types3-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CD1159882A400FDB9E2 /* Types3-02.png */; };
-		D4CB3CDC1598842800FDB9E2 /* TypesThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */; };
 		D4CB3CDE1598A16900FDB9E2 /* _Repro3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3CDD1598A16900FDB9E2 /* _Repro3.png */; };
 		D4CB3CE11598A18600FDB9E2 /* ReproThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CE01598A18600FDB9E2 /* ReproThreeViewController.m */; };
 		D4CB3CE41598A2B300FDB9E2 /* Default.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3CE31598A2B300FDB9E2 /* Default.m */; };
@@ -347,6 +347,8 @@
 		D4726B7D157D506E000D2F10 /* CellsFour.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellsFour.plist; sourceTree = "<group>"; };
 		D473624A15A34D6E002E89E2 /* AcidsThreeV2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcidsThreeV2ViewController.h; sourceTree = "<group>"; };
 		D473624B15A34D6E002E89E2 /* AcidsThreeV2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcidsThreeV2ViewController.m; sourceTree = "<group>"; };
+		D475D18515D009C50091C98B /* TypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypesViewController.h; sourceTree = "<group>"; };
+		D475D18615D009C50091C98B /* TypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypesViewController.m; sourceTree = "<group>"; };
 		D47C4805158530010080E13E /* CellsFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsFourViewController.h; sourceTree = "<group>"; };
 		D47C4806158530010080E13E /* CellsFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellsFourViewController.m; sourceTree = "<group>"; };
 		D47C4808158531990080E13E /* CellsFourModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellsFourModel.h; sourceTree = "<group>"; };
@@ -466,8 +468,6 @@
 		D4C27A5915C751AD005AE12F /* MotionThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionThreeViewController.m; sourceTree = "<group>"; };
 		D4CB3CCE159876F200FDB9E2 /* Growth3.3-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Growth3.3-01.png"; sourceTree = "<group>"; };
 		D4CB3CD1159882A400FDB9E2 /* Types3-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Types3-02.png"; sourceTree = "<group>"; };
-		D4CB3CDA1598842800FDB9E2 /* TypesThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypesThreeViewController.h; sourceTree = "<group>"; };
-		D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypesThreeViewController.m; sourceTree = "<group>"; };
 		D4CB3CDD1598A16900FDB9E2 /* _Repro3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _Repro3.png; sourceTree = "<group>"; };
 		D4CB3CDF1598A18600FDB9E2 /* ReproThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReproThreeViewController.h; sourceTree = "<group>"; };
 		D4CB3CE01598A18600FDB9E2 /* ReproThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReproThreeViewController.m; sourceTree = "<group>"; };
@@ -1389,8 +1389,8 @@
 			isa = PBXGroup;
 			children = (
 				D4CB3CD1159882A400FDB9E2 /* Types3-02.png */,
-				D4CB3CDA1598842800FDB9E2 /* TypesThreeViewController.h */,
-				D4CB3CDB1598842800FDB9E2 /* TypesThreeViewController.m */,
+				D475D18515D009C50091C98B /* TypesViewController.h */,
+				D475D18615D009C50091C98B /* TypesViewController.m */,
 			);
 			name = Types;
 			sourceTree = "<group>";
@@ -1774,7 +1774,6 @@
 				D49AA7611592754B002A7D7A /* HabitatsViewController.m in Sources */,
 				D4FB78411597C5FE00BBE2EB /* GrowthThree.m in Sources */,
 				D4FB78461597C6E000BBE2EB /* GrowthThreeModel.m in Sources */,
-				D4CB3CDC1598842800FDB9E2 /* TypesThreeViewController.m in Sources */,
 				D4CB3CE11598A18600FDB9E2 /* ReproThreeViewController.m in Sources */,
 				D4CB3CE41598A2B300FDB9E2 /* Default.m in Sources */,
 				D406FE001598AF1200410D39 /* CycleThreeViewController.m in Sources */,
@@ -1822,6 +1821,7 @@
 				D4B3188D15C835D00040CEB6 /* EarthSunThreeViewController.m in Sources */,
 				D4B3189215C839C40040CEB6 /* MoonThreeViewController.m in Sources */,
 				D4B3189B15C8473E0040CEB6 /* BeyondThreeViewController.m in Sources */,
+				D475D18715D009C50091C98B /* TypesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
